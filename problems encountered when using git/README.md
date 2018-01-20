@@ -99,3 +99,48 @@ So when you pull from remote, there will be error. This is because the git prote
 ### reference
 
 - [What is the difference between 'git pull' and 'git fetch'](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
+
+## how to push amend commit to remote
+
+This push's response is different from git push without commit:
+
+- `git commit --amend` & `git push`: rejected
+- `git push`: everything up-to-date
+
+The solution to solve this problem looks dirty:
+
+- `git push -f origin master`
+- `git push origin :master` & `git push origin master`
+
+### reference
+
+- [How do I push amended commit to the remote Git repository](https://stackoverflow.com/questions/253055/how-do-i-push-amended-commit-to-the-remote-git-repository)
+
+## cancel
+
+### modified
+
+```
+> echo 'hello world' >> README.md
+> git checkout -- README.md
+```
+
+### stage
+
+```
+> echo 'hello world' >> README.md
+> git add "add hello world in readme"
+> git reset HEAD README.md
+```
+
+### commit
+
+```
+> echo 'hello world' >> README.md
+> git commit -am "add hello world in readme"
+> git reset --hard HEAD^
+```
+
+### reference
+
+- [How to revert Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
