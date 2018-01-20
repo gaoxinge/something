@@ -35,7 +35,7 @@ We often use `origin` in git command. So what is `origin`? `origin` is an alias 
 As the title, there are three different `master` in git:
 
 - `master`: local branch
-- `origin/master`: remote branch, sometimes we use `remote/origin/master` or `origin master` instead
+- `origin/master`: remote branch, sometimes we use `remote/origin/master` instead
 
 ### reference
 
