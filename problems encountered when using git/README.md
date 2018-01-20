@@ -52,3 +52,50 @@ As the title, there are three different `master` in git:
 
 - [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 
+## git pull vs git fetch
+
+For simply, `git pull` = `git fetch` + `git merge`. Some somebody will recommand
+
+```
+Don't use git pull, use git fetch and then git merge.
+```
+
+for `git fetch` is more clear and safe than `git pull`. However we sometimes will use the `git pull` for convenience. But there will be some problems in this situation.
+
+### when nobody pushed changes to remote
+
+```
+> git pull # safe
+```
+
+### when someone pushed changes to remote, and you have committed your changes in local
+
+```
+> echo 'hello world' >> README.md
+> git commit -am "add hello world in readme"
+```
+
+So when you pull from remote, there may be some conflicts, and you have to deal with them by your own hand.
+
+```
+> git pull
+> vi README.md
+```
+
+### when someone pushed changes to remote, and your have't committed your changes in local
+
+```
+> echo 'hello world' >> README.md
+```
+
+So when you pull from remote, there will be error. This is because the git protects the merge from covering your changes. However this pull will fetch the change in remote to local repository, and you can deal with this like:
+
+```
+> git commit -am "add hello world in readme"
+> git merge origin/master
+> vi README.md
+```
+
+### reference
+
+- [What is the difference between 'git pull' and 'git fetch'](https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch)
