@@ -41,5 +41,14 @@ As the title, there are three different `master` in git:
 
 - [Git branching: master vs. origin/master vs. remotes/origin/master](https://stackoverflow.com/questions/10588291/git-branching-master-vs-origin-master-vs-remotes-origin-master)
 
+## git command related with remote
 
+- `git clone https://github.com/gaoxinge/something`
+- `git push`: same as `git push origin master: master` (first is local, second is remote)
+- `git fetch`: get all changes in remote to local repository, and then use merge to fresh local branch
+- `git pull`: same as `git pull origin master: master` (first is remote, second is local)
+
+### reference
+
+- [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 
