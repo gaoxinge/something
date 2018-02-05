@@ -144,3 +144,11 @@ The solution to solve this problem looks dirty:
 ### reference
 
 - [How to revert Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
+
+## git diff
+
+- `git diff`: compare two latest commits of local branches
+- `git diff [branch1] [branch2]`: compare details of two branches
+- `git diff [branch1] [branch2] --stat`: compare stat of two branches
+- `git diff [branch1] [branch2] --name-status`: compare name status of two branches
+- `git diff [branch1] [branch2] [file]`: compare same file of two branches
