@@ -1,5 +1,7 @@
 # something
 
 - [problems encountered when using git](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git)
-- [learn java by blog](https://github.com/gaoxinge/something/tree/master/learn%20java%20by%20blog)
-- [something about java 8](https://github.com/gaoxinge/something/tree/master/something%20about%20java%208)
+- [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
+- [learn java 8](https://github.com/gaoxinge/something/tree/master/learn%20java%208)
+- [learn java standard library](https://github.com/gaoxinge/something/tree/master/learn%20java%20standard%20library)
+- [learn java third-party library](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library)
