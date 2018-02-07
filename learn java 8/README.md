@@ -1,4 +1,4 @@
-# something about java 8
+# learn java 8
 
 - release
   - [JDK 8 Is Released!](https://blogs.oracle.com/thejavatutorials/jdk-8-is-released)
@@ -11,3 +11,20 @@
   - [深入浅出 Java 8 Lambda 表达式](http://blog.oneapm.com/apm-tech/226.html)
   - [深入理解Java 8 Lambda（语言篇——lambda，方法引用，目标类型和默认方法）](http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/)
   - [深入理解Java 8 Lambda（类库篇——Streams API，Collectors和并行）](http://zh.lucida.me/blog/java-8-lambdas-inside-out-library-features/)
+
+
+## Optionals
+  
+## Predicate
+
+## Stream
+
+## Date
+
+- LocalDate
+- LocalTime
+- LocalDateTime
+- OffsetDate
+- OffsetTime
+- OffsetDateTime
+- ZonedDateTime
