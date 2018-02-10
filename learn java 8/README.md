@@ -30,8 +30,6 @@
 
 - Supplier
 
-- BinaryOperator
-
 ###
 
 - Optional
@@ -39,6 +37,15 @@
 ###
 
 - Comparator
+
+###
+
+- Runnable
+
+### 
+
+- MouseAdapter
+- ActionListener
 
 ## Stream
 
