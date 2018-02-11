@@ -14,6 +14,55 @@
 
 ## Functional Interface
 
+```java
+public class Test {
+    public static void main(String[] args) {
+        MathOperation addition = new Addition();
+        System.out.println(addition.operation(3.0, 2.0));
+        
+        MathOperation substraction = new MathOperation() {
+            @Override
+            public double operation(double a, double b) {
+                return a - b;
+            }
+        };
+        System.out.println(substraction.operation(3.0, 2.0));
+        
+        MathOperation multiplication = (x, y) -> x * y;
+        System.out.println(multiplication.operation(3.0, 2.0));
+        
+        MathOperation division = MathCopy::division;
+        System.out.println(division.operation(3.0, 2.0));
+    }
+}
+
+@FunctionalInterface
+interface MathOperation {
+    double operation(double a, double b);
+    
+    default double sqrt(double a) {
+        return Math.sqrt(a);
+    }
+    
+    default double square(double a) {
+        return a * a;
+    }
+}
+
+class Addition implements MathOperation {
+    @Override
+    public double operation(double a, double b) {
+        return a + b;
+    }
+}
+
+class MathCopy {
+    public static double division(double a, double b) {
+        return a / b;
+    }
+}
+```
+
 ## Lambda Expression
 
 ## Method Reference
