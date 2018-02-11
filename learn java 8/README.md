@@ -70,7 +70,7 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(4, 5,6, 1, 2, 3);
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
         
         list.stream()
             .map(x -> x * x)
