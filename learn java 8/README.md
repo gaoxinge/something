@@ -95,7 +95,7 @@ public class Test {
             .sorted((x, y) -> {
                 Integer absX = Math.abs(x);
                 Integer absY = Math.abs(y);
-                return x.compareTo(y);
+                return absX.compareTo(absY);
             })
             .forEach(x -> System.out.print(x + " "));
         System.out.println();
