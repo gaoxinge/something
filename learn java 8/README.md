@@ -67,6 +67,10 @@ class MathCopy {
 
 ## Method Reference
 
+### reference
+
+- [Java SE 8's New Language Features, Part 2: Predefined Functional Interfaces, Method References, and More](http://www.informit.com/articles/article.aspx?p=2191424&seqNum=2)
+
 ## Built-in Functional Interface
 
 ### 
