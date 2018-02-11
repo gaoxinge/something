@@ -65,6 +65,44 @@ class MathCopy {
 
 ## Lambda Expression
 
+```java
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5,6, 1, 2, 3);
+        
+        list.stream()
+            .map(x -> x * x)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+        
+        list.stream()
+            .sorted((x, y) -> {
+                return x.compareTo(y);
+            })
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+        
+        list.stream()
+            .forEach(x -> {
+                Integer y = x * x + 1;
+                System.out.print(y + " ");
+            });
+        System.out.println();
+        
+        list.stream()
+            .sorted((x, y) -> {
+                Integer absX = Math.abs(x);
+                Integer absY = Math.abs(y);
+                return x.compareTo(y);
+            })
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
 ## Method Reference
 
 ### reference
