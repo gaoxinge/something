@@ -44,7 +44,7 @@ interface MathOperation {
         return Math.sqrt(a);
     }
     
-    default double square(double a) {
+    static double square(double a) {
         return a * a;
     }
 }
@@ -172,9 +172,32 @@ public class Test {
 
 ## Built-in Functional Interface
 
-### 
+### java.util.function
 
 - Function
+
+```java
+import java.util.function.Function;
+
+public class Test {
+    public static void main(String[] args) {
+        Function<String, Integer> f1 = x -> x.length();
+        Function<Integer, String> f2 = x -> x.toString();
+        System.out.println(f1.apply("123"));
+        System.out.println(f2.apply(123));
+        
+        Function<Integer, Integer> compose1 = f1.compose(f2);
+        Function<String, String> compose2 = f1.andThen(f2);
+        System.out.println(compose1.apply(123));
+        System.out.println(compose2.apply("123"));
+        
+        Function<String, String> identity1 = Function.identity();
+        Function<Integer, Integer> identity2 = Function.identity();
+        System.out.println(identity1.apply("123"));
+        System.out.println(identity2.apply(123));
+    }
+}
+```
 
 - Predicate
 
