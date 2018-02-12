@@ -105,6 +105,67 @@ public class Test {
 
 ## Method Reference
 
+```java
+import java.util.*;
+
+public class Test {
+    public static void forEach(List<String> list, Formatter formatter) {
+        for (String item: list)
+            System.out.print(formatter.format("%s\n", item));
+        System.out.println();
+    }
+    
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList(
+                                "Charlie Brown", 
+                                "Snoopy", 
+                                "Lucy", 
+                                "Linus", 
+                                "Woodstock"
+                            );
+        forEach(names, String::format);
+        forEach(names, (fmt, arg) -> String.format(fmt, arg));
+    }
+}
+
+@FunctionalInterface
+interface Formatter {
+    String format(String fmtString, Object... arguments);
+}
+```
+
+```java
+import java.util.function.Supplier;
+
+public class Test {
+    public static void print(Supplier<String> supplier) {
+        System.out.println(supplier.get());
+    }
+    
+    public static void main(String[] args) {
+        String s = "method reference are cool";
+        print(s::toString);
+        print(() -> s.toString());
+    }
+}
+```
+
+```java
+import java.util.function.Function;
+
+public class Test {
+    public static void print(Function<String, String> function, String value) {
+        System.out.println(function.apply(value));
+    }
+    
+    public static void main(String[] args) {
+        String s = "some string to be printed";
+        print(String::toString, s);
+        print(x -> x.toString(), s);
+    }
+}
+```
+
 ### reference
 
 - [Java SE 8's New Language Features, Part 2: Predefined Functional Interfaces, Method References, and More](http://www.informit.com/articles/article.aspx?p=2191424&seqNum=2)
