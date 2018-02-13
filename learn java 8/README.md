@@ -201,6 +201,29 @@ public class Test {
 
 - Predicate
 
+```java
+import java.util.function.Predicate;
+
+public class Test {
+    public static void main(String[] args) {
+        Predicate<String> predicate1 = x -> x.startsWith("a");
+        Predicate<String> predicate2 = x -> x.endsWith("a");
+        System.out.println(predicate1.test("abcd"));
+        System.out.println(predicate2.test("abcd"));
+        
+        Predicate<String> predicate3 = predicate1.and(predicate2);
+        Predicate<String> predicate4 = predicate1.or(predicate2);
+        Predicate<String> predicate5 = predicate1.negate();
+        System.out.println(predicate3.test("abcd"));
+        System.out.println(predicate4.test("abcd"));
+        System.out.println(predicate5.test("abcd"));
+        
+        Predicate<String> predicate6 = Predicate.isEqual(123);
+        System.out.println(predicate6.test("abcd"));
+    }
+}
+```
+
 - Consumer
 
 - Supplier
