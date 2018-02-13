@@ -226,7 +226,31 @@ public class Test {
 
 - Consumer
 
+```java
+import java.util.function.Consumer;
+
+public class Test {
+    public static void main(String[] args) {
+        Consumer<Integer> consumer1 = x -> System.out.println(x);
+        Consumer<Integer> consumer2 = x -> System.out.println(2 * x);
+        Consumer<Integer> consumer3 = consumer1.andThen(consumer2);
+        consumer3.accept(123);
+    }
+}
+```
+
 - Supplier
+
+```java
+import java.util.function.Supplier;
+
+public class Test {
+    public static void main(String[] args) {
+        Supplier<Integer> supplier = () -> 12345;
+        System.out.println(supplier.get());
+    }
+}
+```
 
 ###
 
