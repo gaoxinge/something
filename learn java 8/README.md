@@ -276,9 +276,20 @@ public class Test {
 }
 ```
 
-###
+### java.lang;
 
 - Runnable
+
+```java
+import java.lang.Runnable;
+
+public class Test {
+    public static void main(String[] args) {
+        Runnable runnable = () -> System.out.println("hello world");
+        runnable.run();
+    }
+}
+```
 
 ## Stream
 
