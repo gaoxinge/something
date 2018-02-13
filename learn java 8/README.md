@@ -276,7 +276,7 @@ public class Test {
 }
 ```
 
-### java.lang;
+### java.lang
 
 - Runnable
 
