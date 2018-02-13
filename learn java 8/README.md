@@ -252,22 +252,33 @@ public class Test {
 }
 ```
 
-###
-
-- Optional
-
-###
+### java.util
 
 - Comparator
+
+```java
+import java.util.Comparator;
+import java.util.function.Function;
+
+public class Test {
+    public static void main(String[] args) {
+        Function<String, Integer> function = x -> x.length();
+        
+        Comparator<Integer> comparator1 = (x, y) -> x.compareTo(y);
+        System.out.println(comparator1.compare(1, 2));
+        
+        Comparator<String> comparator2 = Comparator.comparing(function, comparator1);
+        System.out.println(comparator2.compare("123", "4567"));
+        
+        Comparator<String> comparator3 = Comparator.comparing(function);
+        System.out.println(comparator3.compare("123", "4567"));
+    }
+}
+```
 
 ###
 
 - Runnable
-
-### 
-
-- MouseAdapter
-- ActionListener
 
 ## Stream
 
