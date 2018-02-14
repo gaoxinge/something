@@ -295,21 +295,158 @@ public class Test {
 
 ### filter
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        Predicate<Integer> predicate = x -> x > 3; 
+        list.stream()
+            .filter(predicate)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
 ### map
 
-### flatMap
+```java
+import java.util.*;
+import java.util.function.*;
 
-### peek
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        Function<Integer, Integer> function = x -> x + 1;
+        list.stream()
+            .map(function)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
 
 ### distinct
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        list.stream()
+            .distinct()
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
 ### sorted
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+            
+        list.stream()
+            .sorted()
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+            
+        Comparator<Integer> comparator = (x, y) -> x.compareTo(y);
+        list.stream()
+            .sorted(comparator)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
+### peak
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        Consumer<Integer> consumer = x -> System.out.print(2 * x);
+        list.stream()
+            .peek(consumer)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
 
 ### limit
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        list.stream()
+            .limit(3)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
 ### skip
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        list.stream()
+            .skip(3)
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
+
 ### forEach
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        list.forEach(x -> System.out.print(x + " "));
+        System.out.println();
+        
+        list.stream()
+            .forEach(x -> System.out.print(x + " "));
+        System.out.println();
+    }
+}
+```
 
 ### toArray
 
