@@ -550,19 +550,124 @@ public class Test {
 
 ### min
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Comparator<Integer> comparator = (x, y) -> x.compareTo(y);
+        Optional<Integer> min = list.stream().min(comparator);
+        System.out.println(min.get());
+    }
+}
+```
+
 ### max
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Comparator<Integer> comparator = (x, y) -> x.compareTo(y);
+        Optional<Integer> max = list.stream().max(comparator);
+        System.out.println(max.get());
+    }
+}
+```
 
 ### count
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        System.out.println(list.stream().count());
+    }
+}
+```
+
 ### anyMatch
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Predicate<Integer> predicate = x -> x == 0;
+        System.out.println(list.stream().anyMatch(predicate));
+    }
+}
+```
 
 ### allMatch
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Predicate<Integer> predicate = x -> x == 0;
+        System.out.println(list.stream().allMatch(predicate));
+    }
+}
+```
+
 ### noneMatch
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Predicate<Integer> predicate = x -> x == 0;
+        System.out.println(list.stream().noneMatch(predicate));
+    }
+}
+```
 
 ### findFirst
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Optional<Integer> first = list.stream().findFirst();
+        System.out.println(first.get());
+    }
+}
+```
+
 ### findAny
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        Optional<Integer> first = list.stream().findAny();
+        System.out.println(first.get());
+    }
+}
+```
 
 ## Date
 
