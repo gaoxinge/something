@@ -523,6 +523,31 @@ public class Test {
 
 ### collect
 
+```java
+import java.util.*;
+import java.util.function.*;
+import java.util.stream.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        List<Integer> l = list.stream()
+                              .collect(Collectors.toList());
+        System.out.println(l);
+        
+        Set<Integer> s = list.stream()
+                             .collect(Collectors.toSet());
+        System.out.println(s);
+        
+        Function<Integer, Integer> function = x -> x % 2;
+        Map<Integer, List<Integer>> m = list.stream()
+                                            .collect(Collectors.groupingBy(function));
+        System.out.println(m);
+    }
+}
+```
+
 ### min
 
 ### max
