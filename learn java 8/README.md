@@ -718,7 +718,52 @@ public class Test {
 ## String
 
 ```java
+import java.util.*;
+import java.util.stream.*;
 
+public class Test {
+    public static void main(String[] args) {
+        List<String> list;
+        String s;
+        
+        // join
+        list = Arrays.asList("a", "b", "c", "d");
+        System.out.println(String.join(",", list));
+        
+        // StringJoiner
+        StringJoiner joiner = new StringJoiner(",", "[", "]");
+        joiner.add("a").add("b").add("c").add("d");
+        System.out.println(joiner);
+        
+        // stream
+        list = Arrays.asList("a", "b", "c", "d");
+        System.out.println(list.stream().collect(Collectors.joining(",", "[", "]"))); 
+    
+        // split: [""], [] -> "" -> [""]
+        list = Arrays.asList("a", "b", "c", "d");
+        s = String.join(",", list);
+        System.out.println(Arrays.asList(s.split(",")));
+        
+        list = Arrays.asList("");
+        s = String.join(",", list);
+        System.out.println(Arrays.asList(s.split(",")));
+        
+        list = new ArrayList<>();
+        s = String.join(",", list);
+        System.out.println(Arrays.asList(s.split(",")));
+        
+        // split: [""], [] -> "" -> []
+        list = Arrays.asList("a", "b", "c", "d");
+        s = String.join(",", list);
+        System.out.println(s.equals("") ? new ArrayList<>() : Arrays.asList(s.split(",")));
+        
+        list = Arrays.asList("");
+        s = String.join(",", list);
+        System.out.println(s.equals("") ? new ArrayList<>() : Arrays.asList(s.split(",")));
+        
+        list = new ArrayList<>();
+        s = String.join(",", list);
+        System.out.println(s.equals("") ? new ArrayList<>() : Arrays.asList(s.split(","))); 
+    }
+}
 ```
-
-## StringJoiner
