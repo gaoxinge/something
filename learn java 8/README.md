@@ -671,6 +671,50 @@ public class Test {
 
 ## Date
 
+```java
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.time.temporal.ChronoField;
+
+public class Test {
+    public static void main(String[] args) {
+        // LocalDate
+        LocalDate date1 = LocalDate.parse("2017-02-14");
+        LocalDate date2 = LocalDate.now();
+        System.out.println(date1.plusDays(1));
+        System.out.println(date1.isAfter(date2));
+        
+        // LocalDateTime
+        LocalDateTime dateTime1 = LocalDateTime.parse("2017-02-14T00:00:00.000");
+        LocalDateTime dateTime2 = LocalDateTime.now();
+        System.out.println(dateTime1.plusDays(1));
+        System.out.println(dateTime1.isAfter(dateTime2));
+        
+        // DateTimeFormatter
+        DateTimeFormatter df1 = DateTimeFormatter.ofPattern("dd MM yyyy");
+        DateTimeFormatterBuilder dfBuilder = new DateTimeFormatterBuilder();
+        dfBuilder.append(df1)
+                 .appendLiteral(" hour: ")
+                 .appendValue(ChronoField.HOUR_OF_DAY)
+                 .appendLiteral(" minute: ")
+                 .appendValue(ChronoField.MINUTE_OF_HOUR);
+        DateTimeFormatter df2 = dfBuilder.toFormatter();
+        
+        // LocalDate, LocalDateTime to String
+        System.out.println(df1.format(date1));
+        System.out.println(df2.format(dateTime1));
+        
+        // String to LocalDate, LocalDateTime
+        LocalDate date3 = LocalDate.parse("14 02 2017", df1);
+        System.out.println(date3);
+        LocalDateTime dateTime3 = LocalDateTime.parse("14 02 2017 hour: 0 minute: 0", df2);
+        System.out.println(dateTime3);
+    }
+}
+```
+
 ## Instant
 
 ## String
