@@ -450,7 +450,76 @@ public class Test {
 
 ### toArray
 
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        Object[] array1 = list.toArray();
+        for (Object o: array1)
+            System.out.print(o + " ");
+        System.out.println();
+        
+        Integer[] array2 = new Integer[list.size()];
+        Integer[] array3 = list.toArray(array2);
+        for (Integer i: array2)
+            System.out.print(i + " ");
+        System.out.println();
+        for (Integer i: array3)
+            System.out.print(i + " ");
+        System.out.println();
+        
+        Object[] array4 = list.stream()
+                              .toArray();
+        for (Object o: array4)
+            System.out.print(o + " ");
+        System.out.println();
+        
+        IntFunction<Integer[]> intFunction = x -> {
+                                                Integer[] array = new Integer[x]; 
+                                                for (int i = 0; i < x && i < list.size(); ++i)
+                                                    array[i] = list.get(i);
+                                                return array;
+                                            };
+        Integer[] array5 = list.stream().toArray(intFunction);
+        for (Integer i: array5)
+            System.out.print(i + " ");
+        System.out.println();
+    }
+}
+```
+
 ### reduce
+
+```java
+import java.util.*;
+import java.util.function.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<Integer> list = Arrays.asList(4, 5, 6, 1, 2, 3);
+        
+        BinaryOperator<Integer> binaryOperator1 = (x, y) -> x + y;
+        Integer sum1 = list.stream()
+                           .reduce(0, binaryOperator1);
+        System.out.println(sum1);
+        
+        BinaryOperator<Integer> binaryOperator2 = (x, y) -> x + y;
+        Optional<Integer> sum2 = list.stream()
+                           .reduce(binaryOperator2);
+        System.out.println(sum2.get());
+    
+        BiFunction<String, Integer, String> biFunction = (x, y) -> x + y;
+        BinaryOperator<String> binaryOperator3 = (x, y) -> x + y;
+        String sum3 = list.stream()
+                          .reduce("a", biFunction, binaryOperator3);
+        System.out.println(sum3);
+    }
+}
+```
 
 ### collect
 
