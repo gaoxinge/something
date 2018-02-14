@@ -715,8 +715,10 @@ public class Test {
 }
 ```
 
-## Instant
-
 ## String
+
+```java
+
+```
 
 ## StringJoiner
