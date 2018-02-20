@@ -108,7 +108,7 @@ input2 ===> |         | ===> output2
 
 ### method
 
-![adapter](https://github.com/gaoxinge/something/blob/master/learn%20java/image/adapter.jpg)
+![adapter](https://github.com/gaoxinge/something/blob/master/learn%20java/image/adapter%20pattern.jpg)
 
 ### reference
 
