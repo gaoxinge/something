@@ -86,3 +86,23 @@ String  b = a.toString();           // Integer ===> String
 - class (without setter): by value
 - class (with setter): by reference
 - array: by reference
+
+## io
+
+## adapter pattern
+
+```
+            +---------+
+input1 ===> |         | ===> output1
+            | adapter |
+input2 ===> |         | ===> output2
+            +---------+
+```
+
+- compatible with old interface
+- multiple inputs and multiple outputs
+
+### reference
+
+- [适配器模式](http://www.runoob.com/design-pattern/adapter-pattern.html)
+- [设计模式(二) 三种适配器模式 总结和使用场景](http://blog.csdn.net/zxt0601/article/details/52848004)
