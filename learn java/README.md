@@ -79,3 +79,10 @@ I think the answer is
 Integer a = Integer.valueOf("123"); // String  ===> Integer
 String  b = a.toString();           // Integer ===> String
 ```
+
+## pass parameter by value or by reference
+
+- primitive data type: by value
+- class (without setter): by value
+- class (with setter): by reference
+- array: by reference
