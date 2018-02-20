@@ -27,3 +27,30 @@ data type ---|
              |---> reference type ---|---> interface
                                      |---> array
 ```
+
+## primitive type and wrapper type
+
+- preference: wrapper type > primitive type
+
+```
++----------------+  wrapper +----------------+
+|                |  ======> |                |
+| primitive type |  autobox |  wrapper type  |
+|                | <======  |                |
++----------------+          +----------------+
+```
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Integer a = 12345;
+        Integer b = 12345;
+        int c     = 12345;
+        int d     = 12345;
+        System.out.println(a == b);      // false, check whether a and b refer to same object  
+        System.out.println(a.equals(b)); // true, check whether a's value is same as b's
+        System.out.println(c == d);      // true, check whether a's value is same as b's
+        System.out.println(c.equals(d)); // error
+    }
+}
+```
