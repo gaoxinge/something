@@ -91,6 +91,8 @@ String  b = a.toString();           // Integer ===> String
 
 ## adapter pattern
 
+### intuition
+
 ```
             +---------+
 input1 ===> |         | ===> output1
@@ -99,8 +101,14 @@ input2 ===> |         | ===> output2
             +---------+
 ```
 
+### scenario
+
 - compatible with old interface
 - multiple inputs and multiple outputs
+
+### method
+
+![adapter](https://github.com/gaoxinge/something/blob/master/learn%20java/image/adapter.jpg)
 
 ### reference
 
