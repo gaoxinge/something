@@ -20,10 +20,10 @@
 ```
                                           |---> byte, short, int, long
                                           |---> float, double
-			 |---> primitive data type ---|---> char
+             |---> primitive data type ---|---> char
              |                            |---> boolean
 data type ---|
              |                       |---> class
-		     |---> reference type ---|---> interface
+             |---> reference type ---|---> interface
 			                         |---> array
 ```
