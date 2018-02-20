@@ -14,3 +14,16 @@
 - class: can not be extended
 - variable: constant
 - method: can not be overrided
+
+## data type
+
+```
+                                          |---> byte, short, int, long
+                                          |---> float, double
+			 |---> primitive data type ---|---> char
+             |                            |---> boolean
+data type ---|
+             |                       |---> class
+		     |---> reference type ---|---> interface
+			                         |---> array
+```
