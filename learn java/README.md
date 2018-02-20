@@ -71,4 +71,11 @@ I think the answer is
 
 - wrapper type: implicit
 - collection: implicit/explicit
-- other class: explicit  
+- other class: explicit
+
+## wrapper type and string
+
+```java
+Integer a = Integer.valueOf("123"); // String  ===> Integer
+String  b = a.toString();           // Integer ===> String
+```
