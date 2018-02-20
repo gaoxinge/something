@@ -25,5 +25,5 @@
 data type ---|
              |                       |---> class
              |---> reference type ---|---> interface
-			                         |---> array
+                                     |---> array
 ```
