@@ -89,6 +89,12 @@ String  b = a.toString();           // Integer ===> String
 
 ## io
 
+### System
+
+- in: standard input stream
+- out: standard output stream
+- err: standard error output stream
+
 ## adapter pattern
 
 ### intuition
