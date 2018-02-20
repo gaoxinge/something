@@ -61,7 +61,7 @@ Should we explicitly use method `toString` in our program? I think it is difficu
 
 - when we invoke a method explicitly (or implicitly)
 
-The best practice is that we should invoke a method explicitly every time. Why? Because everybody should know the api of the method, then our program will decrease the dependency of programmers' common belief. However in some situations, we can omit the explicit invocation for convenience because the common belief is enough.
+The best practice is that we invoke a method explicitly every time. Why? Because everybody should know the api of a method, then our program will decrease the dependency of programmers' common belief. However in some situations, we can omit the explicit invocation for convenience because the common belief is enough.
 
 Now we can turn the origin question into 
 
@@ -70,5 +70,5 @@ Now we can turn the origin question into
 I think the answer is
 
 - wrapper type: implicit
-- collections: implicit/explicit
+- collection: implicit/explicit
 - other class: explicit  
