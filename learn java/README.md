@@ -54,3 +54,11 @@ public class Test {
     }
 }
 ```
+
+## toString
+
+Should we explicitly use method `toString` in our program? I think it is difficult to answer the question directly. So I ask another question first:
+
+- when we invoke a method explicitly (or implicitly)
+
+The best practice is that we should invoke a method explicitly every time. Why? Because everybody should know the api of the method, then our program will decrease the dependency of programmers' common belief.
