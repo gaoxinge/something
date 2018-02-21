@@ -30,7 +30,11 @@ data type ---|
 
 ## primitive type and wrapper type
 
-- preference: wrapper type > primitive type
+### preference
+
+- wrapper type > primitive type
+
+### transform
 
 ```
 +----------------+  wrapper +----------------+
@@ -39,6 +43,8 @@ data type ---|
 |                | <======  |                |
 +----------------+          +----------------+
 ```
+
+### == and equals
 
 ```java
 public class Test {
