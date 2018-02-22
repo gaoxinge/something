@@ -135,6 +135,15 @@ String  b = a.toString();           // Integer ===> String
     - FileInputStream
   - constructor
     - SocketInputStream(AbstractPlainSocketImpl impl) throws IOException
+- BufferedReader
+  - character
+  - decorator
+    - add buffer func to Reader
+  - extend
+    - Reader
+  - constructor
+    - public BufferedReader(Reader in, int sz)
+	- public BufferedReader(Reader in)
 - InputStreamReader
   - character
   - extend
@@ -146,17 +155,18 @@ String  b = a.toString();           // Integer ===> String
 	- public InputStreamReader(InputStream in, CharsetDecoder dec)
 - FileReader
   - character
+  - extend
+    - InputStreamReader
+  - constructor
+    - public FileReader(String fileName) throws FileNotFoundException
+	- public FileReader(File file) throws FileNotFoundException
+	- public FileReader(FileDescriptor fd)
 - StringReader
   - character
-- BufferedReader
-  - character
-  - decorator
-    - add buffer func to Reader
   - extend
     - Reader
   - constructor
-    - public BufferedReader(Reader in, int sz)
-	- public BufferedReader(Reader in)
+    - public StringReader(String s)
 
 ### System
 
