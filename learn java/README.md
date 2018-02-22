@@ -100,7 +100,8 @@ String  b = a.toString();           // Integer ===> String
 ### structure
 
 - BufferedReader
-  - decorator: add buffer func to Reader
+  - decorator
+    - add buffer func to Reader
   - extend
     - Reader
   - api
