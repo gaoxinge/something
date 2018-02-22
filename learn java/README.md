@@ -170,9 +170,61 @@ String  b = a.toString();           // Integer ===> String
 
 ### System
 
-- in: standard input stream
-- out: standard output stream
-- err: standard error output stream
+- in
+  - standard input stream
+  - InputStream
+    - read
+- out
+  - standard output stream
+  - PrintStream
+    - write
+	- print
+	- println
+- err
+  - standard error output stream
+  - PrintStream
+    - write
+	- print
+	- println
+	
+### Scanner (java5)
+
+- next
+
+```java
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter your name: ");
+        if (scanner.hasNext()) {
+            String str = scanner.next();
+            System.out.println("your name is " + str);
+        }
+        scanner.close();
+    }
+}
+```
+
+- nextLine
+
+```java
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+        // java 5
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter your name: ");
+        if (scanner.hasNextLine()) {
+            String str = scanner.nextLine();
+            System.out.println("your name is " + str);
+        }
+        scanner.close();
+    }
+}
+```
 
 ## adapter pattern
 
