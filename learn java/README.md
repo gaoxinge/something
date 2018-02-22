@@ -126,3 +126,31 @@ input2 ===> |         | ===> output2
 
 - [适配器模式](http://www.runoob.com/design-pattern/adapter-pattern.html)
 - [设计模式(二) 三种适配器模式 总结和使用场景](http://blog.csdn.net/zxt0601/article/details/52848004)
+
+## decorator pattern
+
+### intuition
+
+```
++-------+
+| func2 |
++-------+
+| func1 |
++-------+
+| basic |
++-------+
+```
+
+### scenario
+
+- add function to basic
+
+### method
+
+![decorator pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/decorator%20pattern.jpg)
+
+### reference
+
+- [装饰器模式](http://www.runoob.com/design-pattern/decorator-pattern.html)
+- [java中什么是装饰者模式?](https://www.zhihu.com/question/32007641)
+- [装饰者模式及其应用](http://blog.csdn.net/gdutxiaoxu/article/details/51885105)
