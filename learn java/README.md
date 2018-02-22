@@ -97,6 +97,16 @@ String  b = a.toString();           // Integer ===> String
 
 ![IO](http://www.runoob.com/wp-content/uploads/2013/12/iostream2.png)
 
+### structure
+
+- BufferedReader
+  - decorator: add buffer func to Reader
+  - extend
+    - Reader
+  - api
+    - public BufferedReader(Reader in, int sz)
+	- public BufferedReader(Reader in)
+
 ### System
 
 - in: standard input stream
