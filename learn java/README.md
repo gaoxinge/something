@@ -101,8 +101,40 @@ String  b = a.toString();           // Integer ===> String
 
 - FileInputStream
   - byte
+  - extend
+    - InputStream
+  - constructor
+    - public FileInputStream(String name) throws FileNotFoundException
+    - public FileInputStream(File file) throws FileNotFoundException
+	- public FileInputStream(FileDescriptor fdObj)
+- FilterInpuStream
+  - byte
+  - decorator
+    - add filter func to InputStream
+  - extend
+    - InputStream
+  - constructor
+    - protected FilterInputStream(InputStream in)
+- StringBufferedInputStream
+  - byte
+  - deprecated
+  - extend
+    - InputStream
+  - constructor
+    - public StringBufferInputStream(String s)
+- ByteArrayInputStream
+  - byte
+  - extend
+    - InputStream
+  - constructor
+    - public ByteArrayInputStream(byte buf[])
+	- public ByteArrayInputStream(byte buf[], int offset, int length)	
 - SocketInputStream
   - byte
+  - extend
+    - FileInputStream
+  - constructor
+    - SocketInputStream(AbstractPlainSocketImpl impl) throws IOException
 - InputStreamReader
   - character
   - extend
