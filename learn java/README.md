@@ -99,12 +99,28 @@ String  b = a.toString();           // Integer ===> String
 
 ### structure
 
+- FileInputStream
+- SocketInputStream
+- InputStreamReader
+  - character
+  - extend
+    - Reader
+  - constructor
+    - public InputStreamReader(InputStream in)
+	- public InputStreamReader(InputStream in, String charsetName)
+	- public InputStreamReader(InputStream in, Charset cs)
+	- public InputStreamReader(InputStream in, CharsetDecoder dec)
+- FileReader
+  - character
+- StringReader
+  - character
 - BufferedReader
+  - character
   - decorator
     - add buffer func to Reader
   - extend
     - Reader
-  - api
+  - constructor
     - public BufferedReader(Reader in, int sz)
 	- public BufferedReader(Reader in)
 
