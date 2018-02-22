@@ -100,7 +100,9 @@ String  b = a.toString();           // Integer ===> String
 ### structure
 
 - FileInputStream
+  - byte
 - SocketInputStream
+  - byte
 - InputStreamReader
   - character
   - extend
