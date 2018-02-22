@@ -214,7 +214,6 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        // java 5
         Scanner scanner = new Scanner(System.in);
         System.out.print("enter your name: ");
         if (scanner.hasNextLine()) {
