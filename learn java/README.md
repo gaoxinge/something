@@ -93,7 +93,9 @@ String  b = a.toString();           // Integer ===> String
 - class (with setter): by reference
 - array: by reference
 
-## io
+## IO
+
+![IO](http://www.runoob.com/wp-content/uploads/2013/12/iostream2.png)
 
 ### System
 
