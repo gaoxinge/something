@@ -235,6 +235,33 @@ public class Test {
 
 ![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/complex%20collection.png)
 
+### queue
+
+- Queue
+  - iterface
+  - extends
+    - Collection
+  - api
+    - add
+	- remove
+- Deque
+  - interface
+  - extends
+    - Queue
+  - api
+    - addFirst
+	- addLast
+	- removeFirst
+	- removeLast
+- LinkedList: based on linked list
+  - class
+  - implement
+  - api
+- ArrayDeque: based on array
+  - class
+  - implement
+  - api
+
 ## adapter pattern
 
 ### intuition
