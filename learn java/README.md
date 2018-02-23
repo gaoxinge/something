@@ -229,11 +229,11 @@ public class Test {
 
 ### simple collection
 
-![simple collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/simple%20collection.jpg)
+![simple collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/simple%20collection.png)
 
 ### complex collection
 
-![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/complex%20collection.jpg)
+![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/complex%20collection.png)
 
 ## adapter pattern
 
