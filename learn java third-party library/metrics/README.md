@@ -1,20 +1,27 @@
 ## 1
 
-- ConsoleReporter
-
-## 2
-
-- Slf4jReporter
-
-## 3
-
-- GraphiteReporter
+- test metric
+- test reporter
 
 ## content
 
 - [1]()
-- [2]()
-- [3]()
+
+## introduction
+
+### metric
+
+- Counter
+- Gauge
+- Meter
+- Hisogram
+- Timer
+
+### reporter
+
+- ConsoleReporter
+- Slf4jReporter
+- GraphiteReporter
 
 ## reference
 
