@@ -9,12 +9,36 @@
   - Timer
 - ScheduledReporter
   - ConsoleReporter
+
+## 2
+
+- MetricRegistry
+- Metric
+  - Counter
+  - Gauge
+  - Meter
+  - Histogram
+  - Timer
+- ScheduledReporter
   - Slf4jReporter
+
+## 3
+
+- MetricRegistry
+- Metric
+  - Counter
+  - Gauge
+  - Meter
+  - Histogram
+  - Timer
+- ScheduledReporter
   - GraphiteReporter
 
 ## content
 
 - [1]()
+- [2]()
+- [3]()
 
 ## reference
 
