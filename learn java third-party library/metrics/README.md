@@ -1,27 +1,20 @@
 ## 1
 
-- test metric
-- test reporter
+- MetricRegistry
+- Metric
+  - Counter
+  - Gauge
+  - Meter
+  - Histogram
+  - Timer
+- ScheduledReporter
+  - ConsoleReporter
+  - Slf4jReporter
+  - GraphiteReporter
 
 ## content
 
 - [1]()
-
-## introduction
-
-### metric
-
-- Counter
-- Gauge
-- Meter
-- Hisogram
-- Timer
-
-### reporter
-
-- ConsoleReporter
-- Slf4jReporter
-- GraphiteReporter
 
 ## reference
 
