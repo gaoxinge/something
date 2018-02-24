@@ -258,7 +258,7 @@ public class Test {
   - class
   - extends
     - AbstractSequentialList
-  - implement
+  - implements
     - List
 	- Deque
 	- Cloneable
@@ -274,10 +274,22 @@ public class Test {
 	- remove: removeFirst
 	- removeFirst: unlinkFirst
 	- removeLast: unlinkLast
-- ArrayDeque: based on array
+- ArrayDeque
+  - Based on array. 
   - class
-  - implement
+  - extends
+    - AbstractCollection
+  - implements
+    - Deque
+	- Cloneable
+	- Serializable
   - api
+    - add: addLast
+	- addFirst:
+	- addLast:
+	- remove: removeFirst
+	- removeFirst: pollFirst
+	- removeLast: pollLast
 
 ## adapter pattern
 
