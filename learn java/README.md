@@ -253,10 +253,27 @@ public class Test {
 	- addLast
 	- removeFirst
 	- removeLast
-- LinkedList: based on linked list
+- LinkedList
+  - Based on linked list. The basic unit is an inner nested class `Node`, which contains `item`, `next`, `prev`
   - class
+  - extends
+    - AbstractSequentialList
   - implement
+    - List
+	- Deque
+	- Cloneable
+	- Serializable
   - api
+    - linkFirst: insert node before first node
+	- linkLast: insert node after last node
+	- unlinkFirst: remove first node
+	- unlinkLast: remove last node
+	- add: linkLast
+	- addFirst: linkFirst
+	- addLast: linkLast
+	- remove: removeFirst
+	- removeFirst: unlinkFirst
+	- removeLast: unlinkLast
 - ArrayDeque: based on array
   - class
   - implement
