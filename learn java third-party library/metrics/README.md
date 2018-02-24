@@ -22,23 +22,10 @@
 - ScheduledReporter
   - Slf4jReporter
 
-## 3
-
-- MetricRegistry
-- Metric
-  - Counter
-  - Gauge
-  - Meter
-  - Histogram
-  - Timer
-- ScheduledReporter
-  - GraphiteReporter
-
 ## content
 
-- [1]()
-- [2]()
-- [3]()
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics/1)
+- [2](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics/2)
 
 ## reference
 
