@@ -275,7 +275,7 @@ public class Test {
 	- removeFirst: unlinkFirst
 	- removeLast: unlinkLast
 - ArrayDeque
-  - Based on array. 
+  - Based on array. All elements are stored in `elements`, and `head` refers to the index of first element, `tail` refers to the index which passes last element.
   - class
   - extends
     - AbstractCollection
@@ -284,12 +284,15 @@ public class Test {
 	- Cloneable
 	- Serializable
   - api
+    - doubleCapacity: if head equals tail, double the length of elements
     - add: addLast
-	- addFirst:
-	- addLast:
+	- addFirst: assign head-1 to head, add element in head-1 
+	- addLast: add element in tail, assign tail+1 to tail
 	- remove: removeFirst
 	- removeFirst: pollFirst
 	- removeLast: pollLast
+	- pollFirst: assign null to the element at head, move head to head+1 
+	- pollLast: move tail to tail+1, assign null to the element at tail
 
 ## adapter pattern
 
