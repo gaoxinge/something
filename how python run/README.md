@@ -22,3 +22,12 @@
 ## pyd
 
 ## cython
+
+```
+       cython      c compile
+.pyx ---------> .c ---------> .pyd
+```
+
+### reference
+
+- [cython](http://cython.org/)
