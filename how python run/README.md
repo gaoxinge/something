@@ -40,4 +40,4 @@
 
 ### reference
 
-- [cython](http://cython.org/)
+- [Cython: C-Extensions for Python](http://cython.org/)
