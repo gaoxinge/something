@@ -9,6 +9,11 @@
 
 ## dll
 
+```
+   c compile          link
+.c ---------> .obj ---------> .dll
+```
+
 ### reference
 
 - [cl创建并调用dll](http://blog.csdn.net/dreamcs/article/details/2497706)
@@ -20,6 +25,11 @@
 - [python ctypes探究----python与c的交互](https://www.cnblogs.com/night-ride-depart/p/4907613.html)
 
 ## pyd
+
+```
+   c compile
+.c ---------> .pyd
+```
 
 ## cython
 
