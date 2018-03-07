@@ -119,3 +119,54 @@ class A implements Addable<A> {
 }
 ```
 
+## wildcard
+
+### unbounded wildcard
+
+```java
+import java.util.*;
+
+public class Test {
+    // only print List<Object>, can't print
+    // List<Integer>, List<String>, List<Double>
+    public static void printList_(List<Object> list) {
+        for (Object elem: list)
+            System.out.print(elem + " ");
+        System.out.println();
+    }
+    
+    public static void printList(List<?> list) {
+        for (Object elem: list)
+            System.out.print(elem + " ");
+        System.out.println();
+    }
+    
+    public static void main(String[] args) {
+        List<Integer> li = Arrays.asList(1, 2, 3);
+        List<String>  ls = Arrays.asList("one", "two", "three");
+        printList(li);
+        printList(ls);
+    }
+}
+```
+
+### upper bounded wildcard
+
+```java
+public static double sumOfList(List<? extends Number> list) {
+    double s = 0.0;
+    for (Number n : list)
+        s += n.doubleValue();
+    return s;
+}
+```
+
+### lower bounded wildcard
+
+```java
+public static void addNumbers(List<? super Integer> list) {
+    for (int i = 1; i <= 10; i++) {
+        list.add(i);
+    }
+}
+```
