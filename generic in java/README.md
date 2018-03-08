@@ -202,7 +202,6 @@ public class Test {
     
     public static void main(String[] args) {
         /* relationship between B and C*/
-        
         // compile ok: b1 will use the method getX of C 
         //             if C has method getX
         // B b1 = new C(1, 2);
