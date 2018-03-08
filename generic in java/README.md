@@ -252,3 +252,26 @@ class C extends B {
     public void setY(Integer y) {this.y = y;}
 }
 ```
+
+### wildcard capture and helper methods
+
+```java
+public class WildcardError {
+    // set: can not convert Object to CAP#1  
+    void foo(List<?> i) {
+        i.set(0, i.get(0));
+    }
+}
+```
+
+```java
+public class WildcardFixed {
+    void foo(List<?> i) {
+        fooHelper(i);
+    }
+
+    private <T> void fooHelper(List<T> l) {
+        l.set(0, l.get(0));
+    }
+}
+```
