@@ -181,9 +181,10 @@ import java.util.*;
  * ? extends B := CAP#2
  * ? extends C := CAP#3
  ****************************************************
- * CAP#1 ~ Object
- * CAP#2 ~ B
- * CAP#3 ~ C 
+ * Object  <---  B  <--- C
+ *   ^           ^       ^
+ *   |           |       |
+ * CAP#1       CAP#2   CAP#3
  ****************************************************
  * List<CAP#1>  <---  List<CAP#2>  <---  List<CAP#3>
  *                        ^                  ^                    
