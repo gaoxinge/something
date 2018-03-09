@@ -294,6 +294,37 @@ public class Test {
 	- pollFirst: assign null to the element at head, move head to head+1 
 	- pollLast: move tail to tail+1, assign null to the element at tail
 
+## array and list
+
+```java
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        List<String> list = Arrays.asList("1", "2", "3");
+        Object[] array1 = list.toArray();
+        String[] array2 = new String[list.size()];
+        String[] array3 = new String[]{"1", "2"};
+    }
+}
+```
+
+```java
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        String[] array = new String[]{"1", "2", "3"};
+        List<String> list1 = new ArrayList<>();
+        list1.add("1"); list1.add("2"); list1.add("3");
+        List<String> list2 = new ArrayList<>();
+        list2.addAll(list1);
+        List<String> list3 = Arrays.asList(array);
+        List<String> list4 = Arrays.asList("1", "2", "3");
+    }
+}
+```
+
 ## iterable, iterator
 
 - iterable: java.lang, interface and contain iterator
