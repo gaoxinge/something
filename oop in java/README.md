@@ -36,6 +36,7 @@ class SubClass extends SuperClass {
 ## polymorphism
 
 - cast subclass to base class
+  - can use `getClass().getName()` to check
   - can invoke subclass's method
   - can use `instanceof` to check
   - can cast to original class
@@ -54,6 +55,7 @@ public class Test {
     }
             
     public static void show(Animal a) {
+        System.out.println(a.getClass().getName());
         a.eat();
         if (a instanceof Cat) {
             Cat c = (Cat) a;  
