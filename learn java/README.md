@@ -301,8 +301,8 @@ public class Test {
 
 ## comparable, comparator
 
-- comparable: java.lang, Collections.sort(List<Comparable>)
-- comparator: java.util, Collections.sort(List<T>, Comparator)
+- comparable: java.lang, `Collections.sort(List<Comparable>)`
+- comparator: java.util, `Collections.sort(List<T>, Comparator)`
 
 ## adapter pattern
 
