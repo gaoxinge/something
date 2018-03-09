@@ -294,6 +294,16 @@ public class Test {
 	- pollFirst: assign null to the element at head, move head to head+1 
 	- pollLast: move tail to tail+1, assign null to the element at tail
 
+## iterable, iterator
+
+- iterable: java.lang, interface and contain iterator
+- iterator: java.util, interface
+
+## comparable, comparator
+
+- comparable: java.lang, Collections.sort(List<Comparable>)
+- comparator: java.util, Collections.sort(List<T>, Comparator)
+
 ## adapter pattern
 
 ### intuition
