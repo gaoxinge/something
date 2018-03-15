@@ -2,6 +2,36 @@
 
 ## reflection
 
+### get class
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Class<?> demo1 = null;
+        Class<?> demo2 = null;
+        Class<?> demo3 = null;
+        Class<?> demo4 = null;
+        
+        try {
+            demo1=Class.forName("Demo");
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+        demo2 = (new Demo()).getClass();
+        demo3 = new Demo().getClass();
+        demo4 = Demo.class;
+         
+        System.out.println(demo1.getName());
+        System.out.println(demo2.getName());
+        System.out.println(demo3.getName());
+        System.out.println(demo4.getName());
+         
+    }
+}
+
+class Demo{}
+```
+
 ### reference
 
 - [java反射详解](https://www.cnblogs.com/rollenholt/archive/2011/09/02/2163758.html)
