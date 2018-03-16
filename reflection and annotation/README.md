@@ -32,6 +32,59 @@ public class Test {
 class Demo{}
 ```
 
+## getter and setter
+
+```java
+import java.lang.reflect.*;
+
+public class Test {
+    public static void main(String[] args) {
+        Person person = new Person("man");
+        System.out.println((String) person.get("Sex"));
+        person.set("Sex", String.class, "woman");
+        System.out.println((String) person.get("Sex"));
+    }
+}
+
+class Person {
+    
+    private String sex;
+    
+    Person() {}
+    
+    Person(String sex) {
+        this.sex = sex;
+    }
+    
+    public String getSex() {
+        return sex;
+    }
+    
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+    
+    public Object get(String att) {
+        try {
+            Method method = Person.class.getMethod("get" + att);
+            return method.invoke(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+    
+    public void set(String att, Class<?> type, Object value) {
+        try {
+            Method method = Person.class.getMethod("set" + att, type);
+            method.invoke(this, value);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
+
 ### reference
 
 - [java反射详解](https://www.cnblogs.com/rollenholt/archive/2011/09/02/2163758.html)
