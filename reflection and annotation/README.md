@@ -85,10 +85,233 @@ class Person {
 }
 ```
 
+### decorator pattern
+
+- standard
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Coffee coffee = new RealCoffee(10, "coffee");
+        System.out.println(coffee.getPrice());
+        System.out.println(coffee.getName());
+        
+        Coffee milkedCoffee = new MilkDecorator(coffee);
+        System.out.println(milkedCoffee.getPrice());
+        System.out.println(milkedCoffee.getName());
+    }
+}
+
+interface Coffee {
+    Integer getPrice();
+    String getName();
+}
+
+class RealCoffee implements Coffee {
+    
+    private Integer price;
+    private String name;
+    
+    RealCoffee(Integer price, String name) {
+        this.price = price;
+        this.name  = name;
+    }
+    
+    @Override
+    public Integer getPrice() {
+        return price;
+    }
+    
+    @Override
+    public String getName() {
+        return name;
+    }
+}
+
+abstract class CoffeeDecorator implements Coffee {
+    protected Coffee coffeeimpl;
+    
+    CoffeeDecorator(Coffee coffee) {
+        this.coffeeimpl = coffee;
+    }
+    
+    @Override
+    public abstract Integer getPrice();
+    
+    @Override
+    public abstract String getName();
+}
+
+class MilkDecorator extends CoffeeDecorator {
+    
+    MilkDecorator(Coffee coffee) {
+        super(coffee);
+    }
+    
+    @Override
+    public Integer getPrice() {
+        return coffeeimpl.getPrice() + 10;
+    }
+    
+    @Override
+    public String getName() {
+        return "milked " + coffeeimpl.getName();
+    }
+}
+```
+
+- simplified
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Coffee coffee = new RealCoffee(10, "coffee");
+        System.out.println(coffee.getPrice());
+        System.out.println(coffee.getName());
+        
+        Coffee milkedCoffee = new MilkDecorator(coffee);
+        System.out.println(milkedCoffee.getPrice());
+        System.out.println(milkedCoffee.getName());
+    }
+}
+
+interface Coffee {
+    Integer getPrice();
+    String getName();
+}
+
+class RealCoffee implements Coffee {
+    
+    private Integer price;
+    private String name;
+    
+    RealCoffee(Integer price, String name) {
+        this.price = price;
+        this.name  = name;
+    }
+    
+    @Override
+    public Integer getPrice() {
+        return price;
+    }
+    
+    @Override
+    public String getName() {
+        return name;
+    }
+}
+
+class MilkDecorator implements Coffee {
+    protected Coffee coffeeimpl;
+    
+    MilkDecorator(Coffee coffee) {
+        this.coffeeimpl = coffee;
+    }
+    
+    @Override
+    public Integer getPrice() {
+        return coffeeimpl.getPrice() + 10;
+    }
+    
+    @Override
+    public String getName() {
+        return "milked " + coffeeimpl.getName();
+    }
+}
+```
+
+- dynamical proxy
+
+```java
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class Test {
+    public static void main(String[] args) {
+        Coffee coffee = new RealCoffee(10, "coffee");
+        System.out.println(coffee.getPrice());
+        System.out.println(coffee.getName());
+        
+        DecoratorHandler decorator = new DecoratorHandler();
+        Coffee milkedCoffee = (Coffee) decorator.bind(coffee);
+        System.out.println(milkedCoffee.getPrice());
+        System.out.println(milkedCoffee.getName());
+    }
+}
+
+interface Coffee {
+    Integer getPrice();
+    String getName();
+}
+
+class RealCoffee implements Coffee {
+    
+    private Integer price;
+    private String name;
+    
+    RealCoffee(Integer price, String name) {
+        this.price = price;
+        this.name  = name;
+    }
+    
+    @Override
+    public Integer getPrice() {
+        return price;
+    }
+    
+    @Override
+    public String getName() {
+        return name;
+    }
+}
+
+class DecoratorHandler implements InvocationHandler {
+    private Object target;
+    
+    public Object bind(Object target) {
+        this.target = target;
+        return Proxy.newProxyInstance(
+            target.getClass().getClassLoader(),
+            target.getClass().getInterfaces(),
+            this
+        );
+    }
+    
+    public Object invoke(Object decorator, Method method, Object[] args) throws Throwable {
+        Object result = null;
+        if (method.getName().equals("getPrice")) {
+            Integer price = (Integer) method.invoke(target, args);
+            result = price + 10;
+        } else if (method.getName().equals("getName")) {
+            String name = (String) method.invoke(target, args);
+            result = "milked " + name;
+        }
+        return result;
+    }
+}
+```
+
+### static proxy
+
+- standard
+
+```java
+
+```
+
+- dynamical proxy
+
+```java
+
+```
+
 ### reference
 
 - [java反射详解](https://www.cnblogs.com/rollenholt/archive/2011/09/02/2163758.html)
 - [Java反射使用总结](http://www.cnblogs.com/zhaoyanjun/p/6074887.html)
+- [Java动态代理作用是什么？](https://www.zhihu.com/question/20794107)
+- [动态代理和静态代理的比较](https://www.jianshu.com/p/cf35dbec1988)
 
 ## annotation
 
