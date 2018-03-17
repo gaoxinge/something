@@ -297,13 +297,78 @@ class DecoratorHandler implements InvocationHandler {
 - standard
 
 ```java
+public class Test {
+    public static void main(String[] args) {
+        Subject sub = new SubjectProxy();
+        sub.doSomething();
+    }
+}
 
+interface Subject {
+    void doSomething();
+}
+
+class RealSubject implements Subject {
+    @Override
+    public void doSomething() {
+        System.out.println("call doSomethong()");
+    }
+}
+
+class SubjectProxy implements Subject {
+    Subject subimpl = new RealSubject();
+    
+    @Override
+    public void doSomething() {
+        subimpl.doSomething();
+    }
+}
 ```
 
 - dynamical proxy
 
 ```java
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
+public class Test {
+    public static void main(String[] args) {
+       ProxyHandler proxy = new ProxyHandler();
+       Subject sub = (Subject) proxy.bind(new RealSubject());
+       sub.doSomething();
+    }
+}
+
+interface Subject {
+    void doSomething();
+}
+
+class RealSubject implements Subject {
+    @Override
+    public void doSomething() {
+        System.out.println("call doSomethong()");
+    }
+}
+
+class ProxyHandler implements InvocationHandler {
+    private Object tar;
+    
+    public Object bind(Object tar) {
+        this.tar = tar;
+        return Proxy.newProxyInstance(
+            tar.getClass().getClassLoader(),
+            tar.getClass().getInterfaces(),
+            this
+        );
+    }
+    
+    public Object invoke(Object decorator, Method method, Object[] args) throws Throwable {
+        Object result = null;
+        result = method.invoke(tar, args);
+        return result;
+    }
+}
 ```
 
 ### reference
