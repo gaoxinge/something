@@ -13,7 +13,7 @@ public class Test {
         Class<?> demo4 = null;
         
         try {
-            demo1=Class.forName("Demo");
+            demo1 = Class.forName("Demo");
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -367,6 +367,96 @@ class ProxyHandler implements InvocationHandler {
         Object result = null;
         result = method.invoke(tar, args);
         return result;
+    }
+}
+```
+
+### factory pattern
+
+- standard
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Apple apple = (Apple) FruitFactory.getInstance("Apple");
+        apple.eat();
+        
+        Orange orange = (Orange) FruitFactory.getInstance("Orange");
+        orange.eat();
+    }
+}
+
+interface Fruit {
+    void eat();
+}
+
+class Apple implements Fruit {
+    @Override
+    public void eat() {
+        System.out.println("eat an apple");
+    }
+}
+
+class Orange implements Fruit {
+    @Override
+    public void eat() {
+        System.out.println("eat an orange");
+    }
+}
+
+class FruitFactory {
+    public static Fruit getInstance(String fruitName) {
+        Fruit fruit = null;
+        if ("Apple".equals(fruitName)) {
+            fruit = new Apple();
+        } else if ("Orange".equals(fruitName)) {
+            fruit = new Orange();
+        }
+        return fruit;
+    }
+}
+```
+
+- reflection
+
+```java
+public class Test {
+    public static void main(String[] args) {
+        Apple apple = (Apple) FruitFactory.getInstance("Apple");
+        apple.eat();
+        
+        Orange orange = (Orange) FruitFactory.getInstance("Orange");
+        orange.eat();
+    }
+}
+
+interface Fruit {
+    void eat();
+}
+
+class Apple implements Fruit {
+    @Override
+    public void eat() {
+        System.out.println("eat an apple");
+    }
+}
+
+class Orange implements Fruit {
+    @Override
+    public void eat() {
+        System.out.println("eat an orange");
+    }
+}
+
+class FruitFactory {
+    public static Fruit getInstance(String fruitName) {
+        Fruit fruit = null;
+        try {
+            fruit = (Fruit) Class.forName(fruitName).newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return fruit;
     }
 }
 ```
