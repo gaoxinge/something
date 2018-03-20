@@ -13,4 +13,4 @@
 - monitor
   - [metrics](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics)
 - database
-  - [postgres jdbc driver](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%jdbc%driver)
+  - [postgres jdbc driver](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%20jdbc%20driver)
