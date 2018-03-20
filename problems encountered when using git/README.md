@@ -19,6 +19,7 @@ So it is easy to see how git protects you from changing files carelessly without
 - [1.3 Getting Started - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 - [Checkout another branch when there are uncommitted changes on the current branch](https://stackoverflow.com/questions/22053757/checkout-another-branch-when-there-are-uncommitted-changes-on-the-current-branch)
 - [See what's in a stash without applying it](https://stackoverflow.com/questions/10725729/see-whats-in-a-stash-without-applying-it)
+- [git stash 命令](http://blog.csdn.net/longxiaowu/article/details/26815433)
 
 ## origin
 
