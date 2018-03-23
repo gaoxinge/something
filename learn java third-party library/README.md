@@ -18,3 +18,5 @@
   - [postgres jdbc driver](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%20jdbc%20driver)
   - [mysql jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/mysql%20jdbc%20datasource)
   - [postgres jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%20jdbc%20datasource)
+  - [druid](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/druid)
+  
