@@ -41,3 +41,4 @@
 ### reference
 
 - [Cython: C-Extensions for Python](http://cython.org/)
+- [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
