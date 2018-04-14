@@ -36,11 +36,19 @@
 - [mysql jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/mysql%20jdbc%20datasource)
 - [postgres jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%20jdbc%20datasource)
 - [druid](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/druid)
+
+### jpa
+
+### jdo
   
 ### orm
   
 - [hibernate](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/hibernate)
 - [mybatis](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/mybatis)
+
+### spring
+
+### nutz
 
 ## web container
 
