@@ -39,6 +39,8 @@
 
 ### jpa
 
+- [jpq](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/jpa)
+
 ### jdo
   
 ### orm
