@@ -37,12 +37,10 @@
 - [postgres jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/postgres%20jdbc%20datasource)
 - [druid](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/druid)
 
-### jpa
+### jpa, jdo
 
 - [jpa](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/jpa)
 
-### jdo
-  
 ### orm
   
 - [hibernate](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/hibernate)
