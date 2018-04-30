@@ -15,8 +15,8 @@ func f1() {
         sep = " "
     }
     fmt.Println(s)
-	secs := time.Since(start).Seconds()
-	fmt.Println("elapsed: ", secs)
+    secs := time.Since(start).Seconds()
+    fmt.Println("elapsed: ", secs)
 }
 
 func f2() {
@@ -28,14 +28,14 @@ func f2() {
     }
 	fmt.Println(s)
     secs := time.Since(start).Seconds()
-	fmt.Println("elapsed: ", secs)
+    fmt.Println("elapsed: ", secs)
 }
 
 func f3() {
     start := time.Now()
     fmt.Println(strings.Join(os.Args[1:], " "))
     secs := time.Since(start).Seconds()
-	fmt.Println("elapsed: ", secs)
+    fmt.Println("elapsed: ", secs)
 }
 
 func main() {
