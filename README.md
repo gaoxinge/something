@@ -9,4 +9,4 @@
 - [generic in java](https://github.com/gaoxinge/something/tree/master/generic%20in%20java)
 - [reflection and annotation](https://github.com/gaoxinge/something/tree/master/reflection%20and%20annotation)
 - [install c](https://github.com/gaoxinge/something/tree/master/install%20c)
-- [the go programming language]((https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language)
+- [the go programming language](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language)
