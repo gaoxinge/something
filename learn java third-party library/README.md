@@ -61,5 +61,5 @@
 
 ## rpc
 
-- [rmi](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/rpc)
+- [rmi](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/rmi)
 - [corba](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/corba)
