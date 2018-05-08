@@ -1,14 +1,14 @@
 ## content
 
-- [1](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/nut_/1)
-- [2](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/nut_/2)
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/nutz_/1)
+- [2](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/nutz_/2)
 
 ## 1
 
 ```
 > gradle build
 > gradle jettyRun
-> curl 
+> curl localhost:8080/1/helloworld
 ```
 
 ## 2
@@ -16,7 +16,7 @@
 ```
 > gradle build
 > gradle jettyRun
-> curl 
+> curl localhost:8080/2/hello
 ```
 
 ## reference
