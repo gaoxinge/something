@@ -293,8 +293,10 @@ public class Test {
 	- removeLast: pollLast
 	- pollFirst: assign null to the element at head, move head to head+1 
 	- pollLast: move tail to tail+1, assign null to the element at tail
-- Map
-  - TreeMap: binary tree --> balanced binary tree --> red-black tree
+
+### Map
+  
+- TreeMap: binary tree --> balanced binary tree --> red-black tree
     
     
 ## array and list
