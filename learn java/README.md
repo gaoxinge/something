@@ -294,7 +294,7 @@ public class Test {
 	- pollFirst: assign null to the element at head, move head to head+1 
 	- pollLast: move tail to tail+1, assign null to the element at tail
 
-### Map
+### map
   
 - TreeMap: binary tree --> balanced binary tree --> red-black tree
     
