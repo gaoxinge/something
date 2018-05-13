@@ -103,7 +103,7 @@
 ## big data
 
 - [summary](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/summary_)
-- hadoop
+- [hadoop](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/hadoop)
 - [spark](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/spark)
 - flink
 - storm
