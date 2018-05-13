@@ -20,10 +20,6 @@
 - junit
 - mockito
 
-## schedule
-
-- [quartz](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/quartz)
-
 ## monitor
 
 - [metrics](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics)
@@ -99,6 +95,10 @@
 ## service
 
 - dubbo
+
+## scheduler
+
+- [quartz](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/quartz)
 
 ## big data
 
