@@ -15,6 +15,7 @@
 - [IO](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
 - [collection](https://github.com/gaoxinge/something/tree/master/learn%20java#collection)
 - [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java#array-and-list)
+- [set](https://github.com/gaoxinge/something/tree/master/learn%20java#set)
 - [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java#iterable-iterator)
 - [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java#comparable-comparator)
 - [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
@@ -365,6 +366,23 @@ public class Test {
         list2.addAll(list1);
         List<String> list3 = Arrays.asList(array);
         List<String> list4 = Arrays.asList("1", "2", "3");
+    }
+}
+```
+
+## set
+
+```java
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        Set<String> set = new HashSet<>();
+        set.add("1");
+        set.add("2");
+        set.add("3");
+        set.remove("1");
+        System.out.println(set);
     }
 }
 ```
