@@ -410,3 +410,20 @@ input2 ===> |         | ===> output2
 - [装饰器模式](http://www.runoob.com/design-pattern/decorator-pattern.html)
 - [java中什么是装饰者模式?](https://www.zhihu.com/question/32007641)
 - [装饰者模式及其应用](http://blog.csdn.net/gdutxiaoxu/article/details/51885105)
+
+## proxy pattern
+
+### intuition
+
+```
+realsubject <---> proxy <--- client 
+```
+
+### scenario
+
+- proxy to realsubject to communicate with client
+
+### method
+
+![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/proxy%20pattern.jpg)
+ 
