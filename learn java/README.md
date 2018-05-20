@@ -18,7 +18,8 @@
 - [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java#iterable-iterator)
 - [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java#comparable-comparator)
 - [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
-- [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
+- [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#decorator-pattern)
+- [proxy pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#proxy-pattern)
 
 ## static
 
