@@ -256,7 +256,7 @@ public class Test {
 ### queue
 
 - Queue
-  - iterface
+  - interface
   - extends
     - Collection
   - api
