@@ -325,10 +325,19 @@ public class Test {
 	- pollLast: move tail to tail+1, assign null to the element at tail
 
 ### map
-  
+
 - TreeMap: binary tree --> balanced binary tree --> red-black tree
-    
-    
+- HashMap
+  - basic
+    - [java提高篇（二三）-----HashMap](https://www.cnblogs.com/chenssy/p/3521565.html)
+    - [Java8系列之重新认识HashMap](http://www.importnew.com/20386.html)
+  - complexity
+    - [面试中关于HashMap的时间复杂度O(1)的思考](https://blog.csdn.net/donggua3694857/article/details/64127131)
+    - [java中hashmap容器实现查找O(1)时间复杂度的思考](https://blog.csdn.net/u014633283/article/details/48549155)
+  - concurrent
+    - [Java HashMap的死循环](https://blog.csdn.net/xiaohui127/article/details/11928865)
+- ConcurrentHahsMap
+
 ## array and list
 
 ```java
