@@ -262,6 +262,18 @@ public class Test {
   - api
     - add
 	- remove
+- AbstractQueue
+  - abstract class
+  - extends
+    - AbstractCollection
+  - implements
+    - Queue
+- PriorityQueue
+  - class
+  - extends
+    - AbstractQueue
+  - implements
+    - Serializable
 - Deque
   - interface
   - extends
