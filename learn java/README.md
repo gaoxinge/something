@@ -3,6 +3,22 @@
 - [进击的Java新人](https://zhuanlan.zhihu.com/hinus)
 - [content](https://zhuanlan.zhihu.com/p/24393775)
 
+# content
+
+- [static](https://github.com/gaoxinge/something/tree/master/learn%20java#static)
+- [data type](https://github.com/gaoxinge/something/tree/master/learn%20java#data-type)
+- [primitive type and wrapper type](https://github.com/gaoxinge/something/tree/master/learn%20java#primitive-type-and-wrapper-type)
+- [toString](https://github.com/gaoxinge/something/tree/master/learn%20java#tostring)
+- [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java#wrapper-type-and-string)
+- [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
+- [IO](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
+- [collection](https://github.com/gaoxinge/something/tree/master/learn%20java#collection)
+- [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java#array-and-list)
+- [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java#iterable-iterator)
+- [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java#comparable-comparator)
+- [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
+- [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
+
 ## static
 
 - variable: have nothing to do with class
