@@ -426,5 +426,5 @@ realsubject <---> proxy <--- client
 
 ### method
 
-![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/proxy%20pattern.jpg)
+![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/proxy%20pattern.png)
  
