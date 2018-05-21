@@ -5,10 +5,10 @@
 Kafka ---> Logstash ---> ElasticSearch ---> Kibana
 ```
 
-Kafka: message queue
-Logstash: pipeline or stream to handle log
-ElasticSearch: server to search log
-Kibana: client to show log
+- Kafka: message queue
+- Logstash: pipeline or stream to handle log
+- ElasticSearch: server to search log
+- Kibana: client to show log
 
 ## install
 
