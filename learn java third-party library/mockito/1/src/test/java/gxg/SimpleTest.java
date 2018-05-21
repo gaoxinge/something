@@ -11,12 +11,12 @@ public class SimpleTest {
     @Test
     public void simpleTest() {
         List<String> list = mock(List.class);
-        when(list.get(0)).thenReturn("helloworld");                 // set excepted value
+        when(list.get(0)).thenReturn("helloworld"); // set excepted value
 
         String result = list.get(0);
-        verify(list).get(0);                                        // verify list invoke get(0) once
+        verify(list).get(0);                        // verify list invoke get(0) once
         result = list.get(0);
-        verify(list, times(2)).get(0); // verify list invoke get(0) twice
+        verify(list, times(2)).get(0);              // verify list invoke get(0) twice
         Assert.assertEquals("helloworld", result);
     }
 }
