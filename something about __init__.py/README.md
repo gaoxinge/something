@@ -50,7 +50,7 @@ x == y
 ## test2
 
 ```python
-# test.py: only one pring
+# test.py: only one print
 # -*- coding: utf-8 -*-
 import threading
 
