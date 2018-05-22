@@ -12,4 +12,4 @@
 - [how python run](https://github.com/gaoxinge/something/tree/master/how%20python%20run)
 - [install c](https://github.com/gaoxinge/something/tree/master/install%20c)
 - [the go programming language](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language)
-- [something about __init__.py]()
+- [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
