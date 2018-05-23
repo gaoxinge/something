@@ -466,4 +466,24 @@ realsubject <---> proxy <--- client
 ### method
 
 ![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/proxy%20pattern.png)
- 
+
+
+## factory pattern
+
+### intuition
+
+```
+interface A           factory
+  ^       ^               |
+  |       |               |
+class A1 class A2         |
+  ^       ^               |
+  |       |               |
+  a1      a2 <------------|
+  ^                       |
+  |-----------------------|
+```
+
+### scenario
+
+- factory produce the instance of different class which implement same interface
