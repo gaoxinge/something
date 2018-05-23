@@ -65,3 +65,23 @@ t2.start()
 t1.join()
 t2.join()
 ```
+
+### test3
+
+```python
+# test.py: two print
+# -*- coding: utf-8 -*-
+from multiprocessing import Process
+
+def f(x):
+    from t import b
+    print x
+    
+if __name__ == "__main__":
+    p1 = Process(target=f, args=(5,))
+    p2 = Process(target=f, args=(8,))
+    p1.start()
+    p2.start()
+    p1.join()
+    p2.join()
+```
