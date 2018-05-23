@@ -66,7 +66,7 @@ t1.join()
 t2.join()
 ```
 
-### test3
+## test3
 
 ```python
 # test.py: two print
