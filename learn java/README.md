@@ -325,6 +325,8 @@ public class Test {
 	- removeLast: pollLast
 	- pollFirst: assign null to the element at head, move head to head+1 
 	- pollLast: move tail to tail+1, assign null to the element at tail
+- concurrent
+  - [java队列——queue详细分析](https://www.cnblogs.com/lemon-flm/p/7877898.html)
 
 ### map
 
