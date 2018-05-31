@@ -23,7 +23,7 @@ func PopCount1(x uint64) int {
 }
 
 func PopCount2(x uint64) int {
-    var result int;
+    var result int
     for ; x != 0; x &= x - 1 {
         result++
     }
