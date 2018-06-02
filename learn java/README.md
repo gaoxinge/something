@@ -18,6 +18,7 @@
 - [set](https://github.com/gaoxinge/something/tree/master/learn%20java#set)
 - [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java#iterable-iterator)
 - [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java#comparable-comparator)
+- [garbage collection](https://github.com/gaoxinge/something/tree/master/learn%20java#garbage-collection)
 - [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
 - [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#decorator-pattern)
 - [proxy pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#proxy-pattern)
@@ -399,6 +400,23 @@ public class Test {
 
 - comparable: java.lang, `Collections.sort(List<Comparable>)`
 - comparator: java.util, `Collections.sort(List<T>, Comparator)`
+
+## garbage collection
+
+### big picture
+
+- copy gc
+- tracing gc: java
+  - mark sweep
+  - mark compaction
+- reference counting: python
+- generation of grabage collection: combination of gc
+
+### reference
+
+- [sweeterer的博客](https://blog.csdn.net/sweeterer/article/category/6454712)
+- [垃圾回收机制中，引用计数法是如何维护所有对象引用的？](https://www.zhihu.com/question/21539353)
+- [引用计数法在JVM的GC过程中是否可用？](https://www.zhihu.com/question/52979724)
 
 ## adapter pattern
 
