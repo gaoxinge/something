@@ -276,6 +276,7 @@ public class Test {
 
 - [Java多线程学习（吐血超详细总结）](https://www.cnblogs.com/GarfieldEr007/p/5746362.html)
 - [A Guide to the Java ExecutorService](http://www.baeldung.com/java-executor-service-tutorial)
+- [Java 8 Concurrency Tutorial: Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 
 ## collection
 
