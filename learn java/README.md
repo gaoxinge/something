@@ -255,6 +255,10 @@ public class Test {
 - [Thread](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main1.java)
 - [Runnable](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main2.java)
 
+### reference
+
+- [Java多线程学习（吐血超详细总结）](https://www.cnblogs.com/GarfieldEr007/p/5746362.html)
+
 ## collection
 
 ### simple collection
