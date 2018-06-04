@@ -260,7 +260,7 @@ public class Test {
 - `Executors`: factory to create `ThreadPoolExecutor` 
 - `ExecutorService`: implements `Executor`, base class of `ThreadPoolExecutor`
   - shutdown
-  - shutdownNone
+  - shutdownNow
   - awaitTermination
   - isShutdown
   - isTerminated
@@ -268,6 +268,9 @@ public class Test {
   - submit
   - invokeAll
   - invokeAny
+- [execute]()
+- [submit/invokeAny]()
+- [submit/invokeAll]()
 
 ### reference
 
