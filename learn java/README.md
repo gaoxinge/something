@@ -268,9 +268,9 @@ public class Test {
   - submit
   - invokeAll
   - invokeAny
-- [execute]()
-- [submit/invokeAny]()
-- [submit/invokeAll]()
+- [execute](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main3.java)
+- [submit/invokeAny](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main4.java)
+- [submit/invokeAll](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main5.java)
 
 ### reference
 
