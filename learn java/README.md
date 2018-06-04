@@ -12,7 +12,8 @@
 - [toString](https://github.com/gaoxinge/something/tree/master/learn%20java#tostring)
 - [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java#wrapper-type-and-string)
 - [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
-- [IO](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
+- [IO](https://github.com/gaoxinge/something/tree/master/learn%20java#IO)
+- [multithread](https://github.com/gaoxinge/something/tree/master/learn%20java#multithread)
 - [collection](https://github.com/gaoxinge/something/tree/master/learn%20java#collection)
 - [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java#array-and-list)
 - [set](https://github.com/gaoxinge/something/tree/master/learn%20java#set)
@@ -246,6 +247,10 @@ public class Test {
     }
 }
 ```
+
+## multithread
+
+### basic
 
 ## collection
 
