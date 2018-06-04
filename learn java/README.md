@@ -252,6 +252,9 @@ public class Test {
 
 ### basic
 
+- [Thread](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main1.java)
+- [Runnable](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main2.java)
+
 ## collection
 
 ### simple collection
