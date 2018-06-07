@@ -310,6 +310,13 @@ public class Test {
     - ConcurrentMap
     - ConcurrentHashMap
 
+### map
+
+- [HashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main16.java)
+- [HashMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main17.java)
+- [ConcurrentHashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main18.java)
+- [ConcurrentHahsMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main19.java)
+    
 ### reference
 
 - [Java多线程学习（吐血超详细总结）](https://www.cnblogs.com/GarfieldEr007/p/5746362.html)
