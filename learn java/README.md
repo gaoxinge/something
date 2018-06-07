@@ -323,7 +323,8 @@ public class Test {
 - [lazy singleton/unthread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton2.java)
 - [lazy singleton/thread safe/synchronized](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton3.java)
 - [lazy singleton/unthread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton4.java)
-- [lazy singleton/thread safe/class load](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton5.java)
+- [lasy singleton/thread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton5.java)
+- [lazy singleton/thread safe/class load](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton6.java)
 - [lazy singleton/thread safe/enum](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Main.java)
 
 ### reference
@@ -332,6 +333,7 @@ public class Test {
 - [A Guide to the Java ExecutorService](http://www.baeldung.com/java-executor-service-tutorial)
 - [Java 8 Concurrency Tutorial: Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 - [深入理解Java枚举类型(enum)](https://blog.csdn.net/javazejian/article/details/71333103)
+- [JAVA 单例双重检查(double check)为什么不好用](https://blog.csdn.net/anjxue/article/details/51038466)
 
 ## collection
 
