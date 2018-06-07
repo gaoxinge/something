@@ -316,12 +316,22 @@ public class Test {
 - [HashMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main17.java)
 - [ConcurrentHashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main18.java)
 - [ConcurrentHahsMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main19.java)
-    
+
+### singleton
+
+- [eager singleton/thread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton1.java)
+- [lazy singleton/unthread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton2.java)
+- [lazy singleton/thread safe/synchronized](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton3.java)
+- [lazy singleton/unthread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton4.java)
+- [lazy singleton/thread safe/class load](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton5.java)
+- [lazy singleton/thread safe/enum](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Main.java)
+
 ### reference
 
 - [Java多线程学习（吐血超详细总结）](https://www.cnblogs.com/GarfieldEr007/p/5746362.html)
 - [A Guide to the Java ExecutorService](http://www.baeldung.com/java-executor-service-tutorial)
 - [Java 8 Concurrency Tutorial: Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
+- [深入理解Java枚举类型(enum)](https://blog.csdn.net/javazejian/article/details/71333103)
 
 ## collection
 
