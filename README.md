@@ -14,3 +14,4 @@
 - [the go programming language](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language)
 - [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
+- [pyd](https://github.com/gaoxinge/something/tree/master/pyd)
