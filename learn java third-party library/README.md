@@ -80,6 +80,8 @@
 
 ### redis
 
+- [redis](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/redis)
+
 ## framework
 
 - [spring](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/spring_)
