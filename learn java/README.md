@@ -12,8 +12,8 @@
 - [toString](https://github.com/gaoxinge/something/tree/master/learn%20java#tostring)
 - [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java#wrapper-type-and-string)
 - [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
-- [IO](https://github.com/gaoxinge/something/tree/master/learn%20java#IO)
-- [NET](https://github.com/gaoxinge/something/tree/master/learn%20java#NET)
+- [io](https://github.com/gaoxinge/something/tree/master/learn%20java#io)
+- [net](https://github.com/gaoxinge/something/tree/master/learn%20java#net)
 - [multithread](https://github.com/gaoxinge/something/tree/master/learn%20java#multithread)
 - [collection](https://github.com/gaoxinge/something/tree/master/learn%20java#collection)
 - [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java#array-and-list)
@@ -117,7 +117,7 @@ String  b = a.toString();           // Integer ===> String
 - class (with setter): by reference
 - array: by reference
 
-## IO
+## io
 
 ![IO](http://www.runoob.com/wp-content/uploads/2013/12/iostream2.png)
 
@@ -249,7 +249,7 @@ public class Test {
 }
 ```
 
-## NET
+## net
 
 - [basic](https://github.com/gaoxinge/something/tree/master/learn%20java/code__/basic)
 - [tcp](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/TcpServer.java)
