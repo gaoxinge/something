@@ -268,9 +268,16 @@ public class Test {
 
 - [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector)
 
+### big picture
+
+- nio: select
+- netty, mina: twisted
+- quasar: greenlet
+
 ### reference
 
 - [Java NIO Tutorial](http://tutorials.jenkov.com/java-nio/index.html)
+- [mina-netty-twisted](https://github.com/wucao/mina-netty-twisted)
 
 ## multithread
 
