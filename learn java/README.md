@@ -256,6 +256,12 @@ public class Test {
 - [http](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/HttpServer.java)
 - [multithread](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/MTServer.java)
 
+## nio
+
+### reference
+
+- [Java NIO Tutorial](http://tutorials.jenkov.com/java-nio/index.html)
+
 ## multithread
 
 ### basic
