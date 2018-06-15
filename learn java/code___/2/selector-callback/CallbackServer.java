@@ -1,3 +1,9 @@
+/*
+ * problem: the read do not block, the write block
+ * plan1:   run callback in main loop
+ * plan2:   run callback in method 
+ */
+
 import java.nio.ByteBuffer;
 import java.nio.channels.Selector;
 import java.nio.channels.SelectionKey;
@@ -59,7 +65,6 @@ class CommonClient {
         this.recvBuffer = ByteBuffer.allocate(8);
 
         this.clientSocket.configureBlocking(false);
-        key.interestOps(SelectionKey.OP_WRITE);
     }
 
     private void sendMessage(String msg, Callback cback) {

@@ -267,6 +267,8 @@ public class Test {
 ### 2
 
 - [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector)
+- [selector-state](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector-state)
+- [selector-callback](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector-callback)
 
 ### big picture
 
