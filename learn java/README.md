@@ -640,3 +640,210 @@ class A1 class A2         |
 ### scenario
 
 - factory produce the instance of different class which implement same interface
+
+## singleton pattern
+
+```java
+public class Config {
+    private static Config instance;
+    private Config() {}
+    public static Config getInstance() {
+        if (instance == null)
+            instance = new Config();
+        return instance;
+    }
+    
+}
+```
+
+## visitor pattern
+
+### override
+
+```java
+interface Animal {
+    void speak();
+}
+
+class Cat implements Animal {
+    @Override
+    public void speak() {
+        System.out.println("cat speak");
+    }
+}
+
+class Dog implements Animal {
+    @Override
+    public void speak() {
+        System.out.println("dog speak");
+    }
+}
+
+class Fox implements Animal {
+    @Override
+    public void speak() {
+        System.out.println("fox speak");
+    }
+}
+
+
+class Speaker {
+    public void speak(Animal a) {
+        a.speak();
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        Animal[] animals = {new Dog(), new Cat(), new Fox()};
+        Speaker s = new Speaker();
+        for (Animal animal: animals)
+            s.speak(animal);
+    }
+}
+```
+
+### speaker
+
+```java
+interface Animal {
+    void speak(Speaker s);
+}
+
+class Cat implements Animal {
+    @Override
+    public void speak(Speaker s) {
+        s.speak(this);
+    }
+}
+
+class Dog implements Animal {
+    @Override
+    public void speak(Speaker s) {
+        s.speak(this);
+    }
+}
+
+class Fox implements Animal {
+    @Override
+    public void speak(Speaker s) {
+        s.speak(this);
+    }
+}
+
+
+class Speaker {
+    public void speak(Animal a) {
+        a.speak(this);
+    }
+    
+    public void speak(Cat a) {
+        System.out.println("cat speak");
+    }
+    
+    public void speak(Dog d) {
+        System.out.println("dog speak");
+    }
+    
+    public void speak(Fox f) {
+        System.out.println("fox speak");
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        Animal[] animals = {new Dog(), new Cat(), new Fox()};
+        Speaker s = new Speaker();
+        for (Animal animal: animals)
+            s.speak(animal);
+    }
+}
+```
+
+### visitor
+
+```java
+interface Animal {
+    void accept(Visitor v);
+}
+
+class Cat implements Animal {
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
+}
+
+class Dog implements Animal {
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
+}
+
+class Fox implements Animal {
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
+}
+
+
+interface Visitor {
+    void visit(Animal a);
+    void visit(Dog d);
+    void visit(Cat c);
+    void visit(Fox f);
+}
+
+class Speaker implements Visitor {
+    public void visit(Animal a) {
+        a.accept(this);
+    }
+    
+    public void visit(Cat a) {
+        System.out.println("cat speak");
+    }
+    
+    public void visit(Dog d) {
+        System.out.println("dog speak");
+    }
+    
+    public void visit(Fox f) {
+        System.out.println("fox speak");
+    }
+}
+
+class Runner implements Visitor {
+    public void visit(Animal a) {
+        a.accept(this);
+    }
+    
+    public void visit(Cat a) {
+        System.out.println("cat run");
+    }
+    
+    public void visit(Dog d) {
+        System.out.println("dog run");
+    }
+    
+    public void visit(Fox f) {
+        System.out.println("fox run");
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        Animal[] animals = {new Dog(), new Cat(), new Fox()};
+        Speaker s = new Speaker();
+        Runner r = new Runner();
+        for (Animal animal: animals)
+            s.visit(animal);
+        for (Animal animal: animals)
+            r.visit(animal);
+    }
+}
+```
