@@ -280,6 +280,7 @@ public class Test {
 
 - [Java NIO Tutorial](http://tutorials.jenkov.com/java-nio/index.html)
 - [mina-netty-twisted](https://github.com/wucao/mina-netty-twisted)
+- [Linux进程间内存共享机制mmap详解](https://blog.csdn.net/maverick1990/article/details/48050975)
 
 ## multithread
 
