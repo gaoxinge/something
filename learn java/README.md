@@ -27,6 +27,8 @@
 - [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#decorator-pattern)
 - [proxy pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#proxy-pattern)
 - [factory pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#factory-pattern)
+- [singleton pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#singleton-pattern)
+- [visitor pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#visitor-pattern)
 
 ## static
 
