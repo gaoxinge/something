@@ -15,3 +15,4 @@
 - [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
 - [pyd](https://github.com/gaoxinge/something/tree/master/pyd)
+- [trie](https://github.com/gaoxinge/something/tree/master/trie)
