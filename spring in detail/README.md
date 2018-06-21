@@ -142,6 +142,10 @@ class FruitFactory {
 
 ### spring ioc/di
 
+- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/1)
+- [2](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/2)
+- [3](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/3)
+
 ### reference
 
 - [Spring IOC有什么好处呢？](https://www.zhihu.com/question/23277575)
@@ -233,7 +237,11 @@ class ProxyHandler implements InvocationHandler {
 
 ### spring aop
 
+- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20aop/1)
+
 ### spring aspectj
+
+- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20aspectj/1)
 
 ### reference
 
