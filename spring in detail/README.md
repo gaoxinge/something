@@ -140,6 +140,8 @@ class FruitFactory {
 }
 ```
 
+### spring ioc/di
+
 ### reference
 
 - [Spring IOC有什么好处呢？](https://www.zhihu.com/question/23277575)
@@ -229,6 +231,10 @@ class ProxyHandler implements InvocationHandler {
 }
 ```
 
+### spring aop
+
+### spring aspectj
+
 ### reference
 
 - [什么是面向切面编程AOP？](https://www.zhihu.com/question/24863332)
@@ -237,3 +243,8 @@ class ProxyHandler implements InvocationHandler {
 - [SpringAOP基本用法(中)](https://zhuanlan.zhihu.com/p/25892058)
 - [SpringAOP基本用法(下)](https://zhuanlan.zhihu.com/p/25891989)
 - [spring AOP是什么?你都拿它做什么?](https://zhuanlan.zhihu.com/p/28097563)
+- [AOP那点事儿](https://my.oschina.net/huangyong/blog/161338)
+- [AOP那点事儿（续集）](https://my.oschina.net/huangyong/blog/161402)
+- [Defining pointcuts by annotations](https://blog.jayway.com/2015/09/08/defining-pointcuts-by-annotations/)
+- [在Gradle项目中配置AspectJ](http://chaosleong.github.io/2017/09/22/Configure-AspectJ-in-Gradle-project/)
+- [IntelliJ IDEA + AspectJ](https://stackoverflow.com/questions/44088421/intellij-idea-aspectj)
