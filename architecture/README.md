@@ -9,5 +9,5 @@
 - [ ] [Clean Code](https://book.douban.com/subject/3032825/)
 - [ ] [Clean Architecture](https://book.douban.com/subject/26915970/)
 - [ ] [Designing Data-Intensive Applications](https://book.douban.com/subject/26197294/)
-- [ ] [大型分布式网站架构](http://www.cnblogs.com/itfly8/category/756114.html)
+- [x] [大型分布式网站架构](http://www.cnblogs.com/itfly8/category/756114.html)
 - [ ] [大型网站技术架构](https://book.douban.com/subject/25723064/)
