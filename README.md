@@ -16,3 +16,4 @@
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
 - [pyd](https://github.com/gaoxinge/something/tree/master/pyd)
 - [trie](https://github.com/gaoxinge/something/tree/master/trie)
+- [calculate determinant of matrix](https://github.com/gaoxinge/something/tree/master/calculate%20determinant%20of%20matrix)
