@@ -53,3 +53,63 @@ func main() {
     fmt.Println(s, x, y)
 }
 ```
+
+## array vs slice
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    p := [...]int{1, 2, 3}
+    fmt.Printf("%T\n", p)
+    fmt.Println(p)
+    
+    q := []int{1, 2, 3}
+    fmt.Printf("%T\n", q)
+    fmt.Println(q)
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    p := [...]int{1, 2, 3}
+    fmt.Printf("%T\n", p)
+    fmt.Println(p)
+    
+    reverse_array(p)
+    fmt.Printf("%T\n", p)
+    fmt.Println(p)
+    
+    reverse_ptr(&p)
+    fmt.Printf("%T\n", p)
+    fmt.Println(p)
+    
+    reverse_slice(p[:])
+    fmt.Printf("%T\n", p)
+    fmt.Println(p)
+}
+
+func reverse_array(array [3]int) {
+    for i, j := 0, len(array)-1; i < j; i, j = i+1, j-1 {
+        array[i], array[j] = array[j], array[i]
+    }
+}
+
+func reverse_ptr(ptr *[3]int) {
+    for i, j := 0, len(*ptr)-1; i < j; i, j = i+1, j-1 {
+        ptr[i], ptr[j] = ptr[j], ptr[i]
+    } 
+}
+
+func reverse_slice(s []int) {
+    for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+        s[i], s[j] = s[j], s[i]
+    }
+}
+```
