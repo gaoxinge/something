@@ -3,6 +3,7 @@
 - [01](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language/01)
 - [02](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language/02)
 - [03](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language/03)
+- [04](https://github.com/gaoxinge/something/tree/master/the%20go%20programming%20language/04)
 
 ## fmt
 
