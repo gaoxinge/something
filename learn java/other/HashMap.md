@@ -143,3 +143,7 @@ public V get(Object key) {
         return null;
     }
 ```
+
+- 计算hash：`hash`
+- 计算hash在table中的位置：`indexFor`
+- 遍历table[i]：找到返回值，找不到返回null 
