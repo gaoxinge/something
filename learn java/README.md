@@ -461,6 +461,7 @@ public class Test {
   - basic
     - [java提高篇（二三）-----HashMap](https://www.cnblogs.com/chenssy/p/3521565.html)
     - [Java8系列之重新认识HashMap](http://www.importnew.com/20386.html)
+    - [HashMap](https://github.com/gaoxinge/something/blob/master/learn%20java/other/HashMap.md)
   - complexity
     - [面试中关于HashMap的时间复杂度O(1)的思考](https://blog.csdn.net/donggua3694857/article/details/64127131)
     - [java中hashmap容器实现查找O(1)时间复杂度的思考](https://blog.csdn.net/u014633283/article/details/48549155)
