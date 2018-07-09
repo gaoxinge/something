@@ -19,3 +19,4 @@
 - [calculate determinant of matrix](https://github.com/gaoxinge/something/tree/master/calculate%20determinant%20of%20matrix)
 - [cython](https://github.com/gaoxinge/something/tree/master/cython)
 - [logging](https://github.com/gaoxinge/something/tree/master/logging)
+- [HashMap](https://github.com/gaoxinge/something/tree/master/HashMap)
