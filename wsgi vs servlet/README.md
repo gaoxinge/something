@@ -32,3 +32,25 @@ public class CurrentServlet extends HttpServlet {
     }
 }
 ```
+
+## wsgi
+
+### basic
+
+- wsgi server listen to one request
+- process: wsgi server start a process to run wsgi app 
+- thread: wsgi server start a thread to run wsgi app
+- wsgi app follows 
+
+```
+parse environ ---> handle reqeust ---> return response
+```
+
+### safe
+
+- wrap wsgi app to local
+
+### unsafe
+
+- extract reqeust to global
+- threadlocal and ctx
