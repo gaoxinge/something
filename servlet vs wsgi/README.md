@@ -1,9 +1,17 @@
-# wsgi vs servlet
+# servlet vs wsgi
+
+## analogy
 
 - web container --- wsgi server
 - servlet       --- wsgi app
 - jsp           --- template
-- struts        --- django, flask
+- struts        --- flask
+
+## MVC, REST
+
+- MVC, REST: architecture
+- servlet, wsgi: protocol
+- servlet, wsgi have nothing to do with MVC, REST
 
 ## servlet
 
