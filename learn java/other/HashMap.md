@@ -146,4 +146,9 @@ public V get(Object key) {
 
 - 计算hash：`hash`
 - 计算hash在table中的位置：`indexFor`
-- 遍历table[i]：找到返回值，找不到返回null 
+- 遍历table[i]：找到返回值，找不到返回null
+
+## concurrent
+
+- 扩容：不保证线程安全
+- rehash：死循环 
