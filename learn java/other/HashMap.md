@@ -3,7 +3,7 @@
 ## structure
 
 ```
-table
+ table
  ------
 |      |
  ------
@@ -33,7 +33,7 @@ static class Entry<K,V> implements Map.Entry<K,V> {
     }
 ```
 
-```
+```java
 public HashMap(int initialCapacity, float loadFactor) {
         //初始容量不能<0
         if (initialCapacity < 0)
@@ -88,6 +88,58 @@ public V put(K key, V value) {
         modCount++;
         //将key、value添加至i位置处
         addEntry(hash, key, value, i);
+        return null;
+    }
+```
+
+```java
+static int hash(int h) {
+        h ^= (h >>> 20) ^ (h >>> 12);
+        return h ^ (h >>> 7) ^ (h >>> 4);
+    }
+```
+
+```java
+static int indexFor(int h, int length) {
+        return h & (length-1);
+    }
+```
+
+```java
+void addEntry(int hash, K key, V value, int bucketIndex) {
+        //获取bucketIndex处的Entry
+        Entry<K, V> e = table[bucketIndex];
+        //将新创建的 Entry 放入 bucketIndex 索引处，并让新的 Entry 指向原来的 Entry 
+        table[bucketIndex] = new Entry<K, V>(hash, key, value, e);
+        //若HashMap中元素的个数超过极限了，则容量扩大两倍
+        if (size++ >= threshold)
+            resize(2 * table.length);
+    }
+```
+
+- 计算hash：`hash`
+- 计算hash在table中的位置：`indexFor`
+- 遍历table[i]，查看key是否重复。若重复，新值覆盖旧值，并返回旧值
+- 添加entry：`addEntry`，先把新entry添加值tale[bucketIndex]，在指向旧entry
+- 查看是否需要resize，减少hash碰撞
+- 返回null
+
+## get
+
+```java
+public V get(Object key) {
+        // 若为null，调用getForNullKey方法返回相对应的value
+        if (key == null)
+            return getForNullKey();
+        // 根据该 key 的 hashCode 值计算它的 hash 码  
+        int hash = hash(key.hashCode());
+        // 取出 table 数组中指定索引处的值
+        for (Entry<K, V> e = table[indexFor(hash, table.length)]; e != null; e = e.next) {
+            Object k;
+            //若搜索的key与查找的key相同，则返回相对应的value
+            if (e.hash == hash && ((k = e.key) == key || key.equals(k)))
+                return e.value;
+        }
         return null;
     }
 ```
