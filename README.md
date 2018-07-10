@@ -20,3 +20,4 @@
 - [cython](https://github.com/gaoxinge/something/tree/master/cython)
 - [logging](https://github.com/gaoxinge/something/tree/master/logging)
 - [servlet vs wsgi](https://github.com/gaoxinge/something/tree/master/servlet%20vs%20wsgi)
+- [bloomfilter](https://github.com/gaoxinge/something/tree/master/bloomfilter)
