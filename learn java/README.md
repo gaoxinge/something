@@ -366,6 +366,7 @@ public class Test {
 ### reference
 
 - [Java多线程学习（吐血超详细总结）](https://www.cnblogs.com/GarfieldEr007/p/5746362.html)
+- [Java中的多线程你只要看这一篇就够了](https://www.jianshu.com/p/40d4c7aebd66)
 - [A Guide to the Java ExecutorService](http://www.baeldung.com/java-executor-service-tutorial)
 - [Java 8 Concurrency Tutorial: Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 - [深入理解Java枚举类型(enum)](https://blog.csdn.net/javazejian/article/details/71333103)
