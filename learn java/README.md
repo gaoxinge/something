@@ -371,6 +371,7 @@ public class Test {
 - [Java 8 Concurrency Tutorial: Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 - [深入理解Java枚举类型(enum)](https://blog.csdn.net/javazejian/article/details/71333103)
 - [JAVA 单例双重检查(double check)为什么不好用](https://blog.csdn.net/anjxue/article/details/51038466)
+- [SimpleDateFormat线程不安全及解决办法](https://blog.csdn.net/zdp072/article/details/41044059)
 
 ## collection
 
