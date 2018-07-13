@@ -132,3 +132,183 @@ func main() {
     fmt.Println(q)
 }
 ```
+
+## struct
+
+```go
+package main
+
+import (
+    "time"
+    "fmt"
+)
+
+
+type Employee struct {
+    ID        int
+    Name      string
+    Address   string
+    DoB       time.Time
+    Position  string
+    Salary    int
+    ManagerID int
+}
+
+var employees = map[int]Employee{} 
+
+func EmployeeByID(id int) Employee {
+    return employees[id]
+}
+
+func main() {
+    var employee1 Employee
+    employee1.ID = 1
+    employee1.ManagerID = 0
+    employees[employee1.ID] = employee1
+    
+    var employee2 Employee
+    employee2.ID = 2
+    employee2.ManagerID = 1
+    employees[employee1.ID] = employee1
+    
+    // struct is not a reference type
+    // EmployeeByID(1).Salary = 2000
+    
+    // employee is a copy of employee1
+    // not a reference
+    var employee = EmployeeByID(1)
+    employee.Salary = 2000
+    fmt.Println(employee1)
+    fmt.Println(employee)
+}
+```
+
+```go
+package main
+
+import (
+    "time"
+    "fmt"
+)
+
+
+type Employee struct {
+    ID        int
+    Name      string
+    Address   string
+    DoB       time.Time
+    Position  string
+    Salary    int
+    ManagerID int
+}
+
+var employees = map[int]Employee{} 
+
+func EmployeeByID(id int) *Employee {
+    return &employees[id]  // error: element of map is not a variable
+}
+
+func main() {
+    var employee1 Employee
+    employee1.ID = 1
+    employee1.ManagerID = 0
+    employees[employee1.ID] = employee1
+    
+    var employee2 Employee
+    employee2.ID = 2
+    employee2.ManagerID = 1
+    employees[employee1.ID] = employee1
+    
+    fmt.Println(EmployeeByID(1))
+}
+```
+
+```go
+package main
+
+import (
+    "time"
+    "fmt"
+)
+
+
+type Employee struct {
+    ID        int
+    Name      string
+    Address   string
+    DoB       time.Time
+    Position  string
+    Salary    int
+    ManagerID int
+}
+
+var employees = map[int]Employee{} 
+
+func EmployeeByID(id int) *Employee {
+    var employee = employees[id]  // a copy of struct
+    return &employee
+}
+
+func main() {
+    var employee1 Employee
+    employee1.ID = 1
+    employee1.ManagerID = 0
+    employees[employee1.ID] = employee1
+    
+    var employee2 Employee
+    employee2.ID = 2
+    employee2.ManagerID = 1
+    employees[employee1.ID] = employee1
+    
+    var employee = EmployeeByID(1)
+    employee.Salary = 2000
+    fmt.Println(employee1);
+    fmt.Println(employee)
+}
+```
+
+```go
+package main
+
+import (
+    "time"
+    "fmt"
+)
+
+
+type Employee struct {
+    ID        int
+    Name      string
+    Address   string
+    DoB       time.Time
+    Position  string
+    Salary    int
+    ManagerID int
+}
+
+var employees = map[int]*Employee{} 
+
+func EmployeeByID(id int) *Employee {
+    return employees[id]
+}
+
+func main() {
+    var employee1 Employee
+    employee1.ID = 1
+    employee1.ManagerID = 0
+    employees[employee1.ID] = &employee1
+    
+    var employee2 Employee
+    employee2.ID = 2
+    employee2.ManagerID = 1
+    employees[employee1.ID] = &employee1
+    
+    var employee = EmployeeByID(1)
+    employee.Salary = 2000
+    fmt.Println(employee1)
+    fmt.Println(employee)
+}
+```
+
+- [golang学习笔记之引用类型与值类型](https://blog.csdn.net/u010278923/article/details/69056018)
+- [深入学习golang(4)—new与make](https://www.cnblogs.com/hustcat/p/4004889.html)
