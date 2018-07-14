@@ -133,6 +133,47 @@ func main() {
 }
 ```
 
+## slice
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    x := []int{1, 2, 3}
+    
+    y := make([]int, 3, 3)
+    copy(y, x)
+    y[0] = 2
+    
+    fmt.Println(x)  // [1, 2, 3]
+    fmt.Println(y)  // [2, 2, 3]
+    
+    var a, b []int
+    b = append(a, 1)
+    a = b
+    b = append(a, 2)
+    a = b
+    b = append(a, 3)
+    a = b
+    b = append(a, 4)
+    a = b
+    
+    b = append(a, 5)
+    b[0] = 0
+    fmt.Println(a)  // [1, 2, 3, 4]
+    fmt.Println(b)  // [0, 2, 3, 4, 5]
+    
+    
+    var u, v [] int
+    v = append(u, 1)
+    v[0] = 0
+    fmt.Println(u)  // []
+    fmt.Println(v)  // [0]
+}
+```
+
 ## struct
 
 ```go
