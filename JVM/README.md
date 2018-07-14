@@ -28,3 +28,4 @@
 - [Stack vs Heap in C/Java](https://stackoverflow.com/questions/17535436/stack-vs-heap-in-c-java)
 - [How does Java (JVM) allocate stack for each thread](https://stackoverflow.com/questions/36898701/how-does-java-jvm-allocate-stack-for-each-thread)
 - [JVM Stacks and Stack Frames](https://alvinalexander.com/scala/fp-book/recursion-jvm-stacks-stack-frames)
+- [The Java Virtual Machine](https://www.artima.com/insidejvm/ed2/jvm.html)
