@@ -27,3 +27,4 @@
 - [Stack and Heap memory in Java](https://softwareengineering.stackexchange.com/questions/65281/stack-and-heap-memory-in-java)
 - [Stack vs Heap in C/Java](https://stackoverflow.com/questions/17535436/stack-vs-heap-in-c-java)
 - [How does Java (JVM) allocate stack for each thread](https://stackoverflow.com/questions/36898701/how-does-java-jvm-allocate-stack-for-each-thread)
+- [JVM Stacks and Stack Frames](https://alvinalexander.com/scala/fp-book/recursion-jvm-stacks-stack-frames)
