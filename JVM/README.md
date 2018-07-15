@@ -82,6 +82,21 @@ SourceFile: "Main.java"
 
 ```
 
+## heap
+
+Heap is used to store object, and divided into three spaces:
+
+- Young Generation
+  - Eden Sapce
+  - Suvivor Space
+- Old Generation
+
+Accroding to the object's frequency, JVM will transfer object from one space to another like
+
+```
+Young Generation (Eden Space) ---> Young Generation (Suvivor Space) ---> Old Generation
+```
+
 ## JDK8
 
 - 永久带移除
