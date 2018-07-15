@@ -181,6 +181,10 @@ current class constant pool referenct (thread) ---> class info (method area)
 - native main thread: use interpreter to consume the byte code in main, which in some class
 - native sub thread: use interpreter to consume the byte code in thread.run, which in some class
 
+## jvm
+
+- javac (elf)
+
 ## JDK8
 
 - 永久带移除
