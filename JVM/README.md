@@ -117,19 +117,7 @@ Young Generation (Eden Space) ---> Young Generation (Suvivor Space) ---> Old Gen
     - current class constant pool reference
 - native stack
 
-## object
-
-```
-object reference (thread) ---> object (heap)
-```
-
-## current class constant pool
-
-```
-current class constant pool referenct (thread) ---> class info (method area)
-```
-
-## dynamic linking (class loader)
+## class loader
 
 ### process
 
@@ -154,11 +142,44 @@ class loader object
 class object        (heap) ---> class info (method area)
 ```
 
+## object
+
+```
+object reference (thread) ---> object (heap)
+```
+
+## current class constant pool
+
+```
+current class constant pool referenct (thread) ---> class info (method area)
+```
+
 ## garbage collection
 
 - [垃圾回收](https://github.com/crossoverJie/Java-Interview/blob/master/MD/GarbageCollection.md)
 
 ![3](https://github.com/gaoxinge/something/blob/master/JVM/3.png)
+
+## dynamic linking
+
+- class file
+- class info (method area)
+- class loader (heap)
+- class (heap)
+
+## oop
+
+- struct (native heap)
+
+## stack
+
+- struct (native heap)
+
+## interpreter
+
+- native stack
+- native main thread: use interpreter to consume the byte code in main, which in some class
+- native sub thread: use interpreter to consume the byte code in thread.run, which in some class
 
 ## JDK8
 
