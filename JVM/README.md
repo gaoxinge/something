@@ -82,6 +82,16 @@ SourceFile: "Main.java"
 
 ```
 
+## big picture
+
+![1]()
+![2]()
+
+## permanent generation 
+
+- method area
+- interned string
+
 ## heap
 
 Heap is used to store object, and divided into three spaces:
@@ -96,6 +106,55 @@ Accroding to the object's frequency, JVM will transfer object from one space to 
 ```
 Young Generation (Eden Space) ---> Young Generation (Suvivor Space) ---> Old Generation
 ```
+
+## thread
+
+- pc
+- stack
+  - stack frame
+    - local variables
+    - return value
+    - operand stack
+    - current class constant pool reference
+
+## object
+
+```
+object reference (thread) ---> object (heap)
+```
+
+## current class constant pool
+
+```
+current class constant pool referenct (thread) ---> class info (method area)
+```
+
+## dynamic linking (class loader)
+
+## process
+
+- loading
+- linking
+  - verfying
+  - preparing
+  - resolving
+- initialization
+
+## type
+
+- bootstrap class loader
+- extension class loader
+- system class loader
+- user defined class loader
+
+## result
+
+```
+class loader object
+class object        (heap) ---> class info (method area)
+```
+
+## garbage collection
 
 ## JDK8
 
