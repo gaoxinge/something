@@ -79,7 +79,6 @@ Constant pool:
         line 4: 8
 }
 SourceFile: "Main.java"
-
 ```
 
 ## big picture
@@ -159,6 +158,10 @@ class object        (heap) ---> class info (method area)
 - [垃圾回收](https://github.com/crossoverJie/Java-Interview/blob/master/MD/GarbageCollection.md)
 
 ![3](https://github.com/gaoxinge/something/blob/master/JVM/3.png)
+
+## string intern
+
+- [几张图轻松理解String.intern()](https://blog.csdn.net/soonfly/article/details/70147205)
 
 ## JDK8
 
