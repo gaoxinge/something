@@ -1,7 +1,7 @@
 # architecture
 
 - [ ] [crossoverJie](https://github.com/crossoverJie)
-- [ ] [CyC2018](https://github.com/CyC2018)
+- [x] [CyC2018](https://github.com/CyC2018)
 - [ ] [Design Patterns](https://book.douban.com/subject/1436745/)
 - [ ] [如何正确地使用设计模式？](https://www.zhihu.com/question/23757906/answer/25567356)
 - [x] [SOLID](https://en.wikipedia.org/wiki/SOLID)
