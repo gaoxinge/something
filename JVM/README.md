@@ -32,3 +32,7 @@
 - [Java Virtual Machine (JVM) Stack Area](https://www.geeksforgeeks.org/java-virtual-machine-jvm-stack-area/)
 - [Java Code To Byte Code - Part One](http://blog.jamesdbloom.com/JavaCodeToByteCode_PartOne.html)
 - [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html)
+- [JAVA类的加载、连接与初始化](https://www.cnblogs.com/Blogyin/p/7809382.html)
+- [一看你就懂，超详细java中的ClassLoader详解](https://blog.csdn.net/briblue/article/details/54973413)
+- [chunyuan314的博客](https://blog.csdn.net/chunyuan314)
+- [JVM调优总结 -Xms -Xmx -Xmn -Xss](https://blog.csdn.net/rickyit/article/details/53895060)
