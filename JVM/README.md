@@ -1,6 +1,5 @@
 # JVM
 
-
 ## JDK8
 
 - 永久带移除
@@ -31,3 +30,5 @@
 - [The Java Virtual Machine](https://www.artima.com/insidejvm/ed2/jvm.html)
 - [Run-time Stack mechanism in Java](https://www.geeksforgeeks.org/run-time-stack-mechanism-java/)
 - [Java Virtual Machine (JVM) Stack Area](https://www.geeksforgeeks.org/java-virtual-machine-jvm-stack-area/)
+- [Java Code To Byte Code - Part One](http://blog.jamesdbloom.com/JavaCodeToByteCode_PartOne.html)
+- [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html)
