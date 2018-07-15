@@ -109,12 +109,13 @@ Young Generation (Eden Space) ---> Young Generation (Suvivor Space) ---> Old Gen
 ## thread
 
 - pc
-- stack
+- JVM stack
   - stack frame
     - local variables
     - return value
     - operand stack
     - current class constant pool reference
+- native stack
 
 ## object
 
@@ -159,10 +160,6 @@ class object        (heap) ---> class info (method area)
 
 ![3](https://github.com/gaoxinge/something/blob/master/JVM/3.png)
 
-## string intern
-
-- [几张图轻松理解String.intern()](https://blog.csdn.net/soonfly/article/details/70147205)
-
 ## JDK8
 
 - 永久带移除
@@ -175,6 +172,10 @@ class object        (heap) ---> class info (method area)
 - lombok
 - cglib
 - quasar
+
+## string intern
+
+- [几张图轻松理解String.intern()](https://blog.csdn.net/soonfly/article/details/70147205)
 
 ## JNI
 
