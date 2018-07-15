@@ -84,8 +84,8 @@ SourceFile: "Main.java"
 
 ## big picture
 
-![1]()
-![2]()
+![1](https://github.com/gaoxinge/something/blob/master/JVM/1.png)
+![2](https://github.com/gaoxinge/something/blob/master/JVM/2.png)
 
 ## permanent generation 
 
@@ -131,7 +131,7 @@ current class constant pool referenct (thread) ---> class info (method area)
 
 ## dynamic linking (class loader)
 
-## process
+### process
 
 - loading
 - linking
@@ -140,14 +140,14 @@ current class constant pool referenct (thread) ---> class info (method area)
   - resolving
 - initialization
 
-## type
+### type
 
 - bootstrap class loader
 - extension class loader
 - system class loader
 - user defined class loader
 
-## result
+### result
 
 ```
 class loader object
@@ -155,6 +155,10 @@ class object        (heap) ---> class info (method area)
 ```
 
 ## garbage collection
+
+- [垃圾回收](https://github.com/crossoverJie/Java-Interview/blob/master/MD/GarbageCollection.md)
+
+![3](https://github.com/gaoxinge/something/blob/master/JVM/3.png)
 
 ## JDK8
 
