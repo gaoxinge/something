@@ -24,3 +24,4 @@
 - [servlet vs wsgi](https://github.com/gaoxinge/something/tree/master/servlet%20vs%20wsgi)
 - [bloomfilter](https://github.com/gaoxinge/something/tree/master/bloomfilter)
 - [JVM](https://github.com/gaoxinge/something/tree/master/JVM)
+- [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
