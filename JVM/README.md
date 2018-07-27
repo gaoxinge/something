@@ -196,7 +196,7 @@ current class constant pool referenct (thread) ---> class info (method area)
 - [ASM](https://asm.ow2.io/)
 - lombok
 - cglib
-- quasar
+- picothread, kilim, quasar
 
 ## string intern
 
