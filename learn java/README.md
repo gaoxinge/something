@@ -275,8 +275,10 @@ public class Test {
 ### big picture
 
 - nio: select
+- Reactor Streams, Reactor, ReactiveX: reactor
 - netty, mina: twisted
-- quasar: greenlet
+- Vert.x
+- picothread, kilim, quasar: greenlet
 
 ### reference
 
