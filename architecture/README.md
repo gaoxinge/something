@@ -14,6 +14,12 @@
 
 ## design pattern
 
+![1](https://github.com/gaoxinge/something/blob/master/architecture/1.png)
+
+### design pattern
+
+### some thinking
+
 ## solid
 
 - Single Responsibility Principle：单一责任原则
