@@ -16,7 +16,7 @@
 
 ## UML
 
-UML, Unified Modeling Language, is used to modeling, which is not only for OOP language, like Java.
+UML, Unified Modeling Language, is used for modeling, which is not only for OOP language, like Java.
 
 ### OOP, Java
 
