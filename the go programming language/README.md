@@ -353,3 +353,36 @@ func main() {
 
 - [golang学习笔记之引用类型与值类型](https://blog.csdn.net/u010278923/article/details/69056018)
 - [深入学习golang(4)—new与make](https://www.cnblogs.com/hustcat/p/4004889.html)
+
+## method
+
+```go
+package main
+
+import (
+    "math"
+    "fmt"
+)
+
+type Point struct{X, Y float64}
+
+func Distance(p, q Point) float64 {
+    return math.Hypot(q.X-p.X, q.Y-p.Y)
+}
+
+// error: there is conflict between nonpointer and pointer
+func (p Point) Distance(q Point) float64 {
+    return math.Hypot(q.X-p.X, q.Y-p.Y)
+}
+
+func (p *Point) Distance(q Point) float64 {
+    return math.Hypot(q.X-p.X, q.Y-p.Y)
+}
+
+func main() {
+    p := Point{1, 2}
+    q := Point{4, 6}
+    fmt.Println(Distance(p, q))
+    fmt.Println(p.Distance(q))
+}
+```

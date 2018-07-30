@@ -12,6 +12,8 @@
 - [x] [大型分布式网站架构](http://www.cnblogs.com/itfly8/category/756114.html)
 - [ ] [大型网站技术架构](https://book.douban.com/subject/25723064/)
 
+## uml
+
 ## design pattern
 
 ![1](https://github.com/gaoxinge/something/blob/master/architecture/1.png)
@@ -27,8 +29,3 @@
 - Liskov Substitution Principle：里氏替换原则
 - Interface Segregation Principle：接口分离原则
 - Dependency Inversion Principle：依赖倒置原则
-
-## uml
-
-
-
