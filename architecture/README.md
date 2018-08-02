@@ -47,11 +47,11 @@ UML, Unified Modeling Language, is used for modeling, which is not only for OOP 
 
 ### error handling
 
-### unchecked exception
+#### unchecked exception
 
 - [Java异常：选择Checked Exception还是Unchecked Exception?](https://blog.csdn.net/kingzone_2008/article/details/8535287)
 
-### null
+#### null
 
 ```java
 import java.util.*;
