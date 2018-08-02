@@ -42,3 +42,30 @@ UML, Unified Modeling Language, is used for modeling, which is not only for OOP 
 - Liskov Substitution Principle：里氏替换原则
 - Interface Segregation Principle：接口分离原则
 - Dependency Inversion Principle：依赖倒置原则
+
+## clean code
+
+### error handling
+
+### unchecked exception
+
+- [Java异常：选择Checked Exception还是Unchecked Exception?](https://blog.csdn.net/kingzone_2008/article/details/8535287)
+
+### null
+
+```java
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        List<Integer> a;
+        System.out.println(a);     // compile error: uninitialize
+        
+        List<Integer> b = null;
+        System.out.println(b);     // null
+        
+        List<Integer> c = new ArrayList<>();
+        System.out.println(c);     // []
+    }
+}
+```
