@@ -176,6 +176,23 @@ func main() {
 }
 ```
 
+## struct and interface
+
+```go
+type person struct {
+    name string
+    age int
+}
+
+type geometry struct {
+    area() float64
+    perim() float64
+}
+```
+
+- [Go by Example: Structs](https://gobyexample.com/structs)
+- [Go by Example: Interfaces](https://gobyexample.com/interfaces)
+
 ## struct
 
 ```go
@@ -386,5 +403,36 @@ func main() {
     q := Point{4, 6}
     fmt.Println(Distance(p, q))
     fmt.Println(p.Distance(q))
+}
+```
+
+## sort
+
+```go
+package main
+
+import (
+    "sort"
+    "fmt"
+)
+
+func main() {
+    a := []int{3, 2, 1}
+    sort.Ints(a)
+    fmt.Println(a)
+    
+    // error
+    // a1 := [...]int{3, 2, 1}
+    // sort.Ints(a1)
+    // fmt.Println(a1)
+    
+    b := []string{"3", "2", "1"}
+    sort.Strings(b)
+    fmt.Println(b)
+    
+    // error
+    // b1 := [...]string{"3", "2", "1"}
+    // sort.Strings(b1)
+    // fmt.Println(b1)
 }
 ```
