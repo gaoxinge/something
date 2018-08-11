@@ -5,7 +5,7 @@
 - [x] [Unified Modeling Language](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
 - [x] [我所理解的OOP——UML六种关系](http://www.cnblogs.com/dolphinX/p/3296681.html)
 - [x] [Design Patterns](https://book.douban.com/subject/1436745/)
-- [ ] [如何正确地使用设计模式？](https://www.zhihu.com/question/23757906/answer/25567356)
+- [x] [如何正确地使用设计模式？](https://www.zhihu.com/question/23757906/answer/25567356)
 - [x] [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [x] [阿里巴巴Java开发手册](https://book.douban.com/subject/27605355/)
 - [ ] [Clean Code](https://book.douban.com/subject/3032825/)
@@ -30,10 +30,6 @@ UML, Unified Modeling Language, is used for modeling, which is not only for OOP 
 ## design pattern
 
 ![1](https://github.com/gaoxinge/something/blob/master/architecture/1.png)
-
-### design pattern
-
-### some thinking
 
 ## solid
 
