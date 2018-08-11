@@ -1,5 +1,10 @@
 # something about distribution system
 
+## cap, base
+
+- [分布式系统的CAP理论](http://www.hollischuang.com/archives/666)
+- [分布式系统的BASE理论](http://www.hollischuang.com/archives/672)
+
 ## 2pc, 3pc
 
 - [简单了解分布式系统](http://blog.jobbole.com/95588/)
