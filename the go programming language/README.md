@@ -436,3 +436,8 @@ func main() {
     // fmt.Println(b1)
 }
 ```
+
+## switch, select 
+
+- [Go 语言 switch 语句](http://www.runoob.com/go/go-switch-statement.html)
+- [Go 语言 select 语句](http://www.runoob.com/go/go-select-statement.html)
