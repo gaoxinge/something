@@ -166,3 +166,60 @@ func main(){
 	fmt.Println("Even elements of slice are: ", even)
 }
 ```
+
+## 2.4
+
+## struct的匿名字段
+
+```go
+package main
+
+import "fmt"
+
+type Human struct {
+    name string
+    age int
+    weight int
+}
+
+type Student struct {
+    Human
+    speciality string
+}
+
+func main(){
+    // mark := Student{"Mark", 25, 120, "Computer Science"} // error
+    mark := Student{Human{"Mark", 25, 120}, "Computer Science"}
+    fmt.Println(mark.name)
+}
+```
+
+```go
+package main
+
+import "fmt"
+
+type Skills []string
+
+type Human struct {
+    name string
+    age int
+    weight int
+}
+
+type Student struct {
+    Human
+    Skills
+    int
+    speciality string
+}
+
+func main(){
+    // mark := Student{Human: Human{"Mark", 25, 120}, Skills: {"1", "2"}, int: 1, speciality: "Computer Science"} error
+    mark := Student{Human: Human{"Mark", 25, 120}, Skills: []string{"1", "2"}, int: 1, speciality: "Computer Science"}
+    fmt.Println(mark.name)
+    fmt.Println(mark.Skills)
+    fmt.Println(mark.int)
+    fmt.Println(mark.speciality)
+}
+```
