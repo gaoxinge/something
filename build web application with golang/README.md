@@ -223,3 +223,57 @@ func main(){
     fmt.Println(mark.speciality)
 }
 ```
+
+## 2.6
+
+### 空interface
+
+```go
+package main
+
+import "fmt"
+
+func main(){
+    var a interface{}                  // empty interface, no value, nil
+    var b interface{} = 5              // empty interface, value 5
+    var c interface{} = "Hello World"  // empty interface, value hello world
+    var d interface{} = nil            // empty interface, no value, nil
+    fmt.Println(a, a == nil)
+    fmt.Println(b, b == nil)
+    fmt.Println(c, c == nil)
+    fmt.Println(d, d == nil)
+}
+```
+
+### 反射
+
+```go
+package main
+
+import (
+    "fmt"
+    "reflect"
+)
+
+func main(){
+    i := 1
+    t := reflect.TypeOf(i)
+    v := reflect.ValueOf(i)
+    fmt.Println(t, v)
+    
+    var a interface{} = "hello world"
+    t = reflect.TypeOf(a)
+    v = reflect.ValueOf(a)
+    fmt.Println(t, v)
+    
+    var x float64 = 3.4
+    v = reflect.ValueOf(x)
+    fmt.Println("type:", v.Type())
+    fmt.Println("kind i float64:", v.Kind() == reflect.Float64)
+    fmt.Println("value:", v.Float())
+    p := reflect.ValueOf(&x)
+    v = p.Elem()
+    v.SetFloat(7.1)
+    fmt.Println(x)
+}
+```
