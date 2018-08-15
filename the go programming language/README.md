@@ -441,3 +441,14 @@ func main() {
 
 - [Go 语言 switch 语句](http://www.runoob.com/go/go-switch-statement.html)
 - [Go 语言 select 语句](http://www.runoob.com/go/go-select-statement.html)
+
+## 内存可见，内存同步
+
+- 操作系统：虚拟内存
+- 硬件：cpu，mmu，内存，虚拟内存，硬盘
+- [内存和缓存在一个地址空间里吗?](https://www.zhihu.com/question/268046670)
+- 内存可见
+  - [Java 多线程三大核心](https://github.com/crossoverJie/Java-Interview/blob/master/MD/Threadcore.md)
+  - [你应该知道的 volatile 关键字](https://github.com/crossoverJie/Java-Interview/blob/master/MD/concurrent/volatile.md)
+- 内存同步
+  - 9.4
