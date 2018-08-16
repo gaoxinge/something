@@ -452,3 +452,11 @@ func main() {
   - [你应该知道的 volatile 关键字](https://github.com/crossoverJie/Java-Interview/blob/master/MD/concurrent/volatile.md)
 - 内存同步
   - 9.4
+
+## 编译器，CPU指令重排
+
+- java
+  - [Java 多线程三大核心](https://github.com/crossoverJie/Java-Interview/blob/master/MD/Threadcore.md)
+  - [你应该知道的 volatile 关键字](https://github.com/crossoverJie/Java-Interview/blob/master/MD/concurrent/volatile.md)
+- go
+  - 9.5
