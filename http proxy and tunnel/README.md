@@ -1,6 +1,21 @@
 # http proxy and tunnel
 
-## proxy and tunnel
+## https
+
+- [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [HTTPS从原理到应用(一)：加密(Encrypt)与哈希(Hash)](https://www.jianshu.com/p/2542c95fb023)
+- [HTTPS从原理到应用(二)：数字证书(Digital Certificate)与数字签名(Digital Signature)](https://www.jianshu.com/p/e767a4e9252e)
+- [HTTPS从原理到应用(三)：SSL/TLS协议](https://www.jianshu.com/p/c93612b3abac)
+- [白话Https](https://www.cnblogs.com/xinzhao/p/4949344.html)
+- [HTTPS工作原理](https://www.cnblogs.com/svan/p/5090201.html)
+- [SSL与TLS的区别以及介绍](https://www.cnblogs.com/susanhonly/p/7489532.html)
+- [SSL/TLS 双向认证(一) -- SSL/TLS工作原理](https://blog.csdn.net/ustccw/article/details/76691248)
+- [http和https](https://blog.csdn.net/feilzhang/article/details/80554328)
+- [SSL与TLS的区别](https://blog.csdn.net/bjbz_cxy/article/details/77850182)
+- [【HTTP】HTTPS 原理详解](https://baijiahao.baidu.com/s?id=1570143475599137)
+- [聊聊HTTPS和SSL/TLS协议](http://www.techug.com/post/https-ssl-tls.html)
+
+## proxy
 
 - [Proxy server](https://en.wikipedia.org/wiki/Proxy_server)                                                                                     
 - [how does http proxy work?](https://stackoverflow.com/questions/7155529/how-does-http-proxy-work)
