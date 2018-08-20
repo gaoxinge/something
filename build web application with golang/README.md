@@ -279,3 +279,12 @@ func main(){
 ```
 
 ## 3.2
+
+- r.Method
+- r.URL
+  - r.URL.Path
+  - r.URL.Scheme
+- r.Proto
+- r.Header
+- r.ParseForm
+- r.Form
