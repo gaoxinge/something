@@ -22,5 +22,6 @@
 - [HttpTunnel](https://github.com/Andrepuel/HttpTunnel)
 - [ptunnel](https://github.com/izderadicka/ptunnel)
 - [http-tunnel](https://github.com/khuevu/http-tunnel)
+- [proxy.py](https://github.com/abhinavsingh/proxy.py)
 - [proxy2](https://github.com/inaz2/proxy2)
 - [python-proxy](https://github.com/qwj/python-proxy)
