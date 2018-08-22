@@ -15,7 +15,7 @@
 - [【HTTP】HTTPS 原理详解](https://baijiahao.baidu.com/s?id=1570143475599137)
 - [聊聊HTTPS和SSL/TLS协议](http://www.techug.com/post/https-ssl-tls.html)
 
-## proxy
+## http proxy
 
 - [Proxy server](https://en.wikipedia.org/wiki/Proxy_server)                                                                                     
 - [how does http proxy work?](https://stackoverflow.com/questions/7155529/how-does-http-proxy-work)
