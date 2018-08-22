@@ -24,6 +24,10 @@
 - [HTTP 代理原理及实现（一）](https://imququ.com/post/web-proxy.html)
 - [HTTP 代理原理及实现（二）](https://imququ.com/post/web-proxy-2.html)
 
+## ssl, http tunnel
+
+- [What is SSL Tunneling?](http://prabu-lk.blogspot.com/2015/11/what-is-ssl-tunneling.html)
+
 ## c
 
 ### winsock
