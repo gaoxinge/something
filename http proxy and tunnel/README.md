@@ -27,6 +27,12 @@
 ## ssl, http tunnel
 
 - [What is SSL Tunneling?](http://prabu-lk.blogspot.com/2015/11/what-is-ssl-tunneling.html)
+- [HTTP tunnel](https://en.wikipedia.org/wiki/HTTP_tunnel)
+- [HTTP 隧道代理原理和实现](http://cizixs.com/2017/03/22/http-tunnel-proxy-and-golang-implementation)
+
+## socks
+
+- [HTTPTunnel v1.2.1](http://http-tunnel.sourceforge.net/)
 
 ## c
 
