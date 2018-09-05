@@ -14,4 +14,5 @@
 
 ### memory management
 
-- [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
+- [ ] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
+- [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
