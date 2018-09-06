@@ -17,6 +17,7 @@
 - [build web application with golang](https://github.com/gaoxinge/something/tree/master/build%20web%20application%20with%20golang)
 - [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
+- [duff's device](https://github.com/gaoxinge/something/tree/master/duff's%20device)
 - [pyd](https://github.com/gaoxinge/something/tree/master/pyd)
 - [trie](https://github.com/gaoxinge/something/tree/master/trie)
 - [calculate determinant of matrix](https://github.com/gaoxinge/something/tree/master/calculate%20determinant%20of%20matrix)
