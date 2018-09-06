@@ -26,8 +26,9 @@ void copy1(char *from, char *to, int count) {
 
 
 void copy2(char *from, char *to, int count) {
-    for (int i = 0; i < count; i++)
+    do {
         *to++ = *from++;
+    } while (--count > 0);
 }
 
 
