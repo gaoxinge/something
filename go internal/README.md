@@ -10,8 +10,9 @@
 
 ### goroutine
 
-- [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
-- [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
+- [ ] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
+- [ ] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
+- [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 
 ### memory management
 
