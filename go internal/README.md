@@ -35,6 +35,6 @@
 - if function return a local variable, compiler will allocate the local variable on the stask and caller will get a copy of the return value
 - if function return a pointer to a local variable, compiler will allocate the local variable on the heap and caller will get the copy of the pointer
 - `slice`, `map`, `channel`
-  - `make`
+  - `make`: may be better than `new`
   - pass by reference
   - allocate on the stack or on the heap
