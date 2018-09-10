@@ -83,6 +83,18 @@ SourceFile: "Main.java"
 
 ## big picture
 
+```
+                         -------------------
+                         | inter  | inter  |
+                         |preter1 |pterter2|
+-------------------      -------------------
+| stack  | stack  |      | stack  | stack  |
+| frame1 | frame2 |      | frame1 | frame2 |
+-------------------      -------------------
+|     heap        |      |     heap        |
+-------------------      -------------------
+```
+
 ![1](https://github.com/gaoxinge/something/blob/master/JVM/1.png)
 ![2](https://github.com/gaoxinge/something/blob/master/JVM/2.png)
 
