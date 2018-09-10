@@ -14,6 +14,11 @@
 - [ ] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
 - [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 
+#### term
+
+- green thread: corresponding to compiler, not os
+- light weight threads: corresponding to user space, not core space
+
 ### memory management
 
 - [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
