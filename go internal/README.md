@@ -8,6 +8,115 @@
 
 ### reflect
 
+#### method
+
+```go
+package main
+
+import "fmt"
+
+type ChangeObject interface {
+	Change(string)
+}
+
+type Student struct {
+	name string
+}
+
+func (this Student) Change(name string) {
+	fmt.Println(this)
+	this.name = name
+}
+
+func main() {
+	a := Student{"gaoxinge"}
+	a.Change("123")  // {gaoxinge}
+	fmt.Println(a)   // {gaoxinge}
+
+	b := &Student{"gaoxinge"}
+	b.Change("123")  // {gaoxinge}
+	fmt.Println(b)   // &{gaoxinge}
+
+	var c ChangeObject
+	c = a
+	fmt.Println(c)   // {gaoxinge}
+	c = b
+	fmt.Println(c)   // &{gaoxinge}
+}
+```
+
+- `Student` can call `Change` directly
+- `&Student` call `Change` by `*&Student.Change`
+- both `Student` and `&Student` have `Change` method
+- both `Student` and `&Student` are `ChangeObject`
+
+```go
+package main
+
+import "fmt"
+
+type Change2Object interface {
+	Change2(string)
+}
+
+type Student struct {
+	name string
+}
+
+func (this *Student) Change2(name string) {
+	fmt.Println(this)
+	this.name = name
+}
+
+func main() {
+	a := Student{"gaoxinge"}
+	a.Change2("123")  // &{gaoxinge}
+	fmt.Println(a)    // {123}
+
+	b := &Student{"gaoxinge"}
+	b.Change2("123")  // {gaoxinge}
+	fmt.Println(b)    // &{123}
+
+	var c Change2Object
+	// compile error
+	// c = a
+	// fmt.Println(c)
+	c = b
+	fmt.Println(c)    // &{123}
+}
+```
+
+- `Student` call `Change2` by `&Student.Change`
+- `*Student` call `Change2` directly
+- only `*Student` has `Change2` method
+- only `*Student` is `Change2Object`
+
+#### interface
+
+- formula
+
+```
+variable           = type + value
+interface variable = interface type + interface value
+interface value    = variable type  + variable value 
+```
+
+- nonempty interface: var ---> interface ---> interface ---> interface ---> ...
+
+```
+interface.(type)     = var type
+_ = interface.(type) = var
+```
+
+- empty interface: nil ---> interface ---> interface ---> interface ---> ...
+
+```
+interface.(type)     = nil
+_ = interface.(type) = nil
+```
+
+#### refelct
+
 ### goroutine
 
 - [x] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
@@ -72,7 +181,7 @@
 - [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
 - [x] [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
 - [x] [Are all the variables in Go allocated on heap?](https://stackoverflow.com/questions/31786937/are-all-the-variables-in-go-allocated-on-heap)
-- [x]  [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
+- [x] [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
 - [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
 
 #### term
