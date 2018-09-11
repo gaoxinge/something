@@ -15,6 +15,7 @@
 - [advanced go programming](https://github.com/gaoxinge/something/tree/master/advanced%20go%20programming)
 - [networking programming with go](https://github.com/gaoxinge/something/tree/master/networking%20programming%20with%20go)
 - [build web application with golang](https://github.com/gaoxinge/something/tree/master/build%20web%20application%20with%20golang)
+- [learn go third-party library](https://github.com/gaoxinge/something/tree/master/learn%20go%20third-party%20library)
 - [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
 - [duff's device](https://github.com/gaoxinge/something/tree/master/duff's%20device)
