@@ -120,6 +120,7 @@ _ = interface.(type) = nil
 - [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
 - [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
+- [x] [http://blog.ralch.com/tutorial/golang-reflection/](http://blog.ralch.com/tutorial/golang-reflection/)
 
 ### goroutine
 
