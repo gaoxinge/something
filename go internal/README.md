@@ -117,6 +117,8 @@ _ = interface.(type) = nil
 
 #### refelct
 
+- [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
+- [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 
 ### goroutine
@@ -202,3 +204,8 @@ _ = interface.(type) = nil
   - `make`: may be better than `new`
   - pass by reference
   - allocate on the stack or on the heap
+  
+### other
+
+- empty value: `var x type`，`new`
+- nonempty value: `make`
