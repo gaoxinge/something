@@ -32,6 +32,7 @@
 
 ## socks
 
+- [SOCKS](https://en.wikipedia.org/wiki/SOCKS)
 - [HTTPTunnel v1.2.1](http://http-tunnel.sourceforge.net/)
 - [什么是HTTP隧道，怎么理解HTTP隧道呢？](https://www.zhihu.com/question/21955083)
 
