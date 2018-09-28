@@ -33,8 +33,10 @@
 ## socks
 
 - [SOCKS](https://en.wikipedia.org/wiki/SOCKS)
-- [HTTPTunnel v1.2.1](http://http-tunnel.sourceforge.net/)
 - [什么是HTTP隧道，怎么理解HTTP隧道呢？](https://www.zhihu.com/question/21955083)
+- [Fast Introduction to SOCKS Proxy](https://etherealmind.com/fast-introduction-to-socks-proxy/)
+- [What is the difference between a SOCKS proxy and an HTTP proxy?](http://www.jguru.com/faq/view.jsp?EID=227532)
+- [HTTPTunnel v1.2.1](http://http-tunnel.sourceforge.net/)
 
 ## c
 
@@ -52,3 +54,7 @@
 - [proxy.py](https://github.com/abhinavsingh/proxy.py)
 - [proxy2](https://github.com/inaz2/proxy2)
 - [python-proxy](https://github.com/qwj/python-proxy)
+
+## go
+
+### proxy and tunnel
