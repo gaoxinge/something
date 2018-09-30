@@ -38,6 +38,12 @@
 - [What is the difference between a SOCKS proxy and an HTTP proxy?](http://www.jguru.com/faq/view.jsp?EID=227532)
 - [HTTPTunnel v1.2.1](http://http-tunnel.sourceforge.net/)
 
+## rfc
+
+- [Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](https://tools.ietf.org/html/rfc7230)
+- [Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://tools.ietf.org/html/rfc7231#section-4.3.6)
+- [Tunneling TCP based protocols through Web proxy servers](https://tools.ietf.org/html/draft-luotonen-web-proxy-tunneling-01)
+
 ## c
 
 ### winsock
