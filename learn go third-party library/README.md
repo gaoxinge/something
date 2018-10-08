@@ -16,6 +16,13 @@
 
 ## database
 
+- [go-sqlite3](https://github.com/mattn/go-sqlite3)
+- [gosqlite3](https://github.com/kuroneko/gosqlite3)
+- [go-sqlite3](https://github.com/phf/go-sqlite3)
+- [pq](https://github.com/lib/pq)
+- [gopgsqldriver](https://github.com/jbarham/gopgsqldriver)
+- [go-pgsql](https://github.com/lxn/go-pgsql)
+
 ## orm
 
 ## redis
