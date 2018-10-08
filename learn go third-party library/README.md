@@ -19,13 +19,16 @@
 - [go-sqlite3](https://github.com/mattn/go-sqlite3)
 - [gosqlite3](https://github.com/kuroneko/gosqlite3)
 - [go-sqlite3](https://github.com/phf/go-sqlite3)
+- [mysql](https://github.com/go-sql-driver/mysql)
+- [mymysql](https://github.com/ziutek/mymysql)
+- [GoMySQL](https://github.com/Philio/GoMySQL)
 - [pq](https://github.com/lib/pq)
 - [gopgsqldriver](https://github.com/jbarham/gopgsqldriver)
 - [go-pgsql](https://github.com/lxn/go-pgsql)
 
-## orm
-
 ## redis
+
+## orm
 
 ## rpc
 
