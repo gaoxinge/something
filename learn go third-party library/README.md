@@ -30,6 +30,9 @@
 
 ## orm
 
+- [gorm](https://github.com/jinzhu/gorm)
+- [beedb](https://github.com/astaxie/beedb)
+
 ## rpc
 
 ## reference
