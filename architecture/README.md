@@ -9,7 +9,7 @@
 - [x] [SOLID](https://en.wikipedia.org/wiki/SOLID)
 - [x] [阿里巴巴Java开发手册](https://book.douban.com/subject/27605355/)
 - [x] [Clean Code](https://book.douban.com/subject/3032825/)
-- [ ] [Clean Architecture](https://book.douban.com/subject/26915970/)
+- [x] [Clean Architecture](https://book.douban.com/subject/26915970/)
 - [x] [大型分布式网站架构](http://www.cnblogs.com/itfly8/category/756114.html)
 - [x] [大型网站技术架构](https://book.douban.com/subject/25723064/)
 
