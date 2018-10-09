@@ -28,6 +28,8 @@
 
 ## redis
 
+- [redigo](https://github.com/gomodule/redigo)
+
 ## orm
 
 - [gorm](https://github.com/jinzhu/gorm)
