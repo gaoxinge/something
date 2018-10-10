@@ -1,13 +1,5 @@
 # learn go third-party library
 
-## json
-
-## log
-
-## test
-
-## monitor
-
 ## web framework
 
 - [hugo](https://github.com/gohugoio/hugo)
@@ -34,8 +26,6 @@
 
 - [gorm](https://github.com/jinzhu/gorm)
 - [beedb](https://github.com/astaxie/beedb)
-
-## rpc
 
 ## swagger
 
