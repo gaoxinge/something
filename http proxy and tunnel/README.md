@@ -64,3 +64,13 @@
 ## go
 
 ### proxy and tunnel
+
+- [dohproxy](https://github.com/satran/dohproxy)
+- [wstunnel](https://github.com/rightscale/wstunnel)
+- [http-tunnel](https://github.com/alvatar/http-tunnel)
+- [gohttptun](https://github.com/nf/gohttptun)
+- [etunnel](https://github.com/kayaklee/etunnel)
+- [go-http-dialer](https://github.com/mwitkow/go-http-dialer)
+- [oxy](https://github.com/vulcand/oxy)
+- [http-proxy](https://github.com/getlantern/http-proxy)
+- [goproxy](https://github.com/snail007/goproxy)
