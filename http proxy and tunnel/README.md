@@ -43,6 +43,12 @@
 - [Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing](https://tools.ietf.org/html/rfc7230)
 - [Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content](https://tools.ietf.org/html/rfc7231#section-4.3.6)
 - [Tunneling TCP based protocols through Web proxy servers](https://tools.ietf.org/html/draft-luotonen-web-proxy-tunneling-01)
+- [SOCKS: A protocol for TCP proxy across firewalls](https://socks-relay.sourceforge.io/socks4.protocol.txt)
+- [SOCKS 4A: A  Simple Extension to SOCKS 4 Protocol](https://socks-relay.sourceforge.io/socks4a.protocol.txt)
+- [SOCKS Protocol Version 5](https://tools.ietf.org/html/rfc1928)
+- [Username/Password Authentication for SOCKS V5](https://tools.ietf.org/html/rfc1929)
+- [GSS-API Authentication Method for SOCKS Version 5](https://tools.ietf.org/html/rfc1961)
+- [A SOCKS-based IPv6/IPv4 Gateway Mechanism](https://tools.ietf.org/html/rfc3089)
 
 ## c
 
