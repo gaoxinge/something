@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+service Router {
+    rpc Route (Request) returns (Response) {}
+}
+
+message Request {
+    string text = 1;
+}
+
+message Response {
+    string text = 1;
+}
