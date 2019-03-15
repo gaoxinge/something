@@ -1,0 +1,4 @@
+- [Julia 1.0 Documentation](https://docs.julialang.org/en/v1/)
+- [The Julia Express](http://bogumilkaminski.pl/files/julia_express.pdf)
+- [Introducing Julia](https://en.wikibooks.org/wiki/Introducing_Julia)
+- [The Fast Track to Julia 1.0](https://juliadocs.github.io/Julia-Cheat-Sheet/)

@@ -1,0 +1,2 @@
+- [test](https://github.com/gaoxinge/dive-into-coding/blob/master/julia/interface/test.jl)
+- [test1](https://github.com/gaoxinge/dive-into-coding/blob/master/julia/interface/test1.jl)

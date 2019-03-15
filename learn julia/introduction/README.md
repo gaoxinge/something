@@ -1,0 +1,4 @@
+- [Julia语言：让高性能科学计算人人可用](https://www.csdn.net/article/2014-03-12/2818732)
+- [Julia: A Fresh Approach to Numerical Computing](https://arxiv.org/abs/1411.1607)
+- [Julia焦虑？这有份Facebook软件工程师的测试差评](https://baijiahao.baidu.com/s?id=1608678588401123336&wfr=spider&for=pc)
+- [为什么 Julia 这么快?](http://www.h3399.cn/201808/607079.html)

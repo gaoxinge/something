@@ -1,0 +1,4 @@
+- `instance`: sizeof
+- `type`: typemax, typemin, fieldnames, fieldtype, methodswith
+- `instance ------> type`: typeof, isa
+- `type     ------> type`: supertype, subtypes
