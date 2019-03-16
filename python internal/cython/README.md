@@ -1,7 +1,5 @@
 # cython
 
-## content
-
 - [Cython: C-Extensions for Python](http://cython.org/)
   - [Welcome to Cython’s Documentation](http://docs.cython.org/en/latest/)
 - [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
