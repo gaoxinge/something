@@ -29,3 +29,4 @@
 - [http proxy and tunnel](https://github.com/gaoxinge/something/tree/master/http%20proxy%20and%20tunnel)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [grpc](https://github.com/gaoxinge/something/tree/master/grpc)
+- [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
