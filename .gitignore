@@ -1,2 +1,6 @@
 *.pyc
 *.class
+.idea
+.gradle
+out
+*.iml
