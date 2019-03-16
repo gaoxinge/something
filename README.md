@@ -25,6 +25,7 @@
 - [http proxy and tunnel](https://github.com/gaoxinge/something/tree/master/http%20proxy%20and%20tunnel)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [grpc](https://github.com/gaoxinge/something/tree/master/grpc)
+- [requests](https://github.com/gaoxinge/something/tree/master/requests)
 - [pillow](https://github.com/gaoxinge/something/tree/master/pillow)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
