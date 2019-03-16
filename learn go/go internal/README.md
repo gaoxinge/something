@@ -1,14 +1,14 @@
-## go internal
+# go internal
 
-### interview
+## interview
 
 - [golang 面试题](https://zhuanlan.zhihu.com/p/26972862)
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
 
-### reflect
+## reflect
 
-#### method
+### method
 
 ```go
 package main
@@ -91,7 +91,7 @@ func main() {
 - only `*Student` has `Change2` method
 - only `*Student` is `Change2Object`
 
-#### interface
+### interface
 
 - formula
 
@@ -115,26 +115,26 @@ interface.(type)     = nil
 _ = interface.(type) = nil
 ```
 
-#### refelct
+### refelct
 
 - [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
 - [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
 
-### goroutine
+## goroutine
 
 - [x] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
 - [x] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
 - [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 - [x] [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
 
-#### term
+### term
 
 - green thread: corresponding to compiler, not os
 - light weight threads: corresponding to user space, not core space
 
-#### conclusion
+### conclusion
 
 - don't consider how go compiler transfer go program to exe
 - don't consider how go comiler implement bootstrap
@@ -181,7 +181,7 @@ _ = interface.(type) = nil
     - yield sleep
     - yield io
 
-### memory management
+## memory management
 
 - [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
 - [x] [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
@@ -189,14 +189,14 @@ _ = interface.(type) = nil
 - [x] [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
 - [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
 
-#### term
+### term
 
 - stack
 - heap
 - escape analysis
 - garbage collector
 
-#### conclusion
+### conclusion
 
 - `new` often allocates objects on heap, but not always
 - if function return a local variable, compiler will allocate the local variable on the stask and caller will get a copy of the return value
@@ -206,7 +206,7 @@ _ = interface.(type) = nil
   - pass by reference
   - allocate on the stack or on the heap
   
-### other
+## other
 
 - empty value: `var x type`，`new`
 - nonempty value: `make`
