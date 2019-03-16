@@ -8,6 +8,7 @@
 - [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/git#how-to-push-amend-commit-to-remote)
 - [cancel](https://github.com/gaoxinge/something/tree/master/git#cancel)
 - [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
+- [how to exit git diff or git log](https://github.com/gaoxinge/something/tree/master/git#how-to-exit-git-diff-or-git-log)
 - [配置](https://github.com/gaoxinge/something/tree/master/git#%E9%85%8D%E7%BD%AE)
 
 ## checkout branch when uncommitted
