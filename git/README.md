@@ -157,6 +157,10 @@ The solution to solve this problem looks dirty:
 
 - [How to revert Git repository to a previous commit](https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit)
 
+## how to exit `git diff` or `git log`
+
+Please pressing `q` to quit instead of `ctrl-c`. 
+
 ## git diff
 
 - `git diff`: compare two latest commits of local branches
