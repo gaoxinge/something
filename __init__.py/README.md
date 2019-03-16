@@ -1,4 +1,4 @@
-# something about \_\_init\_\_.py
+# \_\_init\_\_.py
 
 ## import: thread safe and cache mechanism
 
