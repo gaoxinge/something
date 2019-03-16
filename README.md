@@ -1,6 +1,5 @@
 # something
 
-- [problems encountered when using git](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git)
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn java 8](https://github.com/gaoxinge/something/tree/master/learn%20java%208)
 - [learn java third-party library](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library)
@@ -29,4 +28,5 @@
 - [http proxy and tunnel](https://github.com/gaoxinge/something/tree/master/http%20proxy%20and%20tunnel)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [grpc](https://github.com/gaoxinge/something/tree/master/grpc)
+- [git](https://github.com/gaoxinge/something/tree/master/git)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
