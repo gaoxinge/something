@@ -28,4 +28,6 @@
 - [requests](https://github.com/gaoxinge/something/tree/master/requests)
 - [pillow](https://github.com/gaoxinge/something/tree/master/pillow)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
+- [pycharm](https://github.com/gaoxinge/something/tree/master/pycharm)
+- [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
