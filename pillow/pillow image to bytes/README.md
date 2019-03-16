@@ -1,0 +1,6 @@
+- [StringIO和BytesIO](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001431918785710e86a1a120ce04925bae155012c7fc71e000)
+- [How the write(), read() and getvalue() methods of Python io.BytesIO work?](https://stackoverflow.com/questions/53485708/how-the-write-read-and-getvalue-methods-of-python-io-bytesio-work)
+- [Python3 Image图片webp格式转换，URL Image Byte字节流操作](https://blog.csdn.net/wgPython/article/details/80740067)
+- [Convert PIL Image to byte array?](https://stackoverflow.com/questions/33101935/convert-pil-image-to-byte-array)
+- [How to output a binary byte stream of a picture](https://github.com/python-pillow/Pillow/issues/3192)
+- [The doc of Image.tobytes(encoder_name='raw', *args)](https://github.com/python-pillow/Pillow/issues/3264)
