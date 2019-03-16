@@ -1,13 +1,13 @@
 # git
 
-- [checkout branch when uncommitted](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#checkout-branch-when-uncommitted)
-- [origin](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#origin)
-- [master, origin/master, remote/origin/master](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#master-originmaster-remoteoriginmaster)
-- [git command related with remote](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#git-command-related-with-remote)
-- [git pull vs git fetch](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#git-pull-vs-git-fetch)
-- [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#how-to-push-amend-commit-to-remote)
-- [cancel](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#cancel)
-- [git diff](https://github.com/gaoxinge/something/tree/master/problems%20encountered%20when%20using%20git#git-diff)
+- [checkout branch when uncommitted](https://github.com/gaoxinge/something/tree/master/git#checkout-branch-when-uncommitted)
+- [origin](https://github.com/gaoxinge/something/tree/master/git#origin)
+- [master, origin/master, remote/origin/master](https://github.com/gaoxinge/something/tree/master/git#master-originmaster-remoteoriginmaster)
+- [git command related with remote](https://github.com/gaoxinge/something/tree/master/git#git-command-related-with-remote)
+- [git pull vs git fetch](https://github.com/gaoxinge/something/tree/master/git#git-pull-vs-git-fetch)
+- [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/git#how-to-push-amend-commit-to-remote)
+- [cancel](https://github.com/gaoxinge/something/tree/master/git#cancel)
+- [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
 
 ## checkout branch when uncommitted
 
