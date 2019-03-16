@@ -10,6 +10,7 @@
 - [architecture](https://github.com/gaoxinge/something/tree/master/architecture)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn julia (deprecated)](https://github.com/gaoxinge/something/tree/master/learn%20julia)
+- [python internal (deprecated)](https://github.com/gaoxinge/something/tree/master/python%20internal)
 - [something about \_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/something%20about%20__init__.py)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
 - [duff's device](https://github.com/gaoxinge/something/tree/master/duff's%20device)
