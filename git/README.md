@@ -8,6 +8,7 @@
 - [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/git#how-to-push-amend-commit-to-remote)
 - [cancel](https://github.com/gaoxinge/something/tree/master/git#cancel)
 - [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
+- [配置]()
 
 ## checkout branch when uncommitted
 
@@ -163,3 +164,39 @@ The solution to solve this problem looks dirty:
 - `git diff [branch1] [branch2] --stat`: compare stat of two branches
 - `git diff [branch1] [branch2] --name-status`: compare name status of two branches
 - `git diff [branch1] [branch2] [file]`: compare same file of two branches
+
+## 配置
+
+### ide
+
+在ide的file -> settings -> tools -> terminal中的Shell Path里设置`D:\Git\bin\base.exe`
+
+### 中文
+
+在`~/.vimrc`中添加
+
+```
+set encoding=utf-8
+set termencoding=gbk
+```
+
+在`~/.bashrc`中添加
+
+```
+export LANG=en_US.utf-8
+alias ls='ls --show-control-chars --color=auto'
+```
+
+### 代理
+
+在`~./bashrc`中添加
+
+```
+export http_proxy=http://127.0.0.1:80
+export https_proxy=http://127.0.0.1:80
+export no_proxy=github.com
+```
+
+### reference
+
+- [打造完美 Windows git 命令行 环境](https://www.v2ex.com/t/154202)
