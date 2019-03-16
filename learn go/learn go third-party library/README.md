@@ -27,6 +27,12 @@
 - [gorm](https://github.com/jinzhu/gorm)
 - [beedb](https://github.com/astaxie/beedb)
 
+## docker
+
+- [go-dockerclient](https://github.com/fsouza/go-dockerclient)
+- [moby](https://github.com/moby/moby/tree/master/client)
+- [go-docker](https://github.com/docker/go-docker)
+
 ## swagger
 
 - [go-swagger](https://github.com/go-swagger/go-swagger)
