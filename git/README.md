@@ -8,7 +8,7 @@
 - [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/git#how-to-push-amend-commit-to-remote)
 - [cancel](https://github.com/gaoxinge/something/tree/master/git#cancel)
 - [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
-- [配置]()
+- [配置](https://github.com/gaoxinge/something/tree/master/git#%E9%85%8D%E7%BD%AE)
 
 ## checkout branch when uncommitted
 
@@ -169,7 +169,7 @@ The solution to solve this problem looks dirty:
 
 ### ide
 
-在ide的file -> settings -> tools -> terminal中的Shell Path里设置`D:\Git\bin\base.exe`
+在ide的file -> settings -> tools -> terminal的Shell Path里设置`D:\Git\bin\base.exe`
 
 ### 中文
 
