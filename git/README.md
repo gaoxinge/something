@@ -7,8 +7,9 @@
 - [git pull vs git fetch](https://github.com/gaoxinge/something/tree/master/git#git-pull-vs-git-fetch)
 - [how to push amend commit to remote](https://github.com/gaoxinge/something/tree/master/git#how-to-push-amend-commit-to-remote)
 - [cancel](https://github.com/gaoxinge/something/tree/master/git#cancel)
-- [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
 - [how to exit git diff or git log](https://github.com/gaoxinge/something/tree/master/git#how-to-exit-git-diff-or-git-log)
+- []()
+- [git diff](https://github.com/gaoxinge/something/tree/master/git#git-diff)
 - [配置](https://github.com/gaoxinge/something/tree/master/git#%E9%85%8D%E7%BD%AE)
 
 ## checkout branch when uncommitted
@@ -161,6 +162,14 @@ The solution to solve this problem looks dirty:
 ## how to exit `git diff` or `git log`
 
 Please pressing `q` to quit instead of `ctrl-c`. 
+
+## difference between `git checkout --` and `git checkout`
+
+Please using `git checkout --` to recover file, and `git checkout` to change branch.
+
+### reference
+
+- [git checkout — . vs git checkout](https://stackoverflow.com/questions/41101998/git-checkout-vs-git-checkout)
 
 ## git diff
 
