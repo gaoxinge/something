@@ -1,4 +1,4 @@
-# Trie
+# trie
 
 ## reference
 
