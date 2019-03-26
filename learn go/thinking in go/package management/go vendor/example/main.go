@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/40559250/golang-dynamic-creating-member-of-struct
+// https://github.com/Ompluscator/dynamic-struct
 package main
 
 import (
