@@ -12,6 +12,7 @@
 
 ## go dep
 
+- [golang/dep](https://github.com/golang/dep)
 - [Daily Dep](https://golang.github.io/dep/docs/daily-dep.html)
 - [Go最新的dep详解](https://studygolang.com/articles/9435)
 
