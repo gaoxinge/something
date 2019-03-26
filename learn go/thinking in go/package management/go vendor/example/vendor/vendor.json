@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "g8omXd9ex4NdolKIbJdnWU4ZVXo=",
+			"path": "github.com/Ompluscator/dynamic-struct",
+			"revision": "f8912100ca821b3423edb2fe6b3dde936b8b05bd",
+			"revisionTime": "2019-02-09T22:04:28Z"
+		}
+	],
+	"rootPath": "example"
+}

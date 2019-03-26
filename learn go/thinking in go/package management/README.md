@@ -15,7 +15,7 @@
 - [Daily Dep](https://golang.github.io/dep/docs/daily-dep.html)
 - [Go最新的dep详解](https://studygolang.com/articles/9435)
 
-## go module
+## go mod
 
 - [用 golang 1.11 module 做项目版本管理](https://www.jianshu.com/p/c5733da150c6)
 - [初窥Go module](https://tonybai.com/2018/07/15/hello-go-module/)
