@@ -1,10 +1,22 @@
+# package management
+
 - [go依赖包管理工具对比](https://studygolang.com/articles/10523)
 - [Golang包管理工具（一）之govendor的使用](https://blog.csdn.net/huwh_/article/details/77169858)
 - [Golang包管理工具（二）之glide的使用](https://blog.csdn.net/huwh_/article/details/79058711)
 - [Golang包管理工具（三）之dep的使用](https://blog.csdn.net/huwh_/article/details/81170900)
 - [历史包袱上进行golang包管理](https://www.jianshu.com/p/ac2c41bff147)
+
+## go vendor
+
+- [kardianos/govendor](https://github.com/kardianos/govendor)
+
+## go dep
+
 - [Daily Dep](https://golang.github.io/dep/docs/daily-dep.html)
 - [Go最新的dep详解](https://studygolang.com/articles/9435)
+
+## go module
+
 - [用 golang 1.11 module 做项目版本管理](https://www.jianshu.com/p/c5733da150c6)
 - [初窥Go module](https://tonybai.com/2018/07/15/hello-go-module/)
 - [Go1.11 module 体验(Go 11.1 beta 版)](https://segmentfault.com/a/1190000015970963)
