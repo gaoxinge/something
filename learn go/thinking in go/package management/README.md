@@ -18,6 +18,8 @@
 
 ## go mod
 
+- [golang/go/wiki/Modules](https://github.com/golang/go/wiki/Modules)
+- [Using Go Modules](https://blog.golang.org/using-go-modules)
 - [用 golang 1.11 module 做项目版本管理](https://www.jianshu.com/p/c5733da150c6)
 - [初窥Go module](https://tonybai.com/2018/07/15/hello-go-module/)
 - [Go1.11 module 体验(Go 11.1 beta 版)](https://segmentfault.com/a/1190000015970963)
