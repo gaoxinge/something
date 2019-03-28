@@ -12,7 +12,7 @@
 - [x] [Clean Architecture](https://book.douban.com/subject/26915970/)
 - [x] [大型分布式网站架构](http://www.cnblogs.com/itfly8/category/756114.html)
 - [x] [大型网站技术架构](https://book.douban.com/subject/25723064/)
-- [ ]  [Microservices in Practice](https://medium.com/microservices-in-practice)
+- [x]  [Microservices in Practice](https://medium.com/microservices-in-practice)
 
 ## UML
 
