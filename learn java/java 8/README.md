@@ -1,7 +1,7 @@
 # java 8
 
 - [Functional Interface](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#functional-interface)
-- [Lambda Expression](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#functional-interface)
+- [Lambda Expression](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#lambda-expression)
 - [Method Reference](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#method-reference)
 - [Built-in Functional Interface](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#built-in-functional-interface)
 - [Stream](https://github.com/gaoxinge/something/tree/master/learn%20java/java%208#stream)
