@@ -3,10 +3,11 @@
 ## protobuf
 
 - [Language Guide (proto3)](https://developers.google.com/protocol-buffers/docs/proto3)
-- [Python Generated Code](https://developers.google.com/protocol-buffers/docs/reference/python-generated)
-- [protobuf](https://github.com/protocolbuffers/protobuf)
-- [protobuf/python](https://github.com/protocolbuffers/protobuf/tree/master/python)
-- [protobuf/python/google/protobuf/internal/well_known_types_test.py](https://github.com/protocolbuffers/protobuf/blob/master/python/google/protobuf/internal/well_known_types_test.py)
+- [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
+- python
+  - [Protocol Buffer Basics: Python](https://developers.google.com/protocol-buffers/docs/pythontutorial)
+  - [Python Generated Code](https://developers.google.com/protocol-buffers/docs/reference/python-generated)
+  - [protocolbuffers/protobuf/python](https://github.com/protocolbuffers/protobuf/tree/master/python)
 
 ## grpc
 
