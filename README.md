@@ -24,7 +24,6 @@
 - [servlet vs wsgi](https://github.com/gaoxinge/something/tree/master/servlet%20vs%20wsgi)
 - [bloomfilter](https://github.com/gaoxinge/something/tree/master/bloomfilter)
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
-- [http proxy and tunnel](https://github.com/gaoxinge/something/tree/master/http%20proxy%20and%20tunnel)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
 - [pycharm](https://github.com/gaoxinge/something/tree/master/pycharm)
