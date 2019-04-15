@@ -29,4 +29,3 @@
 - [pycharm](https://github.com/gaoxinge/something/tree/master/pycharm)
 - [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
-- [expression](https://github.com/gaoxinge/something/tree/master/expression)
