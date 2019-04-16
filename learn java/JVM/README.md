@@ -118,8 +118,8 @@ SourceFile: "Main.java"
 -------------------      -------------------
 ```
 
-![1](https://github.com/gaoxinge/something/blob/master/JVM/1.png)
-![2](https://github.com/gaoxinge/something/blob/master/JVM/2.png)
+![1](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/1.png)
+![2](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/2.png)
 
 ## permanent generation 
 
@@ -193,7 +193,7 @@ current class constant pool referenct (thread) ---> class info (method area)
 
 - [垃圾回收](https://github.com/crossoverJie/Java-Interview/blob/master/MD/GarbageCollection.md)
 
-![3](https://github.com/gaoxinge/something/blob/master/JVM/3.png)
+![3](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/3.png)
 
 ## dynamic linking
 
