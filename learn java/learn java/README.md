@@ -579,7 +579,7 @@ input2 ===> |         | ===> output2
 
 ### method
 
-![adapter pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/adapter%20pattern.jpg)
+![adapter pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/adapter%20pattern/adapter%20pattern.jpg)
 
 ### reference
 
