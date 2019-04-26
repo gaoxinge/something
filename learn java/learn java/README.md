@@ -12,8 +12,6 @@
 - [nio](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#nio)
 - [multithread](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#multithread)
 - [collection](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#collection)
-- [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#array-and-list)
-- [set](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#set)
 - [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#iterable-iterator)
 - [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#comparable-comparator)
 - [garbage collection](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#garbage-collection)
@@ -374,11 +372,11 @@ public class Test {
 
 ### simple collection
 
-![simple collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/simple%20collection.png)
+![simple collection](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/collection/simple%20collection.png)
 
 ### complex collection
 
-![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/image/complex%20collection.png)
+![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/collection/complex%20collection.png)
 
 ### queue
 
@@ -460,7 +458,7 @@ public class Test {
   - basic
     - [java提高篇（二三）-----HashMap](https://www.cnblogs.com/chenssy/p/3521565.html)
     - [Java8系列之重新认识HashMap](http://www.importnew.com/20386.html)
-    - [HashMap](https://github.com/gaoxinge/something/blob/master/learn%20java/other/HashMap.md)
+    - [HashMap](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/collection/HashMap.md)
   - complexity
     - [面试中关于HashMap的时间复杂度O(1)的思考](https://blog.csdn.net/donggua3694857/article/details/64127131)
     - [java中hashmap容器实现查找O(1)时间复杂度的思考](https://blog.csdn.net/u014633283/article/details/48549155)
@@ -468,7 +466,7 @@ public class Test {
     - [Java HashMap的死循环](https://blog.csdn.net/xiaohui127/article/details/11928865)
 - ConcurrentHahsMap
 
-## array and list
+### array and list
 
 ```java
 import java.util.*;
@@ -499,7 +497,7 @@ public class Test {
 }
 ```
 
-## set
+### set
 
 ```java
 import java.util.*;
