@@ -628,7 +628,7 @@ realsubject <---> proxy <--- client
 
 ### method
 
-![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/proxy%20pattern.png)
+![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/proxy%20pattern/proxy%20pattern.png)
 
 
 ## factory pattern
