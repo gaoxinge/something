@@ -1,34 +1,29 @@
 # learn java
 
-- [进击的Java新人](https://zhuanlan.zhihu.com/hinus)
-- [content](https://zhuanlan.zhihu.com/p/24393775)
-
-# content
-
-- [static](https://github.com/gaoxinge/something/tree/master/learn%20java#static)
-- [final](https://github.com/gaoxinge/something/tree/master/learn%20java#final)
-- [data type](https://github.com/gaoxinge/something/tree/master/learn%20java#data-type)
-- [primitive type and wrapper type](https://github.com/gaoxinge/something/tree/master/learn%20java#primitive-type-and-wrapper-type)
-- [toString](https://github.com/gaoxinge/something/tree/master/learn%20java#tostring)
-- [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java#wrapper-type-and-string)
-- [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java#pass-parameter-by-value-or-by-reference)
-- [io](https://github.com/gaoxinge/something/tree/master/learn%20java#io)
-- [net](https://github.com/gaoxinge/something/tree/master/learn%20java#net)
-- [nio](https://github.com/gaoxinge/something/tree/master/learn%20java#nio)
-- [multithread](https://github.com/gaoxinge/something/tree/master/learn%20java#multithread)
-- [collection](https://github.com/gaoxinge/something/tree/master/learn%20java#collection)
-- [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java#array-and-list)
-- [set](https://github.com/gaoxinge/something/tree/master/learn%20java#set)
-- [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java#iterable-iterator)
-- [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java#comparable-comparator)
-- [garbage collection](https://github.com/gaoxinge/something/tree/master/learn%20java#garbage-collection)
-- [reference](https://github.com/gaoxinge/something/tree/master/learn%20java#reference)
-- [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#adapter-pattern)
-- [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#decorator-pattern)
-- [proxy pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#proxy-pattern)
-- [factory pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#factory-pattern)
-- [singleton pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#singleton-pattern)
-- [visitor pattern](https://github.com/gaoxinge/something/tree/master/learn%20java#visitor-pattern)
+- [static](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#static)
+- [final](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#final)
+- [data type](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#data-type)
+- [primitive type and wrapper type](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#primitive-type-and-wrapper-type)
+- [toString](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#tostring)
+- [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#wrapper-type-and-string)
+- [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#pass-parameter-by-value-or-by-reference)
+- [io](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#io)
+- [net](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#net)
+- [nio](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#nio)
+- [multithread](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#multithread)
+- [collection](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#collection)
+- [array and list](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#array-and-list)
+- [set](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#set)
+- [iterable, iterator](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#iterable-iterator)
+- [comparable, comparator](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#comparable-comparator)
+- [garbage collection](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#garbage-collection)
+- [reference](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#reference)
+- [adapter pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#adapter-pattern)
+- [decorator pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#decorator-pattern)
+- [proxy pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#proxy-pattern)
+- [factory pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#factory-pattern)
+- [singleton pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#singleton-pattern)
+- [visitor pattern](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#visitor-pattern)
 
 ## static
 
@@ -854,3 +849,8 @@ public class Main {
     }
 }
 ```
+
+## reference
+
+- [进击的Java新人](https://zhuanlan.zhihu.com/hinus)
+- [content](https://zhuanlan.zhihu.com/p/24393775)
