@@ -1,7 +1,6 @@
 # something
 
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
-- [generic in java](https://github.com/gaoxinge/something/tree/master/generic%20in%20java)
 - [learn java third-party library](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library)
 - [spring in detail](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail)
 - [architecture](https://github.com/gaoxinge/something/tree/master/architecture)
