@@ -378,6 +378,10 @@ public class Test {
 
 ![complex collection](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/collection/complex%20collection.png)
 
+### concurrent
+
+- [Java中各种集合（字符串类）的线程安全性！！！](https://www.cnblogs.com/yjd_hycf_space/p/7760248.html)
+
 ### queue
 
 - Queue
@@ -464,9 +468,15 @@ public class Test {
     - [java中hashmap容器实现查找O(1)时间复杂度的思考](https://blog.csdn.net/u014633283/article/details/48549155)
   - concurrent
     - [Java HashMap的死循环](https://blog.csdn.net/xiaohui127/article/details/11928865)
+    - [ConcurrentHashMap，hashtable以及两者比较](https://blog.csdn.net/cheidou123/article/details/58070525)
+    - [面试必备：HashMap、Hashtable、ConcurrentHashMap的原理与区别](https://www.cnblogs.com/heyonggang/p/9112731.html)
 - ConcurrentHahsMap
 
 ### array and list
+
+- ArrayList
+  - concurrent
+    - [为什么说ArrayList是线程不安全的？](https://blog.csdn.net/u012859681/article/details/78206494)
 
 ```java
 import java.util.*;
