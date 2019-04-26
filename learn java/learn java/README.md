@@ -285,8 +285,8 @@ public class Test {
 
 ### basic
 
-- [Thread](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main1.java)
-- [Runnable](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main2.java)
+- [Thread](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main1.java)
+- [Runnable](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main2.java)
 
 ### threadpool
 
@@ -301,27 +301,27 @@ public class Test {
   - submit
   - invokeAll
   - invokeAny
-- [execute](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main3.java)
-- [submit/invokeAny](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main4.java)
-- [submit/invokeAll](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main5.java)
+- [execute](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main3.java)
+- [submit/invokeAny](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main4.java)
+- [submit/invokeAll](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main5.java)
 
 ### synchronization
 
 - without synchronization
-  - [without synchronization](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main6.java)
+  - [without synchronization](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main6.java)
 - synchronized
-  - [method](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main7.java)
-  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main8.java)
-  - [block/different object](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main9.java)
-  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main10.java)
-  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main11.java)
-  - [block/different object](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main12.java)
+  - [method](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main7.java)
+  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main8.java)
+  - [block/different object](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main9.java)
+  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main10.java)
+  - [block/same object](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main11.java)
+  - [block/different object](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main12.java)
 - atomic
-  - [atomic](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main13.java)
+  - [atomic](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main13.java)
 - locks
-  - [locks](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main14.java)
+  - [locks](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main14.java)
 - threadlocal
-  - [threadlocal](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main15.java)
+  - [threadlocal](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main15.java)
 
 ### api
 
@@ -345,20 +345,20 @@ public class Test {
 
 ### map
 
-- [HashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main16.java)
-- [HashMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main17.java)
-- [ConcurrentHashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main18.java)
-- [ConcurrentHahsMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/code/Main19.java)
+- [HashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main16.java)
+- [HashMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main17.java)
+- [ConcurrentHashMap/get](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main18.java)
+- [ConcurrentHahsMap/put](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/Main19.java)
 
 ### singleton
 
-- [eager singleton/thread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton1.java)
-- [lazy singleton/unthread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton2.java)
-- [lazy singleton/thread safe/synchronized](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton3.java)
-- [lazy singleton/unthread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton4.java)
-- [lasy singleton/thread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton5.java)
-- [lazy singleton/thread safe/class load](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Singleton6.java)
-- [lazy singleton/thread safe/enum](https://github.com/gaoxinge/something/blob/master/learn%20java/code_/Main.java)
+- [eager singleton/thread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton1.java)
+- [lazy singleton/unthread safe](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton2.java)
+- [lazy singleton/thread safe/synchronized](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton3.java)
+- [lazy singleton/unthread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton4.java)
+- [lasy singleton/thread safe/double check](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton5.java)
+- [lazy singleton/thread safe/class load](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Singleton6.java)
+- [lazy singleton/thread safe/enum](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/multithread/singleton/Main.java)
 
 ### reference
 
