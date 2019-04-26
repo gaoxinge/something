@@ -249,23 +249,12 @@ public class Test {
 
 ## net
 
-- [basic](https://github.com/gaoxinge/something/tree/master/learn%20java/code__/basic)
-- [tcp](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/TcpServer.java)
-- [http](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/HttpServer.java)
-- [multithread](https://github.com/gaoxinge/something/blob/master/learn%20java/code__/MTServer.java)
+- [basic](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/net/basic)
+- [tcp](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/net/TcpServer.java)
+- [http](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/net/HttpServer.java)
+- [multithread](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/net/MTServer.java)
 
 ## nio
-
-### 1
-
-- [buffer and channel](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/1/buffer%20and%20channel)
-- [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/1/selector)
-
-### 2
-
-- [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector)
-- [selector-state](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector-state)
-- [selector-callback](https://github.com/gaoxinge/something/tree/master/learn%20java/code___/2/selector-callback)
 
 ### big picture
 
@@ -274,6 +263,17 @@ public class Test {
 - netty, mina: twisted
 - Vert.x
 - picothread, kilim, quasar: greenlet
+
+### 1
+
+- [buffer and channel](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/nio/1/buffer%20and%20channel)
+- [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/nio/1/selector)
+
+### 2
+
+- [selector](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/nio/2/selector)
+- [selector-state](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/nio/2/selector-state)
+- [selector-callback](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java/nio/2/selector-callback)
 
 ### reference
 
