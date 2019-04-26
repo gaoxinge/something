@@ -606,7 +606,7 @@ input2 ===> |         | ===> output2
 
 ### method
 
-![decorator pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/image/decorator%20pattern.jpg)
+![decorator pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/decorator%20pattern/decorator%20pattern.jpg)
 
 ### reference
 
