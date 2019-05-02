@@ -15,7 +15,6 @@
 - [duff's device](https://github.com/gaoxinge/something/tree/master/duff's%20device)
 - [k sum](https://github.com/gaoxinge/something/tree/master/k%20sum)
 - [trie](https://github.com/gaoxinge/something/tree/master/trie)
-- [calculate determinant of matrix](https://github.com/gaoxinge/something/tree/master/calculate%20determinant%20of%20matrix)
 - [servlet vs wsgi](https://github.com/gaoxinge/something/tree/master/servlet%20vs%20wsgi)
 - [bloomfilter](https://github.com/gaoxinge/something/tree/master/bloomfilter)
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
@@ -24,3 +23,4 @@
 - [pycharm](https://github.com/gaoxinge/something/tree/master/pycharm)
 - [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
+- [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
