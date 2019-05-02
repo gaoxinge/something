@@ -29,7 +29,7 @@ UML, Unified Modeling Language, is used for modeling, which is not only for OOP 
 
 ## design pattern
 
-![1](https://github.com/gaoxinge/something/blob/master/architecture/1.png)
+![1](https://github.com/gaoxinge/something/blob/master/learn%20java/architecture/1.png)
 
 ## solid
 
