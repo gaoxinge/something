@@ -3,7 +3,6 @@
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn java third-party library](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library)
 - [spring in detail](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail)
-- [architecture](https://github.com/gaoxinge/something/tree/master/architecture)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn julia (deprecated)](https://github.com/gaoxinge/something/tree/master/learn%20julia)
 - [python internal (deprecated)](https://github.com/gaoxinge/something/tree/master/python%20internal)
