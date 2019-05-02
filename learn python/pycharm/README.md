@@ -1,3 +1,5 @@
+# pycharm
+
 ## 专业版激活
 
 - [pycharm激活2018(终极解决办法)](https://blog.csdn.net/liu1152239/article/details/80374593)
