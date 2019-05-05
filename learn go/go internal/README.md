@@ -5,6 +5,7 @@
 - [golang 面试题](https://zhuanlan.zhihu.com/p/26972862)
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
+- [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ## reflect
 
