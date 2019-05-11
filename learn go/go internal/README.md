@@ -94,6 +94,9 @@ func main() {
 
 ### interface
 
+- [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
+- [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
+
 - formula
 
 ```
@@ -102,21 +105,21 @@ interface variable = interface type + interface value
 interface value    = variable type  + variable value 
 ```
 
-- nonempty interface: var ---> interface ---> interface ---> interface ---> ...
+- non nil interface: var ---> interface ---> interface ---> interface ---> ...
 
 ```
 interface.(type)     = var type
 _ = interface.(type) = var
 ```
 
-- empty interface: nil ---> interface ---> interface ---> interface ---> ...
+- nil interface: nil ---> interface ---> interface ---> interface ---> ...
 
 ```
 interface.(type)     = nil
 _ = interface.(type) = nil
 ```
 
-### refelct
+### reflect
 
 - [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
 - [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
