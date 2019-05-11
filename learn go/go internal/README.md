@@ -94,9 +94,6 @@ func main() {
 
 ### interface
 
-- [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
-- [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
-
 - formula
 
 ```
@@ -118,6 +115,9 @@ _ = interface.(type) = var
 interface.(type)     = nil
 _ = interface.(type) = nil
 ```
+
+- [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
+- [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
 
 ### reflect
 
