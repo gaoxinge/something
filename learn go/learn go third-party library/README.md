@@ -1,5 +1,10 @@
 # learn go third-party library
 
+## json
+
+- [easyjson](https://github.com/mailru/easyjson)
+- [jsoniter](https://github.com/json-iterator/go)
+
 ## web framework
 
 - [hugo](https://github.com/gohugoio/hugo)
