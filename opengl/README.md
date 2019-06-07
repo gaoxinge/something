@@ -25,3 +25,4 @@
 ## OpenGL Programming Guide
 
 - [Chapter 1](https://github.com/gaoxinge/something/tree/master/opengl/OpenGL%20Programming%20Guide/Chapter%201)
+- [Chapter 2](https://github.com/gaoxinge/something/tree/master/opengl/OpenGL%20Programming%20Guide/Chapter%202)
