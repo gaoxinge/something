@@ -6,3 +6,4 @@
 - [thinking in go](https://github.com/gaoxinge/something/tree/master/learn%20go/thinking%20in%20go)
 - [learn go third-party library](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20go%20third-party%20library)
 - [go internal](https://github.com/gaoxinge/something/tree/master/learn%20go/go%20internal)
+- [learn from src](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src)
