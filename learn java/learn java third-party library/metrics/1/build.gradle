@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    maven {url 'http://maven.aliyun.com/nexus/cotent/groups/public/'}
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-log4j12:1.7.25'
+    compile 'io.dropwizard.metrics:metrics-core:4.0.0'
+}
+
+jar {
+    from {configurations.compile.collect {it.isDirectory() ? it : zipTree(it)}}
+    manifest {
+        attributes 'Main-Class': 'gxg.CounterConsoleTest'
+    }
+}
