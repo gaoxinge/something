@@ -24,8 +24,8 @@
 
 ## content
 
-- [1](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics/1)
-- [2](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/metrics/2)
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/metrics/1)
+- [2](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/metrics/2)
 
 ## reference
 
