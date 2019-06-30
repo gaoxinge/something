@@ -2,7 +2,7 @@
 
 ## what is it
 
-`smasher164/mem` provides `mem.Alloc` and `mem.Free` to simulate `malloc` and `free` in C. And its source codes' structure is 
+[smasher164/mem](https://github.com/smasher164/mem) provides `mem.Alloc` and `mem.Free` to simulate `malloc` and `free` in C. And its source codes' structure is 
 
 - map_unix.go
 - map_windows.go
