@@ -18,8 +18,8 @@ The first three is included in the package `mem`, and the last one is included i
 `map_unix.go` and `map_windows.go` wrap the interface of `mmap` and `munmap` respectively. So the build depends on the os platform, and we can use `conditional build` to handle this.
 
 - examples
-  - [os]()
-  - [debug]()
+  - [os](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/1/1)
+  - [debug](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/1/2)
 - reference
   - [Can i have custom build flags like os/arch comment directives](https://stackoverflow.com/questions/47253852/can-i-have-custom-build-flags-like-os-arch-comment-directives)
   - [C-style conditional compilation in golang](https://stackoverflow.com/questions/38950909/c-style-conditional-compilation-in-golang)
