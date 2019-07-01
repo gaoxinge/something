@@ -1,3 +1,5 @@
+## content
+
 ## big picture
 
 ### spring
@@ -140,9 +142,9 @@ class FruitFactory {
 
 ### spring ioc/di
 
-- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/1)
-- [2](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/2)
-- [3](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20ioc%20di/3)
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring_/spring%20ioc%20di/1)
+- [2](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring_/spring%20ioc%20di/2)
+- [3](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring_/spring%20ioc%20di/3)
 
 ### reference
 
@@ -235,11 +237,11 @@ class ProxyHandler implements InvocationHandler {
 
 ### spring aop
 
-- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20aop/1)
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring_/spring%20aop/1)
 
 ### spring aspectj
 
-- [1](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail/spring%20aspectj/1)
+- [1](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring_/spring%20aspectj/1)
 
 ### reference
 

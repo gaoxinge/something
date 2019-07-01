@@ -2,7 +2,6 @@
 
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn java third-party library](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library)
-- [spring in detail](https://github.com/gaoxinge/something/tree/master/spring%20in%20detail)
 - [servlet vs wsgi](https://github.com/gaoxinge/something/tree/master/servlet%20vs%20wsgi)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn python](https://github.com/gaoxinge/something/tree/master/learn%20python)
