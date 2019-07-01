@@ -39,3 +39,44 @@
 - jboss
 - websphere
 - tomee
+
+## rpc
+
+- [rmi](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/rmi)
+- [corba](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/corba)
+
+## database
+
+- [summary](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/summary)
+
+### jdbc
+
+- [mysql jdbc driver](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/mysql%20jdbc%20driver)
+- [postgres jdbc driver](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/postgres%20jdbc%20driver)
+
+### datasource
+
+- [mysql jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/mysql%20jdbc%20datasource)
+- [postgres jdbc datasource](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/postgres%20jdbc%20datasource)
+- [druid](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/druid)
+
+### jpa, jdo
+
+- [jpa](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/jpa)
+
+### orm
+  
+- [hibernate](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/hibernate)
+- [mybatis](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/mybatis)
+
+### spring
+
+- [spring](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/spring)
+
+### nutz
+
+- [nutz](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/nutz)
+
+### redis
+
+- [redis](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java%20third-party%20library/redis)
