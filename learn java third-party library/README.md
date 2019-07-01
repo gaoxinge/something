@@ -1,14 +1,3 @@
-## servlet
-
-- [struts](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/struts)
-
-## ejb container
-
-- [glassfish](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/glassfish)
-- jboss
-- websphere
-- tomee
-
 ## rpc
 
 - [rmi](https://github.com/gaoxinge/something/tree/master/learn%20java%20third-party%20library/rmi)
