@@ -23,3 +23,9 @@ out: Hello World!
 
 - Because `clCreateCommandQueue` is deprecated, compiler will raise a warning. And you can solve this by the [answer](https://stackoverflow.com/a/28500846/5772365).
 - Becase `kernel cannot be called 'main'`, running `main.exe` will fail. And you can solve this by renaming the name.
+
+## A Gentle Introduction to OpenCL
+
+- [1](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854)
+- [2](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854?pgno=2)
+- [3]()
