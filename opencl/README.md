@@ -28,4 +28,8 @@ out: Hello World!
 
 - [1](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854)
 - [2](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854?pgno=2)
-- [3]()
+- [3](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854?pgno=3)
+
+### code
+
+- []()
