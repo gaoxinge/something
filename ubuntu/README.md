@@ -20,6 +20,10 @@
 ## python
 
 - [Installing Python 3 on Linux](https://docs.python-guide.org/starting/install3/linux/)
+- [Proper way to install pip on Ubuntu](https://stackoverflow.com/questions/37954008/proper-way-to-install-pip-on-ubuntu)
+- [How to get setuptools and easy_install?](https://stackoverflow.com/questions/8650459/how-to-get-setuptools-and-easy-install)
+- [pip refuses to upgrade](https://stackoverflow.com/questions/41674368/pip-refuses-to-upgrade)
+- [How to install pip with Python 3?](https://stackoverflow.com/questions/6587507/how-to-install-pip-with-python-3)
 
 ## usage
 

@@ -31,10 +31,18 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 RUN apt-get install -y gcc
 
 # python
-RUN apt-get install -y software-properties-common 
-RUN add-apt-repository ppa:deadsnakes/ppa
+# RUN apt-get install -y software-properties-common
+# RUN add-apt-repository ppa:deadsnakes/ppa
+# RUN apt-get update
+# RUN apt-get install -y python3.7
+# RUN apt-get update
+# RUN apt-get install -y python-dev
+# RUN apt-get install -y python-setuptools
+# RUN easy_install -U pip
 RUN apt-get update
-RUN apt-get install -y python3.7  
+RUN apt-get install -y python3-dev
+RUN apt-get install -y python3-setuptools
+RUN easy_install3 -U pip
 
 #######
 # cmd #
