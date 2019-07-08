@@ -15,17 +15,31 @@ int main() {
     // show all platform infos
     for (cl_uint i = 0; i < platformNum; i++) {
         cl_platform_id platformId = platforms[i];
-        char profile[128];
-        char version[128];
-        char name[128];
-        char vendor[128];
-        char extensions[128];
-        clGetPlatformInfo(platformId, CL_PLATFORM_PROFILE, 128 * sizeof(char), profile, NULL);
-        clGetPlatformInfo(platformId, CL_PLATFORM_VERSION, 128 * sizeof(char), version, NULL);
-        clGetPlatformInfo(platformId, CL_PLATFORM_NAME, 128 * sizeof(char), name, NULL);
-        clGetPlatformInfo(platformId, CL_PLATFORM_VENDOR, 128 * sizeof(char), vendor, NULL);
-        clGetPlatformInfo(platformId, CL_PLATFORM_EXTENSIONS, 128 * sizeof(char), extensions, NULL);
-        printf("%s-%s-%s-%s-%s\n", profile, version, name, vendor, extensions);
+        
+        size_t profileSize;
+        size_t versionSize;
+        size_t nameSize;
+        size_t vendorSize;
+        size_t extensionsSize;
+        clGetPlatformInfo(platformId, CL_PLATFORM_PROFILE, 0, NULL, &profileSize);
+        clGetPlatformInfo(platformId, CL_PLATFORM_VERSION, 0, NULL, &versionSize);
+        clGetPlatformInfo(platformId, CL_PLATFORM_NAME, 0, NULL, &nameSize);
+        clGetPlatformInfo(platformId, CL_PLATFORM_VENDOR, 0, NULL, &vendorSize);
+        clGetPlatformInfo(platformId, CL_PLATFORM_EXTENSIONS, 0, NULL, &extensionsSize);
+        
+        
+        char profile[profileSize];
+        char version[versionSize];
+        char name[nameSize];
+        char vendor[vendorSize];
+        char extensions[extensionsSize];
+        clGetPlatformInfo(platformId, CL_PLATFORM_PROFILE, profileSize, profile, NULL);
+        clGetPlatformInfo(platformId, CL_PLATFORM_VERSION, versionSize, version, NULL);
+        clGetPlatformInfo(platformId, CL_PLATFORM_NAME, nameSize, name, NULL);
+        clGetPlatformInfo(platformId, CL_PLATFORM_VENDOR, vendorSize, vendor, NULL);
+        clGetPlatformInfo(platformId, CL_PLATFORM_EXTENSIONS, extensionsSize, extensions, NULL);
+        
+        printf("\n%s\n%s\n%s\n%s\n%s\n", profile, version, name, vendor, extensions);
     }
     
     free(platforms);
