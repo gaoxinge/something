@@ -27,7 +27,6 @@ int main() {
         clGetPlatformInfo(platformId, CL_PLATFORM_VENDOR, 0, NULL, &vendorSize);
         clGetPlatformInfo(platformId, CL_PLATFORM_EXTENSIONS, 0, NULL, &extensionsSize);
         
-        
         char profile[profileSize];
         char version[versionSize];
         char name[nameSize];
