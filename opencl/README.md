@@ -33,3 +33,15 @@ out: Hello World!
 ### code
 
 - [add_numbers](https://github.com/gaoxinge/something/tree/master/opencl/A%20Gentle%20Introduction%20to%20OpenCL/add_numbers)
+
+## anteru blog for opencl
+
+- [anteru blog for opencl](https://anteru.net/blog/tags/opencl/)
+
+## api
+
+- [api](https://www.khronos.org/registry/OpenCL/)
+
+### code
+
+- [platform](https://github.com/gaoxinge/something/tree/master/opencl/api/platform)
