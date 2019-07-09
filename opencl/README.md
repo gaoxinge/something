@@ -38,6 +38,10 @@ out: Hello World!
 
 - [anteru blog for opencl](https://anteru.net/blog/tags/opencl/)
 
+### code
+
+- [2]()
+
 ## api
 
 - [api](https://www.khronos.org/registry/OpenCL/)
