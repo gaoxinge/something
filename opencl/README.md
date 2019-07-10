@@ -51,3 +51,7 @@ out: Hello World!
 - [platform](https://github.com/gaoxinge/something/tree/master/opencl/api/platform)
 - [device](https://github.com/gaoxinge/something/tree/master/opencl/api/device)
 - [context](https://github.com/gaoxinge/something/tree/master/opencl/api/context)
+
+## Hands On OpenCL
+
+- [Hands On OpenCL](http://handsonopencl.github.io/)
