@@ -55,3 +55,7 @@ out: Hello World!
 ## Hands On OpenCL
 
 - [Hands On OpenCL](http://handsonopencl.github.io/)
+
+### code
+
+- [ex1](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex1)
