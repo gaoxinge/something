@@ -59,3 +59,4 @@ out: Hello World!
 ### code
 
 - [ex1](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex1)
+- [ex2](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex2)
