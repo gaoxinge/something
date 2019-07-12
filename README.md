@@ -15,6 +15,7 @@
 - [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [awesome (deprecated)](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
+- [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
 - [opengl](https://github.com/gaoxinge/something/tree/master/opengl)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
