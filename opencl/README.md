@@ -63,3 +63,4 @@ out: Hello World!
 - [ex3](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex3)
 - [ex4](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex4)
 - [ex5](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex5)
+- [ex6](https://github.com/gaoxinge/something/tree/master/opencl/Hands%20On%20OpenCL/ex6)
