@@ -8,6 +8,11 @@
 
 - [A Beginner’s Guide to High–Performance Computing](http://www.shodor.org/media/content/petascale/materials/UPModules/beginnersGuideHPC/moduleDocument_pdf.pdf)
 
+## parallelism
+
+- [Data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)
+- [Task parallelism](https://en.wikipedia.org/wiki/Task_parallelism)
+
 ## mpi
 
 - [windows下利用Mingw和msmpi编译运行mpi并行程序](https://blog.csdn.net/xenonhu/article/details/78196443)
