@@ -8,6 +8,10 @@
 
 - [A Beginner’s Guide to High–Performance Computing](http://www.shodor.org/media/content/petascale/materials/UPModules/beginnersGuideHPC/moduleDocument_pdf.pdf)
 
+### code
+
+- [A Beginner’s Guide to High–Performance Computing]()
+
 ## parallelism
 
 - [Data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)
