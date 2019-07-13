@@ -42,3 +42,11 @@ int main(int argc, char **argv) {
 $ gcc -o hello hello.c -l msmpi -L "/d/Microsoft SDKs/MPI/Lib/x64" -I "/d/Microsoft SDKs/MPI/Include"
 $ mpiexec -n 4 hello
 ```
+
+## Intro to MPI Course Overview
+
+- [Intro to MPI Course Overview](https://www.dartmouth.edu/~rc/classes/intro_mpi/index.html)
+
+### code
+
+- [Intro to MPI Course Overview]() 
