@@ -49,4 +49,4 @@ $ mpiexec -n 4 hello
 
 ### code
 
-- [Intro to MPI Course Overview]() 
+- [Intro to MPI Course Overview](https://github.com/gaoxinge/something/tree/master/hpc/Intro%20to%20MPI%20Course%20Overview) 
