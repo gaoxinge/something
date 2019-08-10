@@ -18,4 +18,4 @@
 
 ### code
 
-- [Standard Introduction to CUDA C Programming]()
+- [Standard Introduction to CUDA C Programming](https://github.com/gaoxinge/something/tree/master/cuda/Standard%20Introduction%20to%20CUDA%20C%20Programming)
