@@ -12,3 +12,4 @@
 
 - [Parallel Sorting: Merge Sort & Bubble Sort](https://www.cpp.edu/~gsyoung/CS370/14Sp/parallel_sorting_kla%20Danny.pdf)
 - [Parallel Sorting Algorithms](https://homepages.math.uic.edu/~jan/mcs572/parallelsorting.pdf)
+- [Parallel Sorting](https://www.math.kth.se/na/SF2568/parpro-16/F7.pdf)
