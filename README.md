@@ -4,6 +4,7 @@
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn python](https://github.com/gaoxinge/something/tree/master/learn%20python)
 - [learn julia](https://github.com/gaoxinge/something/tree/master/learn%20julia)
+- [brainfuck](https://github.com/gaoxinge/something/tree/master/brainfuck)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
 - [duff's device](https://github.com/gaoxinge/something/tree/master/duff's%20device)
 - [k sum](https://github.com/gaoxinge/something/tree/master/k%20sum)
@@ -21,4 +22,3 @@
 - [opengl](https://github.com/gaoxinge/something/tree/master/opengl)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
-- [brainfuck](https://github.com/gaoxinge/something/tree/master/brainfuck)
