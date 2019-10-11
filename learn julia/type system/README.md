@@ -7,8 +7,8 @@
 
 ### number
 
-![1](https://github.com/gaoxinge/dive-into-coding/blob/master/julia/type%20system/1.png)
-![2](https://github.com/gaoxinge/dive-into-coding/blob/master/julia/type%20system/2.png)
+![1](https://github.com/gaoxinge/something/blob/master/learn%20julia/type%20system/1.png)
+![2](https://github.com/gaoxinge/something/blob/master/learn%20julia/type%20system/2.png)
 
 ### char
 
