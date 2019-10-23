@@ -18,6 +18,7 @@
 - [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
-- [opengl](https://github.com/gaoxinge/something/tree/master/opengl)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
+- [matplotlib](https://github.com/gaoxinge/something/tree/master/matplotlib)
+- [opengl](https://github.com/gaoxinge/something/tree/master/opengl)
