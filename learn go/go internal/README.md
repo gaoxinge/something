@@ -6,7 +6,6 @@
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
 - [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
-- [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ## reflect
 
@@ -133,6 +132,8 @@ _ = interface.(type) = nil
 - [x] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
 - [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 - [x] [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
+- [x] [Go内存模型和Happens Before关系](https://zhuanlan.zhihu.com/p/29108170)
+- [x] [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ### term
 
