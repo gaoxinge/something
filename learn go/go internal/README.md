@@ -16,6 +16,11 @@
 - [x] [Go compiler internals: adding a new statement to Go - Part 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)
 - [x] [Go compiler internals: adding a new statement to Go - Part 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)
 
+## generic
+
+- [Go2GenericsFeedback](https://github.com/golang/go/wiki/Go2GenericsFeedback)
+- [cosmos72/gomacro](https://github.com/cosmos72/gomacro)
+
 ## reflect
 
 ### method
