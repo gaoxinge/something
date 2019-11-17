@@ -1,8 +1,8 @@
-# spf13/afero
+# tools/godoc/vfs
 
 ## package
 
-- [spf13/afero](https://github.com/spf13/afero)
+- [tools/godoc/vfs](https://github.com/golang/tools/tree/master/godoc/vfs)
 
 ## framework
 
