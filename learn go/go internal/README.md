@@ -10,6 +10,12 @@
 
 - [x] [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
 
+## compile
+
+- [x] [Go程序是怎样跑起来的](https://zhuanlan.zhihu.com/p/71993748)
+- [x] [Go compiler internals: adding a new statement to Go - Part 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)
+- [x] [Go compiler internals: adding a new statement to Go - Part 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)
+
 ## reflect
 
 ### method
