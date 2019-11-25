@@ -1,6 +1,6 @@
 # parallel sort
 
-- [binary sort]()
+- [binary sort](./binary%20sort)
 
 ## reference
 
