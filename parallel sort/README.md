@@ -1,6 +1,6 @@
 # parallel sort
 
-- [binary search](./binary%20search)
+- [binary search](./binary_search)
 
 ## reference
 
