@@ -1,5 +1,7 @@
 # parallel sort
 
+- [binary sort]()
+
 ## reference
 
 ### overview
