@@ -9,6 +9,7 @@
 - [k sum](https://github.com/gaoxinge/something/tree/master/k%20sum)
 - [trie](https://github.com/gaoxinge/something/tree/master/trie)
 - [bloomfilter](https://github.com/gaoxinge/something/tree/master/bloomfilter)
+- [db client](https://github.com/gaoxinge/something/tree/master/db%20client)
 - [parallel computing](https://github.com/gaoxinge/something/tree/master/parallel%20computing)
 - [parallel sort](https://github.com/gaoxinge/something/tree/master/parallel%20sort)
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
