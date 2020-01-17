@@ -24,8 +24,7 @@ The first three is included in the package `mem`, and the last one is included i
   - [Can i have custom build flags like os/arch comment directives](https://stackoverflow.com/questions/47253852/can-i-have-custom-build-flags-like-os-arch-comment-directives)
   - [C-style conditional compilation in golang](https://stackoverflow.com/questions/38950909/c-style-conditional-compilation-in-golang)
   - [Golang conditional compilation](https://stackoverflow.com/questions/10646531/golang-conditional-compilation)
-  
-  
+
 ### golang.org/x/sys
 
 [golang.org/x/sys](https://github.com/golang/sys) provides the low-level interactions with the operating system. And
