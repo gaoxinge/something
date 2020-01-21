@@ -2,7 +2,7 @@
 
 ## what is it
 
-[acln0/zerocopy](https://github.com/acln0/zerocopy) provides an advanced encapsulation for unix `splice`.
+[acln0/zerocopy](https://github.com/acln0/zerocopy) provides an advanced encapsulation for unix `splice(2)` and `tee(2)`.
 
 ## reference
 
