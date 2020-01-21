@@ -6,6 +6,7 @@
 - [soheilhy/cmux](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/4)
 - [bouk/monkey](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/5)
 - [brahma-adshonor/gohook](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/6)
+- [maruel/panicparse](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/7)
 
 ## standard
 
