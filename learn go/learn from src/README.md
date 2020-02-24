@@ -8,6 +8,7 @@
 - [brahma-adshonor/gohook](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/6)
 - [maruel/panicparse](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/7)
 - [acln0/zerocopy](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/8)
+- [sasha-s/go-deadlock](https://github.com/gaoxinge/something/tree/master/learn%20go/learn%20from%20src/third-party/9)
 
 ## standard
 
