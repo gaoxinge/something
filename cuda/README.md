@@ -25,11 +25,3 @@
 ### code
 
 - [Standard Introduction to CUDA C Programming](https://github.com/gaoxinge/something/tree/master/cuda/Standard%20Introduction%20to%20CUDA%20C%20Programming)
-
-## nccl
-
-- [NCCL 2.0](http://on-demand.gputechconf.com/gtc/2017/presentation/s7155-jeaugey-nccl.pdf)
-- [NVIDIA/nccl](https://github.com/NVIDIA/nccl)
-- [NCCL Installation Guide](https://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html)
-- [NVIDIA Collective Communication Library (NCCL) Documentation](https://docs.nvidia.com/deeplearning/sdk/nccl-developer-guide/docs/index.html)
-- [如何理解Nvidia英伟达的Multi-GPU多卡通信框架NCCL？](https://www.zhihu.com/question/63219175)
