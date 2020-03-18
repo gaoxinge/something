@@ -18,6 +18,7 @@
 - [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
+- [interview](https://github.com/gaoxinge/something/tree/master/interview)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
