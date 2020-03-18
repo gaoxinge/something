@@ -20,6 +20,7 @@
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
 - [interview](https://github.com/gaoxinge/something/tree/master/interview)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
+- [simd](https://github.com/gaoxinge/something/tree/master/simd)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
 - [matplotlib](https://github.com/gaoxinge/something/tree/master/matplotlib)
