@@ -12,8 +12,24 @@
 
 ### reference
 
+#### wiki
+
+- [Advanced Vector Extensions](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
+
 #### alignment
 
 - [_mm_load_ps caused segment fault](https://stackoverflow.com/questions/21015961/mm-load-ps-caused-segment-fault)
 - [AVX segmentation fault on linux](https://stackoverflow.com/questions/33373318/avx-segmentation-fault-on-linux)
 
+#### exercise
+
+- [VictorRodriguez/avx-basics](https://github.com/VictorRodriguez/avx-basics)
+- [kshitijl/avx2-examples](https://github.com/kshitijl/avx2-examples)
+
+## sse
+
+### reference
+
+#### wiki
+
+- [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
