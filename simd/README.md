@@ -54,3 +54,7 @@
 #### wiki
 
 - [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
+
+#### introduction
+
+- [Getting started with Intel x86 SSE SIMD instructions](https://stackoverflow.com/questions/1389712/getting-started-with-intel-x86-sse-simd-instructions)
