@@ -1,5 +1,9 @@
 # graphics
 
+## basic
+
+- [现代计算机图形学入门](http://games-cn.org/2020/02/2520/)
+
 ## particle
 
 - [An Introduction to Physically Based Modeling: Particle System Dynamics](https://www.cs.cmu.edu/~baraff/pbm/particles.pdf)
