@@ -2,7 +2,7 @@
 
 ## basic
 
-- [现代计算机图形学入门](http://games-cn.org/2020/02/2520/)
+- [现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
 
 ## particle
 
