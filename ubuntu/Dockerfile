@@ -28,7 +28,7 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 ############
 # language #
 ############
-RUN apt-get install -y gcc
+RUN apt-get install -y gcc golang
 
 # python
 # RUN apt-get install -y software-properties-common
