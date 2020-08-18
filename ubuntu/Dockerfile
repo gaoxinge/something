@@ -28,7 +28,7 @@ RUN sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
 ############
 # language #
 ############
-RUN apt-get install -y gcc
+RUN apt-get install -y build-essential
 
 RUN wget -qO- https://dl.google.com/go/go1.13.6.linux-amd64.tar.gz | tar xz -C /usr/local
 ENV PATH $PATH:/usr/local/go/bin
