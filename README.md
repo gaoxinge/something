@@ -1,6 +1,6 @@
 # something
 
-- [compile](https://github.com/gaoxinge/something/tree/master/compile)
+- [tool](https://github.com/gaoxinge/something/tree/master/tool)
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn python](https://github.com/gaoxinge/something/tree/master/learn%20python)
