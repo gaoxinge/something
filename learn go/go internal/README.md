@@ -157,8 +157,13 @@ _ = interface.(type) = nil
 ### conclusion
 
 - don't consider how go compiler transfer go program to exe
-- don't consider how go comiler implement bootstrap
+- don't consider how go compiler implement bootstrap
 - big picture1: m-p-g model
+  - m: thread
+  - p: scheduler
+  - g: goroutine
+  - local queue for scheduler + work stealing
+  - global queue for scheduler + work sharing
 
 ```
  m                  m
