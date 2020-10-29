@@ -140,6 +140,12 @@ _ = interface.(type) = nil
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
 
+## runtime
+
+- [runtime.go](https://github.com/golang/go/blob/master/src/runtime/runtime.go)
+- [runtime1.go](https://github.com/golang/go/blob/master/src/runtime/runtime1.go)
+- [runtime2.go](https://github.com/golang/go/blob/master/src/runtime/runtime2.go)
+
 ## goroutine
 
 - [x] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
@@ -230,7 +236,20 @@ _ = interface.(type) = nil
   - `make`: may be better than `new`
   - pass by reference
   - allocate on the stack or on the heap
-  
+
+## defer, panic, recover
+
+### compile
+
+- defer: deferproc
+- return: deferreturn
+- panic: gopanic
+- recover: gorecover
+
+### runtime
+
+- [panic.go](https://github.com/golang/go/blob/master/src/runtime/panic.go)
+
 ## other
 
 - empty value: `var x type`，`new`
