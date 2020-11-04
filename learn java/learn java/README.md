@@ -7,6 +7,8 @@
 - [toString](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#tostring)
 - [wrapper type and string](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#wrapper-type-and-string)
 - [pass parameter by value or by reference](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#pass-parameter-by-value-or-by-reference)
+- [常量池](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#常量池)
+- [String](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#String)
 - [io](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#io)
 - [net](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#net)
 - [nio](https://github.com/gaoxinge/something/tree/master/learn%20java/learn%20java#nio)
@@ -112,6 +114,21 @@ String  b = a.toString();           // Integer ===> String
 - class (without setter): by value
 - class (with setter): by reference
 - array: by reference
+
+## 常量池
+
+- String: 永久代
+- Integer: 堆
+
+## String
+
+- final
+  - 不可变对象
+  - [Java String类为什么是final的？](https://www.jianshu.com/p/9c7f5daac283)
+- String/StringBuilder/StringBuffer
+  - String: 在1.8中, 字符串拼接会在编译期自动转化称StringBuilder
+  - StringBuilder: 线程不安全
+  - StringBuffer: 线程安全    
 
 ## io
 
