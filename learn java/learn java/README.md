@@ -466,11 +466,37 @@ public class Test {
   - complexity
     - [面试中关于HashMap的时间复杂度O(1)的思考](https://blog.csdn.net/donggua3694857/article/details/64127131)
     - [java中hashmap容器实现查找O(1)时间复杂度的思考](https://blog.csdn.net/u014633283/article/details/48549155)
+
   - concurrent
     - [Java HashMap的死循环](https://blog.csdn.net/xiaohui127/article/details/11928865)
-    - [ConcurrentHashMap，hashtable以及两者比较](https://blog.csdn.net/cheidou123/article/details/58070525)
     - [面试必备：HashMap、Hashtable、ConcurrentHashMap的原理与区别](https://www.cnblogs.com/heyonggang/p/9112731.html)
+  - 说明
+      - 实现
+        - 1.7: 数组 + 链表
+        - 1.8: 数组 + 链表/红黑树
+      - rehash/resize
+        - 无: 安排在一个桶的链表/红黑树内
+        - 有: 当size大于threshold时，触发rehash/resize
+      - 复杂度
+        - 分散均匀: 复杂度O(1)
+        - 分散不匀: 链表复杂度O(n)，红黑树复杂度O(log n)
+      - rehash/resize导致线程不安全
+- HashTable
+  - 说明
+    - 实现
+      - 加锁
 - ConcurrentHahsMap
+  - basic
+    - [ConcurrentHashMap 1.7和1.8区别](https://blog.csdn.net/xingxiupaioxue/article/details/88062163)
+    - [深入浅出ConcurrentHashMap1.8](https://www.jianshu.com/p/c0642afe03e0)
+    - [谈谈ConcurrentHashMap1.7和1.8的不同实现](https://www.jianshu.com/p/e694f1e868ec)
+    - [深入理解Java——ConcurrentHashMap源码的分析(JDK1.8)](https://zhuanlan.zhihu.com/p/63629645)
+    - [ConcurrentHashMap基于JDK1.8源码剖析](https://zhuanlan.zhihu.com/p/35668936)
+    - [高并发编程系列：深入探讨ConcurrentHashMap的实现原理(JDK1.7和JDK1.8)](https://zhuanlan.zhihu.com/p/49754357)
+  - 说明
+    - 实现
+      - 1.7: 分段锁
+      - 1.8: 细粒度锁 + volatile + cas
 
 ### array and list
 
