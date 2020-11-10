@@ -9,6 +9,7 @@
 ## style guide
 
 - [x] [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
+- [x] [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 
 ## compile
 
@@ -152,7 +153,7 @@ _ = interface.(type) = nil
 - [x] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
 - [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 - [x] [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
-- [x] [Go内存模型和Happens Before关系](https://zhuanlan.zhihu.com/p/29108170)
+- [x] [GoLang内存模型](https://zhuanlan.zhihu.com/p/58164064)
 - [x] [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ### term
