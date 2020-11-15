@@ -49,10 +49,6 @@
 - [github](https://github.com/smallnest)
 - [blog](https://colobu.com/)
 
-## 阿里中间件
-
-- [blog](http://jm.taobao.org/)
-https://github.com/antirez/sds
 ## Eli Bendersky
 
 - python, c, tensorflow
@@ -82,3 +78,11 @@ https://github.com/antirez/sds
 - c
 - [github](https://github.com/skeeto)
 - [blog](https://nullprogram.com/)
+
+## 阿里中间件
+
+- [blog](http://jm.taobao.org/)
+
+## 美团技术
+
+- [blog](https://tech.meituan.com/)
