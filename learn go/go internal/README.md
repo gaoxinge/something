@@ -153,7 +153,10 @@ _ = interface.(type) = nil
 - [x] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
 - [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
 - [x] [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
+- [x] [Do atomic operations in golang establish a happen-before relation?](https://stackoverflow.com/questions/42231153/do-atomic-operations-in-golang-establish-a-happen-before-relation)
+- [x] [The Go Memory Model](https://golang.org/ref/mem)
 - [x] [GoLang内存模型](https://zhuanlan.zhihu.com/p/58164064)
+- [x] [Go’s Memory Model](http://nil.csail.mit.edu/6.824/2016/notes/gomem.pdf)
 - [x] [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ### term
