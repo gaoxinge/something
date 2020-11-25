@@ -83,6 +83,10 @@
 
 - [blog](http://jm.taobao.org/)
 
+## 数据库内核月报
+
+- [blog](http://mysql.taobao.org/monthly/)
+
 ## 美团技术
 
 - [blog](https://tech.meituan.com/)
