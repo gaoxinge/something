@@ -79,6 +79,11 @@
 - [github](https://github.com/skeeto)
 - [blog](https://nullprogram.com/)
 
+## bellard
+
+- [github](https://github.com/bellard)
+- [blog](https://bellard.org/)
+
 ## 阿里中间件
 
 - [blog](http://jm.taobao.org/)
