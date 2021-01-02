@@ -191,7 +191,8 @@ Please using `git checkout --` to recover file, and `git checkout` to change bra
 
 ```
 set encoding=utf-8
-set termencoding=gbk
+set termencoding=utf-8
+set fileencodings=utf-8
 ```
 
 在`~/.bashrc`中添加
