@@ -1,3 +1,10 @@
+## Zihan Chen
+
+- c++, compiler
+- [github](https://github.com/vczh)
+- [blog](https://www.cnblogs.com/geniusvczh/)
+- [blog](http://www.cppblog.com/vczh)
+
 ## Michael Liao
 
 - python, js, java
@@ -12,25 +19,6 @@
 - [javascript](http://javascript.ruanyifeng.com/)
 - [es6](http://es6.ruanyifeng.com/)
 
-## fengyun.rui
-
-- python, go
-- [github](https://github.com/rfyiamcool)
-- [blog](http://xiaorui.cc/)
-
-## dennis zhuang
-
-- java, distributed system
-- [github](https://github.com/killme2008)
-- [blog](http://blog.fnil.net/)
-
-## Zihan Chen
-
-- c++, compiler
-- [github](https://github.com/vczh)
-- [blog](https://www.cnblogs.com/geniusvczh/)
-- [blog](http://www.cppblog.com/vczh)
-
 ## 云风
 
 - c, lua
@@ -43,11 +31,40 @@
 - [github](https://github.com/skywind3000)
 - [blog](http://www.skywind.me/blog/)
 
+## fengyun.rui
+
+- python, go
+- [github](https://github.com/rfyiamcool)
+- [blog](http://xiaorui.cc/)
+
+## dennis zhuang
+
+- java, distributed system
+- [github](https://github.com/killme2008)
+- [blog](http://blog.fnil.net/)
+
 ## smallnest
 
 - scala, go
 - [github](https://github.com/smallnest)
 - [blog](https://colobu.com/)
+
+## cch123
+
+- go
+- [github](https://github.com/cch123)
+- [blog](https://www.xargin.com/)
+
+## chai2010
+
+- go
+- [github](https://github.com/chai2010)
+
+## draveness
+
+- go
+- [github](https://github.com/draveness)
+- [blog](https://draveness.me/)
 
 ## Eli Bendersky
 
