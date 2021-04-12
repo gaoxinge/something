@@ -1,14 +1,14 @@
 # something
 
+- [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
 - [interview](https://github.com/gaoxinge/something/tree/master/interview)
-- [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
-- [git](https://github.com/gaoxinge/something/tree/master/git)
 - [tool](https://github.com/gaoxinge/something/tree/master/tool)
-- [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
+- [git](https://github.com/gaoxinge/something/tree/master/git)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
+- [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn python](https://github.com/gaoxinge/something/tree/master/learn%20python)
 - [learn julia](https://github.com/gaoxinge/something/tree/master/learn%20julia)
 - [popcount](https://github.com/gaoxinge/something/tree/master/popcount)
