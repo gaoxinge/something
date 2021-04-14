@@ -17,6 +17,20 @@
 - [x] [Go compiler internals: adding a new statement to Go - Part 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)
 - [x] [Go compiler internals: adding a new statement to Go - Part 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)
 
+## plan9
+
+```shell
+go tool compile -S main.go
+go tool compile -S -N -l main.go
+go tool objdump main.o
+```
+
+```shell
+go build main.go
+go build -gcflags '-N -l' main.go
+objdump -d main.exe
+```
+
 ## generic
 
 - [Go2GenericsFeedback](https://github.com/golang/go/wiki/Go2GenericsFeedback)
