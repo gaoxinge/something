@@ -107,24 +107,46 @@ SourceFile: "Main.java"
 ## big picture
 
 ```
+-------------------      -------------------
+| stack  | stack  |      | inter  | inter  |
+| frame1 | frame2 |      |preter1 |pterter2|
+-------------------      -------------------
+|      heap       |      | stack  | stack  |
+-------------------      | frame1 | frame2 |
+|    byte code    |      -------------------
+-------------------      |    byte code    |
                          -------------------
-                         | inter  | inter  |
-                         |preter1 |pterter2|
--------------------      -------------------
-| stack  | stack  |      | stack  | stack  |
-| frame1 | frame2 |      | frame1 | frame2 |
--------------------      -------------------
-|     heap        |      |     heap        |
--------------------      -------------------
+			 |      heap       |
+                         -------------------
+			 |    byte code    |
+			 -------------------
 ```
 
 ![1](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/1.png)
 ![2](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/2.png)
 
+## thread
+
+- pc
+- java stack
+  - stack frame
+    - local variables
+    - return value
+    - operand stack
+    - current class constant pool reference
+- native stack
+
+## interpreter
+
+- native stack
+- native main thread: use interpreter to consume the byte code in main, which in some class
+- native sub thread: use interpreter to consume the byte code in thread.run, which in some class
+
 ## permanent generation 
 
 - method area
 - interned string
+  - [几张图轻松理解String.intern()](https://blog.csdn.net/soonfly/article/details/70147205)
 
 ## heap
 
@@ -140,17 +162,6 @@ Accroding to the object's frequency, JVM will transfer object from one space to 
 ```
 Young Generation (Eden Space) ---> Young Generation (Suvivor Space) ---> Old Generation
 ```
-
-## thread
-
-- pc
-- JVM stack
-  - stack frame
-    - local variables
-    - return value
-    - operand stack
-    - current class constant pool reference
-- native stack
 
 ## class loader
 
@@ -195,57 +206,30 @@ current class constant pool referenct (thread) ---> class info (method area)
 
 ![3](https://github.com/gaoxinge/something/blob/master/learn%20java/JVM/3.png)
 
-## dynamic linking
-
-- class file
-- class info (method area)
-- class loader (heap)
-- class (heap)
-
-## oop
-
-- struct (native heap)
-
-## stack
-
-- struct (native heap)
-
-## interpreter
-
-- native stack
-- native main thread: use interpreter to consume the byte code in main, which in some class
-- native sub thread: use interpreter to consume the byte code in thread.run, which in some class
-
-## jvm
-
-- javac (elf)
-
-## JDK8
-
-- 永久带移除
-- 使用MetaSapce保存类加载之后的类信息
-- 字符串常量池被移动到Java堆
-
-## ASM
-
-- [ASM](https://asm.ow2.io/)
-- lombok
-- cglib
-- picothread, kilim, quasar
-
-## string intern
-
-- [几张图轻松理解String.intern()](https://blog.csdn.net/soonfly/article/details/70147205)
-
-## JNI
+## jni
 
 - [Java基础：认识&理解关键字native实战篇](https://www.cnblogs.com/Alandre/p/4456719.html)
 - [Java Native Interface (JNI)](https://www3.ntu.edu.sg/home/ehchua/programming/java/JavaNativeInterface.html)
 - [JNA](https://github.com/java-native-access/jna)
 
+## asm
+
+- [asm](https://asm.ow2.io/)
+- lombok
+- cglib
+- picothread, kilim, quasar
+
+## jdk8
+
+- 永久带移除
+- 使用MetaSapce保存类加载之后的类信息
+- 字符串常量池被移动到Java堆
+
 ## reference
 
 - [Java虚拟机的堆、栈、堆栈如何去理解？](https://www.zhihu.com/question/29833675)
+- [stack,heap,java(vm) stack java heap区别?](https://www.zhihu.com/question/29287838)
+- [native memory和native heap及GC heap有什么关系？](https://www.zhihu.com/question/438698030)
 - [JVM堆栈和C/C++堆栈的关系是什么？](https://www.zhihu.com/question/40122222)
 - [Stack and Heap memory in Java](https://softwareengineering.stackexchange.com/questions/65281/stack-and-heap-memory-in-java)
 - [Stack vs Heap in C/Java](https://stackoverflow.com/questions/17535436/stack-vs-heap-in-c-java)
