@@ -11,6 +11,13 @@
 - [x] [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
 - [x] [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 
+## internal datatype
+
+### map
+
+- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
+- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
+
 ## compile
 
 - [x] [Go程序是怎样跑起来的](https://zhuanlan.zhihu.com/p/71993748)
