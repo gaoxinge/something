@@ -1,7 +1,7 @@
 ## Hao Chen
 
 - [github](https://github.com/haoel)
-- [blog](https://github.com/haoel)
+- [blog](https://coolshell.cn/)
 
 ## Zihan Chen
 
