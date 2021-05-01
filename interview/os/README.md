@@ -36,6 +36,8 @@
     - 信号量
     - 共享内存：shm，mmap
     - socket
+    - socketpair
+    - 文件，文件描述符
   - 线程
     - 共享内存：堆
 
