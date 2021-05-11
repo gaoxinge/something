@@ -103,3 +103,11 @@ web ----> kafka -|
 
 - 优点：一致性比较好
 - 缺点：实现复杂；增加写入延时
+
+## realtime top-k
+
+### 参考
+
+- [Efficient Computation of Frequent and Top-k Elements in Data Streams](https://www.cs.ucsb.edu/sites/cs.ucsb.edu/files/docs/reports/2005-23.pdf)
+- [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
+- [Distributed Top-K Monitoring](http://infolab.stanford.edu/~olston/publications/topk.pdf)
