@@ -104,10 +104,48 @@ web ----> kafka -|
 - 优点：一致性比较好
 - 缺点：实现复杂；增加写入延时
 
-## realtime top-k
+## top k/heavy hitter
+
+某些场景需要近乎实时的统计：在某个时间区间内，某些链接被点击的次数中排名的靠前的几个或者最多的那个。这类问题需要下面的概念：
+
+- 流式计算
+- 数据分区
+- 滑动窗口
+
+### 方案1
+
+```
+web server 1 ---|              |---> top-k reducer ---|
+                |              |                      |
+web server 2 ---|---> kafka ---|---> top-k reducer ---|---> top-k merger ---> mysql
+                |              |                      |
+web server 3 ---|              |---> top-k reducer ---|
+```
+
+- 写
+  - web server把数据写入kafka（同时写入滑动窗口的标记）
+  - kafka根据链接作partition，把点击分发给top-k reducer
+  - top-k reducer把滑动窗口内的top k个链接统计完后，发给top-k merger汇总
+  - top-k merger统计完滑动窗口内的top k个链接后，写入数据库
+- 读
+  - 数据库字段：top-k，start\_time（索引），end\_time（start\_time + interval0）
+  - 给定start\_time0，end\_time0（start\_time + interval0），从数据库里面读取不小于start\_time0中，start\_time最小的top-k
+- 问题
+  - 滑动窗口标记
+  - 动态partition
+  - 容错，高可用，exact once
+
+### 方案2
+
+- spark
+- flink
 
 ### 参考
 
+- [Top K Frequent Items Algorithm](https://zpjiang.me/2017/11/13/top-k-elementes-system-design/)
+- [System Design Interview - Top K Problem (Heavy Hitters)](https://serhatgiydiren.github.io/system-design-interview-top-k-problem-heavy-hitters)
+- [System Design Interview: Distributed Top K Frequent Elements in Stream](https://levelup.gitconnected.com/system-design-interview-distributed-top-k-frequent-elements-in-stream-2e92d63d777e)
+- [深度解析某头条的一道面试题](https://zhuanlan.zhihu.com/p/35143913)
 - [Efficient Computation of Frequent and Top-k Elements in Data Streams](https://www.cs.ucsb.edu/sites/cs.ucsb.edu/files/docs/reports/2005-23.pdf)
 - [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
 - [Distributed Top-K Monitoring](http://infolab.stanford.edu/~olston/publications/topk.pdf)
