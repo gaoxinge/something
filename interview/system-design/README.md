@@ -134,6 +134,7 @@ web server 3 ---|              |---> top-k reducer ---|
   - 滑动窗口标记
   - 动态partition
   - 容错，高可用，exact once
+  - 链接去重
 
 ### 方案2
 
