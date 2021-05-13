@@ -129,7 +129,7 @@ web server 3 ---|              |---> top-k reducer ---|
   - top-k merger统计完滑动窗口内的top k个链接后，写入数据库
 - 读
   - 数据库字段：top-k，start\_time（索引），end\_time（start\_time + interval0）
-  - 给定start\_time0，end\_time0（start\_time + interval0），从数据库里面读取不小于start\_time0中，start\_time最小的top-k
+  - 给定start\_time0，end\_time0（start\_time + interval0），从数据库里面读取start\_time介于\[start\_time0, end\_time0)中，start\_time最小的top-k
 - 问题
   - 滑动窗口标记
   - 动态partition
