@@ -90,6 +90,14 @@
 - [github](https://github.com/bellard)
 - [blog](https://bellard.org/)
 
+## auxten
+
+- [github](https://github.com/auxten)
+
+## satanson
+
+- [github](https://github.com/satanson)
+
 ## 阿里中间件
 
 - [blog](http://140.205.61.252/)
