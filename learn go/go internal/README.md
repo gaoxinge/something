@@ -168,6 +168,34 @@ _ = interface.(type) = nil
 - [runtime1.go](https://github.com/golang/go/blob/master/src/runtime/runtime1.go)
 - [runtime2.go](https://github.com/golang/go/blob/master/src/runtime/runtime2.go)
 
+## memory management
+
+- [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
+- [x] [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
+- [x] [Are all the variables in Go allocated on heap?](https://stackoverflow.com/questions/31786937/are-all-the-variables-in-go-allocated-on-heap)
+- [x] [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
+- [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
+
+### term
+
+- stack: native stack, can expanse and shrink
+- heap: native heap
+- escape analysis: compiler decide whether a variable, like on stack, should allocate on heap
+- garbage collector
+
+### escaple analysis
+
+- small object allocate on stack, big object allocate on heap
+- non pointer object allocate on stack, pointer object allocate on heap
+  - `&int`, `&struct{}`: better than `new`
+  - `new`
+- `slice`, `map`, `channel`
+  - `make`: better than `new`
+  - by reference
+- life cycle
+  - if function return non pointer object, compiler allocate it on the callee stack, and caller get a copy of it on the caller stack
+  - if function return pointer object, compiler allocate it's real object on the heap, caller get a copy of the pointer
+
 ## goroutine
 
 - [x] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
@@ -252,31 +280,6 @@ _ = interface.(type) = nil
     - yield
     - yield sleep
     - yield io
-
-## memory management
-
-- [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
-- [x] [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
-- [x] [Are all the variables in Go allocated on heap?](https://stackoverflow.com/questions/31786937/are-all-the-variables-in-go-allocated-on-heap)
-- [x] [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
-- [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
-
-### term
-
-- stack
-- heap
-- escape analysis
-- garbage collector
-
-### conclusion
-
-- `new` often allocates objects on heap, but not always
-- if function return a local variable, compiler will allocate the local variable on the stask and caller will get a copy of the return value
-- if function return a pointer to a local variable, compiler will allocate the local variable on the heap and caller will get the copy of the pointer
-- `slice`, `map`, `channel`
-  - `make`: may be better than `new`
-  - pass by reference
-  - allocate on the stack or on the heap
 
 ## defer, panic, recover
 
