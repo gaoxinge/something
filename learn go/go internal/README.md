@@ -214,47 +214,13 @@ _ = interface.(type) = nil
 
 ## goroutine
 
-- [x] [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
-- [x] [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
-- [x] [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
-- [x] [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
-- [x] [doc: define how sync/atomic interacts with memory model](https://github.com/golang/go/issues/5045)
-- [x] [Do atomic operations in golang establish a happen-before relation?](https://stackoverflow.com/questions/42231153/do-atomic-operations-in-golang-establish-a-happen-before-relation)
-- [x] [The Go Memory Model](https://golang.org/ref/mem)
-- [x] [GoLang内存模型](https://zhuanlan.zhihu.com/p/58164064)
-- [x] [Go’s Memory Model](http://nil.csail.mit.edu/6.824/2016/notes/gomem.pdf)
-- [x] [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
+### GMP model
 
-### golang协程和java线程的区别
-
-- 内存区域不同
-  - golang协程运行在native stack上
-  - java线程运行在java stack（native heap）上
-- 调度不同
-  - golang协程调度基于MPG模型。使用time.Sleep或socket产生io阻塞时，对应的goroutine会被挂起，线程就可以去调度其他goroutine了。 
-  - java线程调度基于操作系统对线程的调度。对标golang，java中相同的概念是reactor pattern，对应的是nio + thread/netty。
-- 线程同步/内存模型略有不同
-  - golang
-    - channel
-    - 锁和信号量
-    - waitgroup
-    - atomic
-    - select
-  - java
-    - 锁和信号量
-    - join
-    - atomic
-
-### conclusion
-
-- don't consider how go compiler transfer go program to exe
-- don't consider how go compiler implement bootstrap
-- big picture1: m-p-g model
-  - m: thread
-  - p: scheduler
-  - g: goroutine
-  - local queue for scheduler + work stealing
-  - global queue for scheduler + work sharing
+- g: goroutine
+- m: thread
+- p: scheduler
+  - local queue + work stealing (golang)
+  - global queue + work sharing
 
 ```
  m                  m
@@ -269,7 +235,7 @@ _ = interface.(type) = nil
         g                  g
 ```
 
-- big picture2: memory model
+### memory model
 
 ```
                          -------------------
@@ -285,17 +251,44 @@ _ = interface.(type) = nil
 -------------------      -------------------
 ```
 
-- go vs python
-  - go
-    - go func(), and start by compiler
-    - io
-    - system call
-    - infinite loop
-  - python
-    - add func() into loop, and start by loop.run()
-    - yield
-    - yield sleep
-    - yield io
+### golang协程和java线程的区别
+
+- 内存区域不同
+  - golang协程运行在native stack上
+  - java线程运行在java stack（native heap）上
+- 调度不同
+  - golang协程调度基于GMP模型。使用time.Sleep或socket产生io阻塞时，对应的goroutine会被挂起，线程就可以去调度其他goroutine了。 
+  - java线程调度基于操作系统对线程的调度。对标golang，java中相同的概念是reactor pattern，对应的是nio + thread/netty。
+- 线程同步/内存模型略有不同
+  - golang
+    - channel
+    - 锁和信号量
+    - waitgroup
+    - atomic
+    - select
+  - java
+    - 锁和信号量
+    - join
+    - atomic
+
+### golang协程和python协程的区别
+
+- 有栈/无栈的不同
+  - golang是有栈协程
+  - python是无栈协程
+
+### reference
+
+- [Golang的goroutine是如何实现的？](https://www.zhihu.com/question/20862617)
+- [Head First of Golang Scheduler](https://zhuanlan.zhihu.com/p/42057783)
+- [How Stacks are Handled in Go](https://blog.cloudflare.com/how-stacks-are-handled-in-go/)
+- [深入理解Golang Channel](https://zhuanlan.zhihu.com/p/27917262)
+- [doc: define how sync/atomic interacts with memory model](https://github.com/golang/go/issues/5045)
+- [Do atomic operations in golang establish a happen-before relation?](https://stackoverflow.com/questions/42231153/do-atomic-operations-in-golang-establish-a-happen-before-relation)
+- [The Go Memory Model](https://golang.org/ref/mem)
+- [GoLang内存模型](https://zhuanlan.zhihu.com/p/58164064)
+- [Go’s Memory Model](http://nil.csail.mit.edu/6.824/2016/notes/gomem.pdf)
+- [system-pclub/go-concurrency-bugs](https://github.com/system-pclub/go-concurrency-bugs)
 
 ## defer, panic, recover
 
