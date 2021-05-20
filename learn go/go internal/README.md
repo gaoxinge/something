@@ -8,21 +8,14 @@
 
 ## style guide
 
-- [x] [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
-- [x] [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
-
-## internal datatype
-
-### map
-
-- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
-- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
+- [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
+- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
 
 ## compile
 
-- [x] [Go程序是怎样跑起来的](https://zhuanlan.zhihu.com/p/71993748)
-- [x] [Go compiler internals: adding a new statement to Go - Part 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)
-- [x] [Go compiler internals: adding a new statement to Go - Part 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)
+- [Go程序是怎样跑起来的](https://zhuanlan.zhihu.com/p/71993748)
+- [Go compiler internals: adding a new statement to Go - Part 1](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-1/)
+- [Go compiler internals: adding a new statement to Go - Part 2](https://eli.thegreenplace.net/2019/go-compiler-internals-adding-a-new-statement-to-go-part-2/)
 
 ## plan9
 
@@ -37,130 +30,6 @@ go build main.go
 go build -gcflags '-N -l' main.go
 objdump -d main.exe
 ```
-
-## generic
-
-- [Go2GenericsFeedback](https://github.com/golang/go/wiki/Go2GenericsFeedback)
-- [cosmos72/gomacro](https://github.com/cosmos72/gomacro)
-
-## reflect
-
-### method
-
-```go
-package main
-
-import "fmt"
-
-type ChangeObject interface {
-	Change(string)
-}
-
-type Student struct {
-	name string
-}
-
-func (this Student) Change(name string) {
-	fmt.Println(this)
-	this.name = name
-}
-
-func main() {
-	a := Student{"gaoxinge"}
-	a.Change("123")  // {gaoxinge}
-	fmt.Println(a)   // {gaoxinge}
-
-	b := &Student{"gaoxinge"}
-	b.Change("123")  // {gaoxinge}
-	fmt.Println(b)   // &{gaoxinge}
-
-	var c ChangeObject
-	c = a
-	fmt.Println(c)   // {gaoxinge}
-	c = b
-	fmt.Println(c)   // &{gaoxinge}
-}
-```
-
-- `Student` can call `Change` directly
-- `&Student` call `Change` by `*&Student.Change`
-- both `Student` and `&Student` have `Change` method
-- both `Student` and `&Student` are `ChangeObject`
-
-```go
-package main
-
-import "fmt"
-
-type Change2Object interface {
-	Change2(string)
-}
-
-type Student struct {
-	name string
-}
-
-func (this *Student) Change2(name string) {
-	fmt.Println(this)
-	this.name = name
-}
-
-func main() {
-	a := Student{"gaoxinge"}
-	a.Change2("123")  // &{gaoxinge}
-	fmt.Println(a)    // {123}
-
-	b := &Student{"gaoxinge"}
-	b.Change2("123")  // {gaoxinge}
-	fmt.Println(b)    // &{123}
-
-	var c Change2Object
-	// compile error
-	// c = a
-	// fmt.Println(c)
-	c = b
-	fmt.Println(c)    // &{123}
-}
-```
-
-- `Student` call `Change2` by `&Student.Change`
-- `*Student` call `Change2` directly
-- only `*Student` has `Change2` method
-- only `*Student` is `Change2Object`
-
-### interface
-
-- formula
-
-```
-variable           = type + value
-interface variable = interface type + interface value
-interface value    = variable type  + variable value 
-```
-
-- non nil interface: var ---> interface ---> interface ---> interface ---> ...
-
-```
-interface.(type)     = var type
-_ = interface.(type) = var
-```
-
-- nil interface: nil ---> interface ---> interface ---> interface ---> ...
-
-```
-interface.(type)     = nil
-_ = interface.(type) = nil
-```
-
-- [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
-- [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
-
-### reflect
-
-- [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
-- [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
-- [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
-- [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
 
 ## runtime
 
@@ -307,3 +176,130 @@ _ = interface.(type) = nil
 
 - empty value: `var x type`，`new`
 - nonempty value: `make`
+
+## internal datatype
+
+### map
+
+- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
+- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
+
+## reflect
+
+### method
+
+```go
+package main
+
+import "fmt"
+
+type ChangeObject interface {
+	Change(string)
+}
+
+type Student struct {
+	name string
+}
+
+func (this Student) Change(name string) {
+	fmt.Println(this)
+	this.name = name
+}
+
+func main() {
+	a := Student{"gaoxinge"}
+	a.Change("123")  // {gaoxinge}
+	fmt.Println(a)   // {gaoxinge}
+
+	b := &Student{"gaoxinge"}
+	b.Change("123")  // {gaoxinge}
+	fmt.Println(b)   // &{gaoxinge}
+
+	var c ChangeObject
+	c = a
+	fmt.Println(c)   // {gaoxinge}
+	c = b
+	fmt.Println(c)   // &{gaoxinge}
+}
+```
+
+- `Student` can call `Change` directly
+- `&Student` call `Change` by `*&Student.Change`
+- both `Student` and `&Student` have `Change` method
+- both `Student` and `&Student` are `ChangeObject`
+
+```go
+package main
+
+import "fmt"
+
+type Change2Object interface {
+	Change2(string)
+}
+
+type Student struct {
+	name string
+}
+
+func (this *Student) Change2(name string) {
+	fmt.Println(this)
+	this.name = name
+}
+
+func main() {
+	a := Student{"gaoxinge"}
+	a.Change2("123")  // &{gaoxinge}
+	fmt.Println(a)    // {123}
+
+	b := &Student{"gaoxinge"}
+	b.Change2("123")  // {gaoxinge}
+	fmt.Println(b)    // &{123}
+
+	var c Change2Object
+	// compile error
+	// c = a
+	// fmt.Println(c)
+	c = b
+	fmt.Println(c)    // &{123}
+}
+```
+
+- `Student` call `Change2` by `&Student.Change`
+- `*Student` call `Change2` directly
+- only `*Student` has `Change2` method
+- only `*Student` is `Change2Object`
+
+### interface
+
+- formula
+
+```
+variable           = type + value
+interface variable = interface type + interface value
+interface value    = variable type  + variable value 
+```
+
+- non nil interface: var ---> interface ---> interface ---> interface ---> ...
+
+```
+interface.(type)     = var type
+_ = interface.(type) = var
+```
+
+- nil interface: nil ---> interface ---> interface ---> interface ---> ...
+
+```
+interface.(type)     = nil
+_ = interface.(type) = nil
+```
+
+- [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
+- [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
+
+### reflect
+
+- [x] [Learning to Use Go Reflection](https://medium.com/capital-one-developers/learning-to-use-go-reflection-822a0aed74b7)
+- [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
+- [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
+- [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
+
