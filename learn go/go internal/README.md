@@ -200,8 +200,11 @@ _ = interface.(type) = nil
 
 ## garbage collect
 
+### term
+
+- 引用计数
 - 可达性分析
-  - 三色标记法
+  - 三色标记法（golang）
 
 ### reference
 
