@@ -170,12 +170,6 @@ _ = interface.(type) = nil
 
 ## memory management
 
-- [x] [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
-- [x] [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
-- [x] [Are all the variables in Go allocated on heap?](https://stackoverflow.com/questions/31786937/are-all-the-variables-in-go-allocated-on-heap)
-- [x] [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
-- [x] [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
-
 ### term
 
 - stack: native stack, can expanse and shrink
@@ -195,6 +189,15 @@ _ = interface.(type) = nil
 - life cycle
   - if function return non pointer object, compiler allocate it on the callee stack, and caller get a copy of it on the caller stack
   - if function return pointer object, compiler allocate it's real object on the heap, caller get a copy of the pointer
+
+### reference
+
+- [图解TCMalloc](https://zhuanlan.zhihu.com/p/29216091)
+- [Memory Management in Go](https://dougrichardson.org/2016/01/23/go-memory-allocations.html)
+- [Are all the variables in Go allocated on heap?](https://stackoverflow.com/questions/31786937/are-all-the-variables-in-go-allocated-on-heap)
+- [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
+- [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
+
 
 ## goroutine
 
