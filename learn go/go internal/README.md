@@ -175,7 +175,7 @@ _ = interface.(type) = nil
 - stack: native stack, can expanse and shrink
 - heap: native heap
 - escape analysis: compiler decide whether a variable, like on stack, should allocate on heap
-- garbage collector
+- garbage collect
 
 ### escaple analysis
 
@@ -198,6 +198,16 @@ _ = interface.(type) = nil
 - [Stack vs heap allocation of structs in Go, and how they relate to garbage collection](https://stackoverflow.com/questions/10866195/stack-vs-heap-allocation-of-structs-in-go-and-how-they-relate-to-garbage-collec)
 - [Go的变量到底在堆还是栈中分配](http://www.zenlife.tk/go-allocated-on-heap-or-stack.md)
 
+## garbage collect
+
+- 可达性分析
+  - 三色标记法
+
+### reference
+
+- [垃圾回收概念](https://zhuanlan.zhihu.com/p/297177002)
+- [Golang垃圾回收 屏障技术](https://zhuanlan.zhihu.com/p/74853110)
+- [Golang 垃圾回收](https://zhuanlan.zhihu.com/p/255199380)
 
 ## goroutine
 
