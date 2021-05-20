@@ -188,7 +188,7 @@ _ = interface.(type) = nil
   - by reference
 - life cycle
   - if function return non pointer object, compiler allocate it on the callee stack, and caller get a copy of it on the caller stack
-  - if function return pointer object, compiler allocate it's real object on the heap, caller get a copy of the pointer
+  - if function return pointer object, compiler allocate it's real object on the heap, and caller get a copy of it on the caller stack
 
 ### reference
 
