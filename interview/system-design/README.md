@@ -1,5 +1,27 @@
 # system design
 
+## 微服务容错
+
+- 雪崩
+- 降级
+- 熔断
+- 限流
+- 隔离
+- 超时
+
+### 参考
+
+- [面试官：说说降级、熔断、限流](https://juejin.cn/post/6844903838231576589)
+- [架构之高并发：降级和熔断](https://www.pdai.tech/md/arch/arch-y-reduce.html)
+- [微服务容错 - 隔离熔断限流](https://segmentfault.com/a/1190000020791119)
+- [服务雪崩、熔断、降级和限流](https://github.com/chenqingyun/all-in-java/blob/master/note/%E5%88%86%E5%B8%83%E5%BC%8F%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6%E5%92%8C%E4%B8%AD%E9%97%B4%E4%BB%B6/%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9%E3%80%81%E7%86%94%E6%96%AD%E3%80%81%E9%99%8D%E7%BA%A7%E5%92%8C%E9%99%90%E6%B5%81.md)
+
+### 框架
+
+- [Netflix/Hystrix](https://github.com/Netflix/Hystrix)
+- [alibaba/Sentinel](https://github.com/alibaba/Sentinel)
+- [alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang)
+
 ## 缓存
 
 在大量数据读取的场景下，在web和mysql之间加入一层redis作为缓存，主要是为了优化web读取数据的性能，具体如下：
