@@ -22,6 +22,22 @@
 - [alibaba/Sentinel](https://github.com/alibaba/Sentinel)
 - [alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang)
 
+## 分布式ID
+
+分布式ID主要是为了保证后端有状态的服务及时经过多次重试能也能达到exact once的效果。
+
+### 场景
+
+- 支付：后端使用分布式ID防止重复支付
+
+### 方法
+
+- uuid
+- snowflake
+- database
+- redis
+- zookeeper/etcd/consul
+
 ## 缓存
 
 在大量数据读取的场景下，在web和mysql之间加入一层redis作为缓存，主要是为了优化web读取数据的性能，具体如下：
