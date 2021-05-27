@@ -38,6 +38,12 @@
 - redis
 - zookeeper/etcd/consul
 
+## 分布式锁
+
+### 参考
+
+- [How to do distributed locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
+
 ## 缓存
 
 在大量数据读取的场景下，在web和mysql之间加入一层redis作为缓存，主要是为了优化web读取数据的性能，具体如下：
