@@ -44,6 +44,28 @@
 
 - [How to do distributed locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 
+## 分布式事务
+
+### 消息队列
+
+- [消息队列漫谈：如何使用消息队列实现分布式事务？](https://zhuanlan.zhihu.com/p/101974130)
+
+#### rocketmq
+
+- [事务消息](https://help.aliyun.com/document_detail/43348.html)
+- [RocketMQ事务消息](https://www.jianshu.com/p/84d830bee587)
+- [基于RocketMQ分布式事务 - 完整示例](https://zhuanlan.zhihu.com/p/115553176)
+
+#### kafka
+
+- 通过produceId实现幂等性。at least once + 幂等性 = exact once
+- 通过transactionId/事务控制消息/事务协调中心实现2PC，实现分布式事务
+
+##### 参考
+
+- [Kafka事务到底是什么意思？](https://www.zhihu.com/question/311885878)
+- [Kafka 笔记 02: 事务](https://zhuanlan.zhihu.com/p/120796378)
+
 ## 缓存
 
 在大量数据读取的场景下，在web和mysql之间加入一层redis作为缓存，主要是为了优化web读取数据的性能，具体如下：
