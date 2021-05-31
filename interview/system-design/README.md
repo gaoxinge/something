@@ -68,6 +68,28 @@
 - [Kafka事务到底是什么意思？](https://www.zhihu.com/question/311885878)
 - [Kafka 笔记 02: 事务](https://zhuanlan.zhihu.com/p/120796378)
 
+### 刚性事务（ACID）
+
+#### 2PC/3PC/XA
+
+- 事务发起服务从事务管理器获取全局事务ID
+- 事务发起服务使用全局事务ID向各服务发送请求
+- 事务发起服务使用全局事务ID向事务管理器发送PREPARE消息
+- 事务管理器转发PREPARE消息给各服务，然后接受各服务的响应
+- 如果全部响应OK，事务管理器发送COMMIT消息给各服务；否则，发送ROLLBACK给各服务
+- 事务管理器响应事务发起服务
+
+### 柔性事务（BASE）
+
+#### TCC
+
+#### 
+
+### 框架
+
+- [seata/seata](https://github.com/seata/seata)
+- [opentrx/seata-golang](https://github.com/opentrx/seata-golang)
+
 ## 缓存
 
 在大量数据读取的场景下，在web和mysql之间加入一层redis作为缓存，主要是为了优化web读取数据的性能，具体如下：
