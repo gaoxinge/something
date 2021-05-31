@@ -93,6 +93,34 @@
 - 按照T1，T2，...，Tn的顺序执行事务
 - 如果失败，按照Cn，...，C2，C1的顺序补偿
 
+#### 本地消息表
+
+- 条件性事务服务在同一事务中写入业务表和本地消息表
+- 条件性事务服务把消息投递到消息队列里
+  - 如果成功，则结束
+  - 否则，反查消息队列中消息的状态
+    - 如果成攻，则结束
+    - 否则，根据消息表，继续把消息投递到消息队列里
+- 非条件性事务服务消费消息
+
+#### 消息队列
+
+- rocketmq封装复用了上述步骤
+
+#### 最大努力通知
+
+- 减少上述步骤的重试，降低了一致性
+
+### 参考
+
+- [分布式事务，这一篇就够了](https://xiaomi-info.github.io/2020/01/02/distributed-transaction/)
+- [微服务中的分布式事务方案](https://jeremyxu2010.github.io/2020/03/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E7%9A%84%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%96%B9%E6%A1%88/)
+- [分布式事务的实现原理](https://draveness.me/distributed-transaction-principle/)
+- [支付宝运营架构中柔性事务指的是什么？](https://www.zhihu.com/question/31813039)
+- [常用的分布式事务解决方案有哪些?](https://www.zhihu.com/question/64921387)
+- [再有人问你【分布式事务】，把这篇扔给他](https://zhuanlan.zhihu.com/p/41891052)
+- [基于本地消息表的分布式事务解决方案总结](https://zhuanlan.zhihu.com/p/147817106)
+
 ### 框架
 
 - [seata/seata](https://github.com/seata/seata)
