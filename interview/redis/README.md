@@ -66,6 +66,7 @@
     - [一万字详解 Redis Cluster Gossip 协议](https://zhuanlan.zhihu.com/p/328728595)
   - [codis](https://github.com/CodisLabs/codis)
   - [tendis](https://github.com/Tencent/Tendis)
+
 ||redis cluster|codis|tendis|dynamo|
 |-|-|-|-|-|
 |partition|slot|slot||consistence hashing|
