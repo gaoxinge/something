@@ -71,7 +71,7 @@
 |-|-|-|-|-|
 |partition|slot|slot||consistence hashing|
 |replication|master-slave|master-slave||quorum|
-|memebership|gossip|gossip|gossip|gossip|
+|membership|gossip|gossip|gossip|gossip|
 |engine|redis|redis|rocksdb||
 
 
