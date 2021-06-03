@@ -51,3 +51,26 @@
 
 ## 高可用
 
+- 主从模式
+- 哨兵模式
+- 集群模式
+  - redis cluster
+    - [Redis Cluster Specification](https://redis.io/topics/cluster-spec)
+    - [Highly Available Redis](https://redislabs.com/redis-enterprise/technology/highly-available-redis/)
+    - [First Step to Redis Cluster](https://blog.usejournal.com/first-step-to-redis-cluster-7712e1c31847)
+    - [Life in a Redis Cluster: Meet and Gossip with your neighbors](https://cristian.regolo.cc/2015/09/05/life-in-a-redis-cluster.html)
+    - [Introduction to redis cluster and gossip protocol](https://developpaper.com/introduction-to-redis-cluster-and-gossip-protocol/)
+    - [In-depth Analysis of Redis Cluster Gossip Protocol](https://www.alibabacloud.com/blog/in-depth-analysis-of-redis-cluster-gossip-protocol_594706)
+    - [Introduction to Redis Cluster](http://intro2libsys.com/focused-redis-topics/day-one/intro-redis-cluster)
+    - [Clustering and High Availability](http://intro2libsys.info/introduction-to-redis/clustering-and-ha)
+    - [一万字详解 Redis Cluster Gossip 协议](https://zhuanlan.zhihu.com/p/328728595)
+  - [codis](https://github.com/CodisLabs/codis)
+  - [tendis](https://github.com/Tencent/Tendis)
+||redis cluster|codis|tendis|dynamo|
+|-|-|-|-|-|
+|partition|slot|slot||consistence hashing|
+|replication|master-slave|master-slave||quorum|
+|memebership|gossip|gossip|gossip|gossip|
+|engine|redis|redis|rocksdb||
+
+
