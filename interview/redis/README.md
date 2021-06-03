@@ -1,6 +1,15 @@
 # redis
 
-## 架构
+## 作用
+
+- 缓存
+- 数据库
+- 消息队列
+
+## 性能
+
+- 内存
+- reactor pattern = epoll + thread
 
 ## 数据类型
 
