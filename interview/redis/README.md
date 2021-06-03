@@ -69,7 +69,7 @@
 
 ||redis cluster|codis|tendis|dynamo|
 |-|-|-|-|-|
-|partition|slot|slot||consistence hashing|
+|partition|slot|slot||consistent hashing|
 |replication|master-slave|master-slave||quorum|
 |membership|gossip|gossip|gossip|gossip|
 |engine|redis|redis|rocksdb||
