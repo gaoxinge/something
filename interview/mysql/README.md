@@ -118,6 +118,17 @@
   - steal
   - no force
 
+### 分类
+
+- 等价性
+  - undo <-> force
+  - redo <-> no steal
+- 分类
+  - steal/force：undo
+  - no steal/no force：redo
+  - steal/no force：undo/redo
+  - no steal/force：不存在
+
 ### binlog
 
 - 用于主从同步
