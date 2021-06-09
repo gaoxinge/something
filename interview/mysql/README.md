@@ -131,6 +131,11 @@
 
 - 锁：大粒度
 
+### 参考
+
+- [什么是脏读、不可重复读、幻读？](https://www.zhihu.com/question/458275373/answer/1873975439)
+- [我以为我对Mysql事务很熟，直到我遇到了阿里面试官](https://zhuanlan.zhihu.com/p/148035779)
+
 ## 持久性
 
 - log
