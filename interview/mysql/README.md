@@ -63,6 +63,70 @@
 
 ## log
 
+### transaction
+
+- start：<START T>
+- commit：<COMMIT T>
+
+### undo/redo
+
+- undo：回滚日志，记录旧值，<T, A, x>
+- redo：重做日志，记录新值，<T, A, x>
+- undo/redo：<T, A, x1, x2>
+
+### wal/steal/force
+
+- wal：<T, A, x>需要先于脏数据落盘
+- steal：<COMMIT, T>不需要先于脏数据落盘
+- no steal：<COMMIT, T>需要先于脏数据落盘，蕴含wal
+- force：<COMMIT, T>需要后于脏数据落盘
+- no force：<COMMIT, T>不需要后于脏数据落盘
+
+### crasy recovery
+
+#### undo
+
+- 原则
+  - wal：<T, A, x>需要先于脏数据落盘
+  - force：<COMMIT, T>需要后于脏数据落盘
+- 恢复
+  - 已提交：根据force原则，已经落盘
+  - 未提交：根据wal原则，回滚落盘的数据
+- 结论
+  - steal
+  - force
+
+#### redo
+
+- 原则
+  - no steal：<COMMIT, T>需要先于脏数据落盘
+- 恢复
+  - 已提交：根据no steal原则，重做未落盘的数据
+  - 未提交：根据no steal原则，未落盘
+- 结论
+  - no steal
+  - no force
+
+#### undo/redo
+
+- 原则
+  - wal：<T, A, x1, x2>需要先于脏数据落盘
+- 恢复
+  - 已提交：根据wal原则，重做未落盘的数据
+  - 未提交：根据wal原则，回滚落盘的数据
+- 结论
+  - steal
+  - no force
+
+### binlog
+
+- 用于主从同步
+- 位于server层
+- 格式
+  - statement，基于SQL
+  - row，基于记录
+  - mixed
+
 ## transaction
 
 - A：原子性
