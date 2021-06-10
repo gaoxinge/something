@@ -183,14 +183,9 @@ f3
   - 如果defer1中有recover，那么可以cover住
   - 如果defer1中没有recover，那么不可以cover住
 
-## other
+## oop
 
-- empty value: `var x type`，`new`
-- nonempty value: `make`
-
-## reflect
-
-### method
+### non-pointer receiver
 
 ```go
 package main
@@ -205,73 +200,106 @@ type Student struct {
 	name string
 }
 
-func (this Student) Change(name string) {
-	fmt.Println(this)
-	this.name = name
+func (student Student) Change(name string) {
+	fmt.Println(student)
+	student.name = name
 }
+
+/*
+func Student Change(student Student, name string) {
+	fmt.Println(student)
+	student.name = name
+}
+
+func *Student Change(student *Student, name string) {
+	fmt.Println(*student)
+	*student.name = name
+}
+*/
 
 func main() {
 	a := Student{"gaoxinge"}
-	a.Change("123")  // {gaoxinge}
-	fmt.Println(a)   // {gaoxinge}
+	a.Change("123")        // {gaoxinge}
+	fmt.Println(a)               // {gaoxinge}
 
-	b := &Student{"gaoxinge"}
-	b.Change("123")  // {gaoxinge}
-	fmt.Println(b)   // &{gaoxinge}
+	b := Student{"gaoxinge"}
+	Student.Change(b, "123")     // {gaoxinge}
+	fmt.Println(b)               // {gaoxinge}
 
-	var c ChangeObject
-	c = a
-	fmt.Println(c)   // {gaoxinge}
-	c = b
-	fmt.Println(c)   // &{gaoxinge}
+	c := &Student{"gaoxinge"}
+	c.Change("123")        // {gaoxinge}
+	fmt.Println(c)               // &{gaoxinge}
+
+	d := &Student{"gaoxinge"}
+	(*Student).Change(d, "123")  // {gaoxinge}
+	fmt.Println(d)               // &{gaoxinge}
+
+	var e ChangeObject
+	e = a
+	fmt.Println(e)  // {gaoxinge}
+	e = c
+	fmt.Println(e)  // &{gaoxinge}
 }
 ```
 
-- `Student` can call `Change` directly
-- `&Student` call `Change` by `*&Student.Change`
-- both `Student` and `&Student` have `Change` method
-- both `Student` and `&Student` are `ChangeObject`
+### pointer receiver
 
 ```go
 package main
 
 import "fmt"
 
-type Change2Object interface {
-	Change2(string)
+type ChangeObject interface {
+	Change(string)
 }
 
 type Student struct {
 	name string
 }
 
-func (this *Student) Change2(name string) {
-	fmt.Println(this)
-	this.name = name
+func (student *Student) Change(name string) {
+	fmt.Println(student)
+	student.name = name
 }
 
+/*
+func *Student Change(student *Student, name string) {
+	fmt.Println(student)
+	student.name = name
+}
+*/
+
 func main() {
+	// convert a to &a
 	a := Student{"gaoxinge"}
-	a.Change2("123")  // &{gaoxinge}
-	fmt.Println(a)    // {123}
+	a.Change("123")         // &{gaoxinge}
+	fmt.Println(a)                // {123}
 
-	b := &Student{"gaoxinge"}
-	b.Change2("123")  // {gaoxinge}
-	fmt.Println(b)    // &{123}
+	b := Student{"gaoxinge"}
+	(*Student).Change(&b, "123")  // &{gaoxinge}
+	fmt.Println(b)                // {123}
 
-	var c Change2Object
+	c := &Student{"gaoxinge"}
+	c.Change("123")         // &{gaoxinge}
+	fmt.Println(c)                // &{123}
+
+	d := &Student{"gaoxinge"}
+	(*Student).Change(d, "123")   // &{gaoxinge}
+	fmt.Println(d)                // &{123}
+
+	var e ChangeObject
 	// compile error
-	// c = a
+	// e = a
 	// fmt.Println(c)
-	c = b
-	fmt.Println(c)    // &{123}
+	e = c
+	fmt.Println(e)  // &{123}
 }
 ```
 
-- `Student` call `Change2` by `&Student.Change`
-- `*Student` call `Change2` directly
-- only `*Student` has `Change2` method
-- only `*Student` is `Change2Object`
+## other
+
+- empty value: `var x type`，`new`
+- nonempty value: `make`
 
 ### interface
 
