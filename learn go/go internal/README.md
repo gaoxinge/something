@@ -307,6 +307,13 @@ _ = interface.(type) = nil
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
 
+## internal datatype
+
+### map
+
+- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
+- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
+
 ## style guide
 
 - [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
@@ -318,11 +325,4 @@ _ = interface.(type) = nil
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
 - [Go语言面试精选](https://www.zhihu.com/column/c_1347495366519119872)
-
-## internal datatype
-
-### map
-
-- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
-- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
 
