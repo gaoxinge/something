@@ -296,34 +296,34 @@ func main() {
 }
 ```
 
-## other
+## interface
 
-- empty value: `var x type`，`new`
-- nonempty value: `make`
-
-### interface
-
-- formula
+### formula
 
 ```
 variable           = type + value
+
 interface variable = interface type + interface value
 interface value    = variable type  + variable value 
 ```
 
-- non nil interface: var ---> interface ---> interface ---> interface ---> ...
+### non-nil interface
 
 ```
-interface.(type)     = var type
-_ = interface.(type) = var
+variable ---> interface ---> interface ---> interface ---> ...
+interface value = variable type + varialbe value
+
+variable value, ok = interface.(variable type)
 ```
 
-- nil interface: nil ---> interface ---> interface ---> interface ---> ...
+### nil interface
 
 ```
-interface.(type)     = nil
-_ = interface.(type) = nil
+nil ---> interface ---> interface ---> interface ---> ...
+interface value = nil
 ```
+
+### reference 
 
 - [x] [Interfaces in Go (part I)](https://medium.com/golangspec/interfaces-in-go-part-i-4ae53a97479c)
 - [x] [Interfaces in Go (part II)](https://medium.com/golangspec/interfaces-in-go-part-ii-d5057ffdb0a6)
@@ -334,6 +334,11 @@ _ = interface.(type) = nil
 - [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
+
+## other
+
+- empty value: `var x type`，`new`
+- nonempty value: `make`
 
 ## internal datatype
 
