@@ -161,6 +161,28 @@ objdump -d main.exe
 
 - [panic.go](https://github.com/golang/go/blob/master/src/runtime/panic.go)
 
+### conclusion
+
+```
+goroutine
+ |
+ V
+f1 -> defer1 -> defer in defer1 -> defer in defer in defer1
+ |
+ V
+f2
+ |
+ V
+f3
+```
+
+- 所有操作都在同一个goroutine中
+- f1，f2，f3是函数的调用链
+- defer1，defer in defer1，defer in defer in defer2是defer链
+- 如果f3中发生了panic
+  - 如果defer1中有recover，那么可以cover住
+  - 如果defer1中没有recover，那么不可以cover住
+
 ## other
 
 - empty value: `var x type`，`new`
