@@ -1,17 +1,5 @@
 # go internal
 
-## interview
-
-- [golang 面试题](https://zhuanlan.zhihu.com/p/26972862)
-- [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
-- [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
-- [Go语言面试精选](https://www.zhihu.com/column/c_1347495366519119872)
-
-## style guide
-
-- [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
-- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
-
 ## compile
 
 - [Go程序是怎样跑起来的](https://zhuanlan.zhihu.com/p/71993748)
@@ -303,4 +291,16 @@ _ = interface.(type) = nil
 - [x] [Learning to Use Go Reflection — Part 2](https://medium.com/capital-one-developers/learning-to-use-go-reflection-part-2-c91657395066)
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
+
+## style guide
+
+- [uber-go/guide](https://github.com/uber-go/guide/blob/master/style.md)
+- [golang-standards/project-layout](https://github.com/golang-standards/project-layout)
+
+## interview
+
+- [golang 面试题](https://zhuanlan.zhihu.com/p/26972862)
+- [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
+- [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
+- [Go语言面试精选](https://www.zhihu.com/column/c_1347495366519119872)
 
