@@ -335,11 +335,6 @@ interface value = nil
 - [x] [The Laws of Reflection](https://blog.golang.org/laws-of-reflection)
 - [x] [Reflection in Golang](http://blog.ralch.com/tutorial/golang-reflection/)
 
-## other
-
-- empty value: `var x type`，`new`
-- nonempty value: `make`
-
 ## internal datatype
 
 ### map
