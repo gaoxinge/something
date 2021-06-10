@@ -219,7 +219,7 @@ func *Student Change(student *Student, name string) {
 
 func main() {
 	a := Student{"gaoxinge"}
-	a.Change("123")        // {gaoxinge}
+	a.Change("123")              // {gaoxinge}
 	fmt.Println(a)               // {gaoxinge}
 
 	b := Student{"gaoxinge"}
@@ -227,7 +227,7 @@ func main() {
 	fmt.Println(b)               // {gaoxinge}
 
 	c := &Student{"gaoxinge"}
-	c.Change("123")        // {gaoxinge}
+	c.Change("123")              // {gaoxinge}
 	fmt.Println(c)               // &{gaoxinge}
 
 	d := &Student{"gaoxinge"}
@@ -272,7 +272,7 @@ func *Student Change(student *Student, name string) {
 func main() {
 	// convert a to &a
 	a := Student{"gaoxinge"}
-	a.Change("123")         // &{gaoxinge}
+	a.Change("123")               // &{gaoxinge}
 	fmt.Println(a)                // {123}
 
 	b := Student{"gaoxinge"}
@@ -280,7 +280,7 @@ func main() {
 	fmt.Println(b)                // {123}
 
 	c := &Student{"gaoxinge"}
-	c.Change("123")         // &{gaoxinge}
+	c.Change("123")               // &{gaoxinge}
 	fmt.Println(c)                // &{123}
 
 	d := &Student{"gaoxinge"}
