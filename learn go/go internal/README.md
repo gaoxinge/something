@@ -188,13 +188,6 @@ f3
 - empty value: `var x type`，`new`
 - nonempty value: `make`
 
-## internal datatype
-
-### map
-
-- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
-- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
-
 ## reflect
 
 ### method
@@ -325,4 +318,11 @@ _ = interface.(type) = nil
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
 - [Go语言面试精选](https://www.zhihu.com/column/c_1347495366519119872)
+
+## internal datatype
+
+### map
+
+- [深度解密Go语言之 map](https://zhuanlan.zhihu.com/p/66676224)
+- [直观、可视化的理解Golang Map](https://zhuanlan.zhihu.com/p/137382646)
 
