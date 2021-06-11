@@ -694,5 +694,6 @@ interface value = nil
 - [golang面试笔试题(第二版)](https://zhuanlan.zhihu.com/p/35058068)
 - [golang面试笔试题(第三版)](https://zhuanlan.zhihu.com/p/63705057)
 - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810)
+- [你遇到过哪些高质量的 Go 语言面试题？](https://www.zhihu.com/question/60952598/answer/414320445)
 - [Go语言面试精选](https://www.zhihu.com/column/c_1347495366519119872)
 
