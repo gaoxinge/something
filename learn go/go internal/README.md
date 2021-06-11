@@ -161,27 +161,368 @@ objdump -d main.exe
 
 - [panic.go](https://github.com/golang/go/blob/master/src/runtime/panic.go)
 
-### conclusion
+### example
 
-```
-goroutine
- |
- V
-f1 -> defer1 -> defer in defer1 -> defer in defer in defer1
- |
- V
-f2
- |
- V
-f3
+#### 1
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		panic("cccc")
+	}()
+
+	defer func() {
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
 ```
 
-- 所有操作都在同一个goroutine中
-- f1，f2，f3是函数的调用链
-- defer1，defer in defer1，defer in defer in defer2是defer链
-- 如果f3中发生了panic
-  - 如果defer1中有recover，那么可以cover住
-  - 如果defer1中没有recover，那么不可以cover住
+- 1111 aaaa
+- 3333 cccc
+
+#### 2
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		panic("dddd")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		panic("cccc")
+	}()
+
+	defer func() {
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 3333 cccc
+- panic: dddd
+
+#### 3
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		panic("cccc")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(5555, err)
+		} else {
+			fmt.Println(6666)
+		}
+
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 6666
+- 3333 cccc
+
+#### 4
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(5555, err)
+		} else {
+			fmt.Println(6666)
+		}
+
+		panic("cccc")
+	}()
+
+	defer func() {
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 5555 bbbb
+- 3333 cccc
+
+#### 5
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		panic("cccc")
+	}()
+
+	defer func() {
+		defer func() {
+			if err := recover(); err != nil {
+				fmt.Println(5555, err)
+			} else {
+				fmt.Println(6666)
+			}
+		}()
+
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 5555 bbbb
+- 3333 cccc
+
+#### 6
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		defer func() {
+			if err := recover(); err != nil {
+				fmt.Println(5555, err)
+			} else {
+				fmt.Println(6666)
+			}
+		}()
+
+		panic("cccc")
+	}()
+
+	defer func() {
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 5555 cccc
+- 3333 bbbb
+
+#### 7
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func f() {
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(3333, err)
+		} else {
+			fmt.Println(4444)
+		}
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(5555, err)
+		} else {
+			fmt.Println(6666)
+		}
+	}()
+
+	defer func() {
+		panic("cccc")
+	}()
+
+	defer func() {
+		panic("bbbb")
+	}()
+
+	defer func() {
+		if err := recover(); err != nil {
+			fmt.Println(1111, err)
+		} else {
+			fmt.Println(2222)
+		}
+	}()
+
+	panic("aaaa")
+}
+
+func main()  {
+	f()
+}
+```
+
+- 1111 aaaa
+- 5555 cccc
+- 4444
 
 ## oop
 
