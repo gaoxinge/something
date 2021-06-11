@@ -200,7 +200,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -249,7 +249,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -301,7 +301,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -353,7 +353,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -407,7 +407,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -461,7 +461,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
@@ -515,7 +515,7 @@ func f() {
 	panic("aaaa")
 }
 
-func main()  {
+func main() {
 	f()
 }
 ```
