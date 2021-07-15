@@ -90,6 +90,18 @@
 - [github](https://github.com/bellard)
 - [blog](https://bellard.org/)
 
+## Kris Mok
+
+- [github](https://github.com/rednaxelafx)
+
+## Zhao Wu
+
+- [github](https://github.com/FrozenGene)
+
+## Tianqi Chen
+
+- [github](https://github.com/tqchen)
+
 ## auxten
 
 - [github](https://github.com/auxten)
