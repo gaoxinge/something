@@ -7,5 +7,4 @@
 - [mysql](./mysql)
 - [kafka](./kafka)
 - [system design](./system-design)
-- [open source](./open-source)
 - [code](./code)
