@@ -81,6 +81,50 @@
 - [HTTP/2 相比 1.0 有哪些重大改进？](https://www.zhihu.com/question/34074946)
 - [HTTP 2.0 和 HTTP 1.1 相比有哪些优势呢？](https://www.zhihu.com/question/306768582)
 
+#### 请求行
+
+##### 格式
+
+- 方法
+- URL
+- HTTP版本
+
+##### 请求方法
+
+- GET：获取资源
+- POST：增加资源
+- PUT：更新资源
+- DELETE：删除资源
+- HEAD
+- CONNECT
+- OPTIONS
+- TRACE
+
+#### 响应行
+
+#### 格式
+
+- HTTP版本
+- 状态码
+- 状态描述
+
+#### 状态码
+
+- 1\*\*
+- 2\*\*：成功
+  - 200：Ok，成功
+- 3\*\*：重定向
+- 4\*\*：客户端错误
+  - 404：Not Found，URL错误
+  - 405：Method Not Allowed，方法错误
+- 5\*\*：服务端错误
+  - 500：Internal Server Error，服务端内部错误
+  - 501：Not Implemented，服务端功能未实现
+  - 502：Bad Gateway，负载均衡请求服务报错
+  - 503：Service Unavailable，服务端不可用
+  - 504：Gateway Time-out，负载均衡请求服务超时
+  - 505：HTTP Version not supported，HTTP版本不支持
+
 ### grpc
 
 - 基于http2
