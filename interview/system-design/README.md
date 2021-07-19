@@ -85,7 +85,7 @@
 
 - 各服务提供Try，Confirm，Cancel接口，其中Confirm和Cancel都是幂等的
 - 事务发起服务向事务管理器发送Try消息，请求各服务的Try接口，然后接受各服务的响应
-- 如果全部响应OK，事务发起服务请求各服务的Confirm接口；否则，请求Cancel接口
+- 如果全部响应OK，事务管理器请求各服务的Confirm接口；否则，请求Cancel接口
 - 事务发起服务接受事务管理器的响应
 
 #### saga
