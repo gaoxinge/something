@@ -47,7 +47,7 @@
 ## 持久化
 
 - RDB：redis database，快照
-- AOF：append only file，写日志
+- AOF：append only file，日志
 
 ## 高可用
 
