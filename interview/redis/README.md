@@ -48,6 +48,7 @@
 
 - id：编号
 - dict：键空间，包含所有键值对
+![](./1.png)
 - expires
 - blocking_keys
 - ready_keys
