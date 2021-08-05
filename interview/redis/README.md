@@ -44,6 +44,19 @@
 - zset：有序集合
   - 编码：跳跃表/压缩列表
 
+## redisDb
+
+- id：编号
+- dict：键空间，包含所有键值对
+- expires
+- blocking_keys
+- ready_keys
+- watched_keys
+
+## redisServer
+
+- redisDb
+
 ## 持久化
 
 - RDB：redis database，快照
