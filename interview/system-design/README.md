@@ -277,6 +277,7 @@ web ----> kafka -|
 ### web server
 
 - 限流
+- 内存缓存
 - redis：预先判断商品库存是否足够
 - database：
   - 悲观锁/乐观锁
