@@ -383,10 +383,13 @@ business api ---> data api --|
 - GET  /blog/{id}：获取站点
 - POST /blog：创建站点
 - GET  /article/{id}：获取文章
-- POST /article：创建文章
+- post /article：创建文章
 
 ### business api
 
-- GET /article/{id}：获取文章
+- GET  /blog/{id}：获取站点
+- POST /blog：创建站点
+- GET  /article/{id}：获取文章
   - 服务端渲染（SSR）：把文章内容填入html中
   - 客户端渲染（CSR）：渲染文章的依赖链接（图片，视频）
+- GET  /article/{id}：获取文章
