@@ -342,3 +342,51 @@ web server 3 ---|              |---> top-k reducer ---|
 - [Efficient Computation of Frequent and Top-k Elements in Data Streams](https://www.cs.ucsb.edu/sites/cs.ucsb.edu/files/docs/reports/2005-23.pdf)
 - [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
 - [Distributed Top-K Monitoring](http://infolab.stanford.edu/~olston/publications/topk.pdf)
+
+## 登入系统
+
+## 博客
+
+### 架构
+                             |-> 数据库
+business api ---> data api --|
+                             |-> 分布式文件系统
+
+### 数据库
+
+- user：用户表
+  - id：主键
+  - username：用户名，唯一索引
+  - password：密码
+- blog：站点表
+  - id：主键
+  - name：站点名，唯一索引
+  - user\_id：用户id，外键
+- article：文章表
+  - id：主键
+  - name：文章名
+  - blog\_id：站点id，外键
+  - url：文章在文件系统上的地址，唯一索引
+  - （name，blog\_id）：复合唯一索引
+
+### 文件系统
+
+- 内容
+  - 文章
+  - 图片
+  - 视频
+- 方式
+  - 通过data api暴露
+
+### data api
+
+- GET  /blog/{id}：获取站点
+- POST /blog：创建站点
+- GET  /article/{id}：获取文章
+- POST /article：创建文章
+
+### business api
+
+- GET /article/{id}：获取文章
+  - 服务端渲染（SSR）：把文章内容填入html中
+  - 客户端渲染（CSR）：渲染文章的依赖链接（图片，视频）
