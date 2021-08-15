@@ -348,9 +348,12 @@ web server 3 ---|              |---> top-k reducer ---|
 ## 博客
 
 ### 架构
+
+```
                              |-> 数据库
 business api ---> data api --|
                              |-> 分布式文件系统
+```
 
 ### 数据库
 
@@ -393,3 +396,30 @@ business api ---> data api --|
   - 服务端渲染（SSR）：把文章内容填入html中
   - 客户端渲染（CSR）：渲染文章的依赖链接（图片，视频）
 - GET  /article/{id}：获取文章
+
+## 标签
+
+### 架构
+
+```
+business api ---> data api ---> 数据库
+```
+
+### 数据库
+
+- article：文章表 
+  - id：主键
+  - name：文章名
+- tag：标签表
+  - id：主键
+  - name：标签名，唯一索引
+- relation：文章和标签的关系表
+  - id：主键
+  - article\_id：文章id，外键
+  - tag\_id：标签id，外键
+
+### data api
+
+- GET /articles；通过标签获取文章
+  - 标签名映射成标签id
+  - 使用JOIN SQL在关系表中查询满足条件的文章
