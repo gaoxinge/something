@@ -343,7 +343,29 @@ web server 3 ---|              |---> top-k reducer ---|
 - [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
 - [Distributed Top-K Monitoring](http://infolab.stanford.edu/~olston/publications/topk.pdf)
 
-## 登入系统
+## 登入
+
+### session，cookie
+
+#### reference
+
+- [彻底理解cookie，session，token](https://zhuanlan.zhihu.com/p/63061864)
+- [还分不清 Cookie、Session、Token、JWT？](https://zhuanlan.zhihu.com/p/164696755)
+- [Web 开发必须掌握的三个技术：Token、Cookie、Session](https://zhuanlan.zhihu.com/p/171787680)
+- [鉴权必须了解的5个兄弟：cookie、session、token、jwt、单点登录](https://zhuanlan.zhihu.com/p/395273289)
+- [90%程序员面试时都没有完全答对Cookie和Session的区别](https://zhuanlan.zhihu.com/p/66754258)
+
+### 第三方
+
+#### reference
+
+- [设计一个可扩展的用户登录系统 (1)](https://www.liaoxuefeng.com/article/1029274073038464)
+- [设计一个可扩展的用户登录系统 (2)](https://www.liaoxuefeng.com/article/1078848528483840)
+- [设计一个可扩展的用户登录系统 (3)](https://www.liaoxuefeng.com/article/1079209877054048)
+
+### sso
+
+### 登入，注册重定向
 
 ## 博客
 
