@@ -47,10 +47,3 @@
 - [_mm_load_ps caused segment fault](https://stackoverflow.com/questions/21015961/mm-load-ps-caused-segment-fault)
 - [AVX segmentation fault on linux](https://stackoverflow.com/questions/33373318/avx-segmentation-fault-on-linux)
 
-## sse
-
-### reference
-
-#### introduction
-
-- [Getting started with Intel x86 SSE SIMD instructions](https://stackoverflow.com/questions/1389712/getting-started-with-intel-x86-sse-simd-instructions)
