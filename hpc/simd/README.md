@@ -9,6 +9,10 @@
 
 - [MMX (instruction set)](https://en.wikipedia.org/wiki/MMX_(instruction_set))
 
+## sse
+
+- [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
+
 ## gcc
 
 - [3.19.59 x86 Options](https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html)
