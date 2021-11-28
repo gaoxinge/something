@@ -1,5 +1,7 @@
 # hpc
 
+- [simd](./simd)
+
 ## HPC Carpentry
 
 - [HPC Carpentry](https://github.com/hpc-carpentry)
