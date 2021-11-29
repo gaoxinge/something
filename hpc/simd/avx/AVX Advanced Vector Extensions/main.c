@@ -17,4 +17,3 @@ int main() {
     farray_print(f, 8);
     return 0;
 }
-

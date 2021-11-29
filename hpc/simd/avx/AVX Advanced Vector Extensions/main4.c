@@ -12,7 +12,8 @@ void farray_print(float *f, int n) {
     printf("\n");
 }
 
-// alignment reference
+// alignment 
+// reference:
 //   - https://stackoverflow.com/questions/32612190/how-to-solve-the-32-byte-alignment-issue-for-avx-load-store-operations
 // g++ main4.c -mavx -o main
 int main() {

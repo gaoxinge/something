@@ -2,20 +2,6 @@
 
 ## avx
 
-### AVX: Advanced Vector Extensions
-
-- [AVX: Advanced Vector Extensions](https://www.cs.uaf.edu/courses/cs441/notes/avx/)
-
-#### code
-
-- [AVX: Advanced Vector Extensions](https://github.com/gaoxinge/something/tree/master/simd/AVX%20Advanced%20Vector%20Extensions)
-
-### reference
-
-#### wiki
-
-- [Advanced Vector Extensions](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions)
-
 #### tutorial
 
 - [Improving Linux Performance with GCC latest technologies](https://blog.linuxplumbersconf.org/2016/ocw/system/presentations/3795/original/GCC.pdf)
@@ -39,9 +25,3 @@
 
 - [How to detect SSE/SSE2/AVX/AVX2/AVX-512/AVX-128-FMA/KCVI availability at compile-time?](https://stackoverflow.com/questions/28939652/how-to-detect-sse-sse2-avx-avx2-avx-512-avx-128-fma-kcvi-availability-at-compile)
 - [Integer SIMD Instruction AVX in C](https://stackoverflow.com/questions/24399754/integer-simd-instruction-avx-in-c)
-
-#### alignment
-
-- [_mm_load_ps caused segment fault](https://stackoverflow.com/questions/21015961/mm-load-ps-caused-segment-fault)
-- [AVX segmentation fault on linux](https://stackoverflow.com/questions/33373318/avx-segmentation-fault-on-linux)
-
