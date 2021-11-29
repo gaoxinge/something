@@ -21,7 +21,6 @@
 - [parallel sort](https://github.com/gaoxinge/something/tree/master/parallel%20sort)
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
-- [simd](https://github.com/gaoxinge/something/tree/master/simd)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
 - [graphics](https://github.com/gaoxinge/something/tree/master/graphics)
