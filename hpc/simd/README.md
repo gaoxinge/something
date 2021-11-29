@@ -5,6 +5,7 @@
 - [Intrinsic function](https://en.wikipedia.org/wiki/Intrinsic_function)
 - [Intel Intrinsics Guide](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html)
 - [x86/x64 SIMD Instruction List (SSE to AVX512)](https://www.officedaytime.com/simd512e/)
+- [How to detect SSE/SSE2/AVX/AVX2/AVX-512/AVX-128-FMA/KCVI availability at compile-time?](https://stackoverflow.com/questions/28939652/how-to-detect-sse-sse2-avx-avx2-avx-512-avx-128-fma-kcvi-availability-at-compile)
 
 ## mmx
 
