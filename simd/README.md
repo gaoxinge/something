@@ -23,8 +23,6 @@
 - [What is SSE and AVX?](https://www.codingame.com/playgrounds/283/sse-avx-vectorization/what-is-sse-and-avx)
 - [Crunching Numbers with AVX and AVX2](https://www.codeproject.com/Articles/874396/Crunching-Numbers-with-AVX-and-AVX)
 - [Practical SIMD Programming](http://www.cs.uu.nl/docs/vakken/magr/2017-2018/files/SIMD%20Tutorial.pdf)
-- [Introduction to Intel® Advanced Vector Extensions](https://software.intel.com/en-us/articles/introduction-to-intel-advanced-vector-extensions)
-- [Using AVX Without Writing AVX Code](https://software.intel.com/en-us/articles/using-avx-without-writing-avx-code)
 
 #### exercise
 
