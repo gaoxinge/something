@@ -1,6 +1,6 @@
-*.pyc
-*.class
 .idea
 .gradle
 out
 *.iml
+*.class
+*.pyc

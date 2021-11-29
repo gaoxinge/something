@@ -13,6 +13,7 @@
 ## sse
 
 - [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
+- [AVX: Advanced Vector Extensions](https://www.cs.uaf.edu/courses/cs441/notes/avx/) ([code](./avx/AVX%20Advanced%20Vector%20Extensions))
 
 ## gcc
 
