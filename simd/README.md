@@ -4,7 +4,6 @@
 
 #### tutorial
 
-- [Improving Linux Performance with GCC latest technologies](https://blog.linuxplumbersconf.org/2016/ocw/system/presentations/3795/original/GCC.pdf)
 - [Guide to Automatic Vectorization with Intel AVX-512 Instructions in Knights Landing Processors](https://colfaxresearch.com/knl-avx512/)
 - [What is SSE and AVX?](https://www.codingame.com/playgrounds/283/sse-avx-vectorization/what-is-sse-and-avx)
 - [Crunching Numbers with AVX and AVX2](https://www.codeproject.com/Articles/874396/Crunching-Numbers-with-AVX-and-AVX)
