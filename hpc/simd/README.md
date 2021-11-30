@@ -15,6 +15,7 @@
 
 - [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
 - [AVX: Advanced Vector Extensions](https://www.cs.uaf.edu/courses/cs441/notes/avx/) ([code](./avx/AVX%20Advanced%20Vector%20Extensions))
+- [Improving performance with SIMD intrinsics in three use cases](https://stackoverflow.blog/2020/07/08/improving-performance-with-simd-intrinsics-in-three-use-cases/)
 - [kshitijl/avx2-examples](https://github.com/kshitijl/avx2-examples)
 - [VictorRodriguez/avx-basics](https://github.com/VictorRodriguez/avx-basics)
 
