@@ -23,3 +23,7 @@
 
 - [3.19.59 x86 Options](https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html)
 - [5.50.6 X86 Built-in Functions](https://gcc.gnu.org/onlinedocs/gcc-4.4.1/gcc/X86-Built_002din-Functions.html)
+- [7.8 Function Multiversioning](https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gcc/Function-Multiversioning.html)
+- [Function multi-versioning in GCC 6](https://lwn.net/Articles/691932/)
+- [Function Multi-Versioning¶](https://docs.01.org/clearlinux/latest/tutorials/fmv.html)
+- [Improving Linux Performance with GCC latest technologies](https://blog.linuxplumbersconf.org/2016/ocw/system/presentations/3795/original/GCC.pdf)
