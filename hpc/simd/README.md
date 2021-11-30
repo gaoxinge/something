@@ -34,3 +34,7 @@
 - [Function multi-versioning in GCC 6](https://lwn.net/Articles/691932/)
 - [Function Multi-Versioning](https://docs.01.org/clearlinux/latest/tutorials/fmv.html)
 - [Improving Linux Performance with GCC latest technologies](https://blog.linuxplumbersconf.org/2016/ocw/system/presentations/3795/original/GCC.pdf)
+
+## icl
+
+- [A Guide to Vectorization with Intel C++ Compilers](https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf)
