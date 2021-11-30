@@ -14,8 +14,15 @@
 ## sse
 
 - [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
+
+## avx
+
 - [AVX: Advanced Vector Extensions](https://www.cs.uaf.edu/courses/cs441/notes/avx/) ([code](./avx/AVX%20Advanced%20Vector%20Extensions))
+- [Guide to Automatic Vectorization with Intel AVX-512 Instructions in Knights Landing Processors](https://colfaxresearch.com/knl-avx512/)
+- [Crunching Numbers with AVX and AVX2](https://www.codeproject.com/Articles/874396/Crunching-Numbers-with-AVX-and-AVX)
+- [SSE & AVX Vectorization](https://www.codingame.com/playgrounds/283/sse-avx-vectorization/what-is-sse-and-avx)
 - [Improving performance with SIMD intrinsics in three use cases](https://stackoverflow.blog/2020/07/08/improving-performance-with-simd-intrinsics-in-three-use-cases/)
+- [Practical SIMD Programming](http://www.cs.uu.nl/docs/vakken/magr/2017-2018/files/SIMD%20Tutorial.pdf)
 - [kshitijl/avx2-examples](https://github.com/kshitijl/avx2-examples)
 - [VictorRodriguez/avx-basics](https://github.com/VictorRodriguez/avx-basics)
 
