@@ -14,7 +14,7 @@
 ## sse
 
 - [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
-- [SSE and AVX: SIMD for x86](https://www.cs.uaf.edu/courses/cs441/notes/sse-avx/) ([code](./sse/SSE%20and%20AVX%20SIMD%20for%20x86]))
+- [SSE and AVX: SIMD for x86](https://www.cs.uaf.edu/courses/cs441/notes/sse-avx/) ([code](./sse/SSE%20and%20AVX%20SIMD%20for%20x86))
 
 ## avx
 
