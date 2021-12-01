@@ -13,3 +13,8 @@
 - [windows下利用Mingw和msmpi编译运行mpi并行程序](https://blog.csdn.net/xenonhu/article/details/78196443)
 - [MPI + GCC + GFORTRAN on Windows](https://abhila.sh/writing/3/mpi_instructions.html)
 - [msmpi.sh](https://github.com/msys2/MINGW-packages/blob/master/mingw-w64-msmpi/msmpi.sh)
+
+## doc
+
+- [Intro to MPI Course Overview](https://www.dartmouth.edu/~rc/classes/intro_mpi/index.html)
+- [A Comprehensive MPI Tutorial Resource](https://mpitutorial.com/)

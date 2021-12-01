@@ -1,5 +1,6 @@
 # hpc
 
+- [overview](./overview)
 - [simd](./simd)
 - [mpi](./mpi)
 
@@ -18,19 +19,6 @@
 ## Introduction to High-Performance Scientific Computing
 
 - [Introduction to High-Performance Scientific Computing](http://pages.tacc.utexas.edu/~eijkhout/istc/istc.html)
-
-## 高性能计算从入门到放弃
-
-- [高性能计算从入门到放弃](https://zhuanlan.zhihu.com/c_1058374280076652544)
-
-## 3 数据并行模式
-
-- [3 数据并行模式](https://zhuanlan.zhihu.com/p/81344648)
-
-## parallelism
-
-- [Data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)
-- [Task parallelism](https://en.wikipedia.org/wiki/Task_parallelism)
 
 ## openmp
 
@@ -63,11 +51,3 @@ int main (int argc, char *argv[]) {
 $ gcc -fopenmp omp_hello.c -o omp_hello
 $ ./omp_hello
 ```
-
-## Intro to MPI Course Overview
-
-- [Intro to MPI Course Overview](https://www.dartmouth.edu/~rc/classes/intro_mpi/index.html)
-
-### code
-
-- [Intro to MPI Course Overview](https://github.com/gaoxinge/something/tree/master/hpc/Intro%20to%20MPI%20Course%20Overview)
