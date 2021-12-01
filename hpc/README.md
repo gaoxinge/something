@@ -1,6 +1,7 @@
 # hpc
 
 - [simd](./simd)
+- [mpi](./mpi)
 
 ## HPC Carpentry
 
