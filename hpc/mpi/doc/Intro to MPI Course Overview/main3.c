@@ -28,8 +28,9 @@ int main(int argc, char *argv[]) {
     int a = h * rank;
     int b = h * (rank + 1);
     b = min(b, 400);
-    int i;
     printf("%d handle in [%d, %d)\n", rank, a, b);
+
+    int i;
     for (i = a; i < b; i++) {
         if (done) {
             break;
@@ -37,8 +38,9 @@ int main(int argc, char *argv[]) {
 
 	if (buf[i] == 50) {
 	     printf("%d found it at global index %d in [%d, %d)\n", rank, i, a, b);
-             for (int j = 0; j < size; j++) {
-                 // MPI_Send(&dummy, 1, MPI_INT, j, 123, MPI_COMM_WORLD);
+	     for (int j = 0; j < size; j++) {
+                 MPI_Send(&dummy, 1, MPI_INT, j, 123, MPI_COMM_WORLD);
+                 // MPI_Isend(&dummy, 1, MPI_INT, j, 123, MPI_COMM_WORLD, &request);
 	     }
 	}
 
@@ -46,6 +48,7 @@ int main(int argc, char *argv[]) {
     }
 
     printf("%d stop at global index %d in [%d, %d)\n", rank, i, a, b);
+
     MPI_Finalize();
     return 0;
 }
