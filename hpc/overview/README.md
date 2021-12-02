@@ -6,3 +6,4 @@
 - [3 数据并行模式](https://zhuanlan.zhihu.com/p/81344648)
 - [Data parallelism](https://en.wikipedia.org/wiki/Data_parallelism)
 - [Task parallelism](https://en.wikipedia.org/wiki/Task_parallelism)
+- [HPC Carpentry](https://github.com/hpc-carpentry)
