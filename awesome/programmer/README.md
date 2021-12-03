@@ -60,6 +60,16 @@
 - [github](https://github.com/draveness)
 - [blog](https://draveness.me/)
 
+## Sky Ao
+
+- [github](https://github.com/skyao)
+- [blog](https://skyao.io/)
+
+## xujingfeng
+
+- [github](https://github.com/lexburner)
+- [blog](https://www.cnkirito.moe/)
+
 ## Eli Bendersky
 
 - [github](https://github.com/eliben)
