@@ -63,10 +63,13 @@
 
 ## log
 
-### transaction
+### wal/steal/force
 
-- start：<START T>
-- commit：<COMMIT T>
+- wal：<T, A, x>需要先于脏数据落盘
+- force：<T, COMMIT>需要后于脏数据落盘
+- no force：<T, COMMIT>不需要后于脏数据落盘
+- steal：<T, COMMIT>不需要先于脏数据落盘
+- no steal：<T, COMMIT>需要先于脏数据落盘
 
 ### undo/redo
 
@@ -74,60 +77,28 @@
 - redo：重做日志，记录新值，<T, A, x>
 - undo/redo：<T, A, x1, x2>
 
-### wal/steal/force
-
-- wal：<T, A, x>需要先于脏数据落盘
-- steal：<COMMIT, T>不需要先于脏数据落盘
-- no steal：<COMMIT, T>需要先于脏数据落盘，蕴含wal
-- force：<COMMIT, T>需要后于脏数据落盘
-- no force：<COMMIT, T>不需要后于脏数据落盘
-
 ### crasy recovery
 
-#### undo
+#### redo <-> no force/no steal
 
-- 原则
-  - wal：<T, A, x>需要先于脏数据落盘
-  - force：<COMMIT, T>需要后于脏数据落盘
+- 原则: <T, A, x> -> <T, COMMIT> -> 脏数据
 - 恢复
-  - 已提交：根据force原则，已经落盘
-  - 未提交：根据wal原则，回滚落盘的数据
-- 结论
-  - steal
-  - force
+  - 已提交：重做
+  - 未提交：无需操作
 
-#### redo
+#### undo <-> force/steal
 
-- 原则
-  - no steal：<COMMIT, T>需要先于脏数据落盘
+- 原则: <T, A, x> -> 脏数据 -> <T, COMMIT>
 - 恢复
-  - 已提交：根据no steal原则，重做未落盘的数据
-  - 未提交：根据no steal原则，未落盘
-- 结论
-  - no steal
-  - no force
+  - 已提交：无需操作
+  - 未提交：回滚
 
-#### undo/redo
+#### undo/redo <-> steal/no force
 
-- 原则
-  - wal：<T, A, x1, x2>需要先于脏数据落盘
+- 原则: <T, A, x1, x2> -> 脏数据/<T, COMMIT>
 - 恢复
-  - 已提交：根据wal原则，重做未落盘的数据
-  - 未提交：根据wal原则，回滚落盘的数据
-- 结论
-  - steal
-  - no force
-
-### 分类
-
-- 等价性
-  - undo <-> force
-  - redo <-> no steal
-- 分类
-  - steal/force：undo
-  - no steal/no force：redo
-  - steal/no force：undo/redo
-  - no steal/force：不存在
+  - 已提交：重做
+  - 未提交：回滚
 
 ### binlog
 
@@ -163,8 +134,8 @@
 
 - 脏读：读取到其他事务未提交的数据
 - 不可重复读：读取到其他事务提交的数据。准确的说，连续读取同一条记录，但值不同
-- 幻读：读取到其他事务新增的数据。准确的说，连续读取同一张表，但记录个数不同
 - 更新丢失：由于隔离性，两个事务在无法相互可见的情况下，并发的修改同一条记录
+- 幻读：读取到其他事务新增的数据。准确的说，连续读取同一张表，但记录个数不同
 
 ### 隔离级别
 
