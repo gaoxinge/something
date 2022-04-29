@@ -100,18 +100,6 @@
 - [github](https://github.com/bellard)
 - [blog](https://bellard.org/)
 
-## Tianqi Chen
-
-- [github](https://github.com/tqchen)
-
-## Lianmin Zheng
-
-- [github](https://github.com/merrymercy)
-
-## Lequn Chen
-
-- [github](https://github.com/abcdabcd987)
-
 ## auxten
 
 - [github](https://github.com/auxten)
