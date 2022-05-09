@@ -129,6 +129,61 @@
 
 - 基于http2
 
+## 传输层
+
+### UDP vs TCP
+
+- UDP（类似网络层）
+  - 无连接
+  - 不可靠
+- TCP
+  - 面向连接
+  - 可靠
+
+### TCP
+
+#### 连接管理
+
+为了上面两个特性，以及性能方面的考虑，TCP采用数据流的方式实现，即把传输数据分成多块：
+
+- 发送方需要为每块写上编号，才能发送（seq）
+- 接收方需要对接收到的每块进行ACK（ACK ack）
+
+具体如下：
+
+- 三次握手：为了协商编号
+
+```
+       SYN     seq=x
+client -----------------------> server
+       SYN ACK seq=y   ack=x+1
+client <----------------------- server
+       ACK     seq=x+1 ack=y+1
+client -----------------------> server
+```
+
+- 四次挥手：为了确保两边都释放资源
+
+```
+       FIN ACK seq=u   ack=v-1
+client -----------------------> server
+       ACK     seq=v   ack=u+1
+client <----------------------- server
+       FIN ACK seq=w   ack=u+1
+client <----------------------- server
+       ACK     seq=u+1 ack=w+1
+client -----------------------> server
+```
+
+- seq，Ack和ack
+
+```
+       ACK     seq=a   ack=b
+client -----------------------> server
+       ACK     seq=b+1 ack=a+1
+server <----------------------- server
+```
+
 ## 服务治理
 
 - 单体应用
