@@ -112,10 +112,6 @@
 
 - [blog](http://140.205.61.252/)
 
-## 数据库内核月报
-
-- [blog](http://mysql.taobao.org/monthly/)
-
 ## 美团技术
 
 - [blog](https://tech.meituan.com/)
