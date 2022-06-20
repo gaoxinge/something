@@ -3,7 +3,6 @@
 - [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
 - [interview](https://github.com/gaoxinge/something/tree/master/interview)
-- [ubuntu](https://github.com/gaoxinge/something/tree/master/ubuntu)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [tool](https://github.com/gaoxinge/something/tree/master/tool)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
