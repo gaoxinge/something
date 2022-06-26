@@ -1,6 +1,5 @@
 # something
 
-- [awesome](https://github.com/gaoxinge/something/tree/master/awesome)
 - [zhihu](https://github.com/gaoxinge/something/tree/master/zhihu)
 - [interview](https://github.com/gaoxinge/something/tree/master/interview)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
