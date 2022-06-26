@@ -75,16 +75,6 @@
 - [github](https://github.com/eliben)
 - [blog](https://eli.thegreenplace.net/)
 
-## xlzd
-
-- [github](https://github.com/xlzd)
-- [blog](https://xlzd.me/)
-
-## keakon
-
-- [github](https://github.com/keakon)
-- [blog](https://www.keakon.net/)
-
 ## Daniel Holden
 
 - [github](https://github.com/orangeduck)
@@ -95,23 +85,3 @@
 - [github](https://github.com/skeeto)
 - [blog](https://nullprogram.com/)
 
-## bellard
-
-- [github](https://github.com/bellard)
-- [blog](https://bellard.org/)
-
-## auxten
-
-- [github](https://github.com/auxten)
-
-## satanson
-
-- [github](https://github.com/satanson)
-
-## 阿里中间件
-
-- [blog](http://140.205.61.252/)
-
-## 美团技术
-
-- [blog](https://tech.meituan.com/)
