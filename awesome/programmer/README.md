@@ -1,14 +1,3 @@
-## Hao Chen
-
-- [github](https://github.com/haoel)
-- [blog](https://coolshell.cn/)
-
-## Zihan Chen
-
-- [github](https://github.com/vczh)
-- [blog](https://www.cnblogs.com/geniusvczh/)
-- [blog](http://www.cppblog.com/vczh)
-
 ## Michael Liao
 
 - [github](https://github.com/michaelliao)
