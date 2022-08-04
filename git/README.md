@@ -204,7 +204,7 @@ alias ls='ls --show-control-chars --color=auto'
 
 ### 代理
 
-在`~./bashrc`中添加
+在`~/.bashrc`中添加
 
 ```
 export http_proxy=http://127.0.0.1:80
