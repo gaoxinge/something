@@ -1,5 +1,4 @@
-use arrow2::array::{PrimitiveArray, Utf8Array};
-use arrow2::array::ord::total_cmp;
+use arrow2::array::PrimitiveArray;
 use arrow2::compute::arithmetics::basic::*;
 
 fn main() {
