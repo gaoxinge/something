@@ -5,6 +5,7 @@
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [tool](https://github.com/gaoxinge/something/tree/master/tool)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
+- [learn rust](https://github.com/gaoxinge/something/tree/master/learn%20rust)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
 - [learn python](https://github.com/gaoxinge/something/tree/master/learn%20python)
