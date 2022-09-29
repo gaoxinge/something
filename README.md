@@ -24,4 +24,3 @@
 - [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
 - [graphics](https://github.com/gaoxinge/something/tree/master/graphics)
 - [matplotlib](https://github.com/gaoxinge/something/tree/master/matplotlib)
-- [opengl](https://github.com/gaoxinge/something/tree/master/opengl)
