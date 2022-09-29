@@ -7,7 +7,9 @@
 
 ## install
 
-- mingw + freeglut ([code](./install/mingw%20+%20freeglut))
+- freeglut ([code](./install/freeglut))
+- glfw ([code](./install/glfw))
+- glad ([code](./install/glad))
 
 ## doc
 

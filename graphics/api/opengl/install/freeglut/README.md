@@ -1,11 +1,13 @@
-# mingw + freeglut
+# freeglut
 
-## prerequisite
+## mingw + binary
+
+### prerequisite
 
 - check `opengl32.dll` and `glu32.dll` in `C:/Windows/System32`
 - install `msys2`
 
-## hello world
+### hello world
 
 ```
 $ pacman -S mingw-w64-x86_64-freeglut
@@ -16,7 +18,7 @@ $ gcc -o main HelloGLUT.c Callbacks.c -lopengl32 -lglu32 -lfreeglut
 $ ./main
 ```
 
-## reference
+### reference
 
 - [Using GCC (MinGW) to compile OpenGL on Windows](https://stackoverflow.com/questions/2568067/using-gcc-mingw-to-compile-opengl-on-windows)
 
