@@ -11,21 +11,11 @@
 ## particle
 
 - [An Introduction to Physically Based Modeling: Particle System Dynamics](https://www.cs.cmu.edu/~baraff/pbm/particles.pdf)
-- [Advanced JS: Natural Simulations](https://www.khanacademy.org/computing/computer-programming/programming-natural-simulations)
-- [Effects](https://www.khanacademy.org/partner-content/pixar/effects)
-- [THE NATURE OF CODE](https://natureofcode.com/)
-- [Processing](https://processing.org/)
 
 ## fluid
 
-### wiki
-
-- [Fluid animation](https://en.wikipedia.org/wiki/Fluid_animation)
-- [Navier–Stokes equations](https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations)
-
 ### tutorial
 
-- [PyCFD](http://cav2012.sg/cdohl/CFD_course/)
 - [barbagroup/AeroPython](https://github.com/barbagroup/AeroPython)
 - [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
 
