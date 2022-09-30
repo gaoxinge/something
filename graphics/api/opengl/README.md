@@ -3,7 +3,8 @@
 ## overview
 
 - [opengl](https://www.opengl.org/)
-- [opengl ecosystem](https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs)
+- [ecosystem](https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs)
+- [rendering pipeline](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)
 
 ## install
 
