@@ -31,6 +31,7 @@
 
 - [3.19.59 x86 Options](https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html)
 - [5.50.6 X86 Built-in Functions](https://gcc.gnu.org/onlinedocs/gcc-4.4.1/gcc/X86-Built_002din-Functions.html)
+- [6.52 Using Vector Instructions through Built-in Functions](https://gcc.gnu.org/onlinedocs/gcc/Vector-Extensions.html)
 - [Auto-vectorization in GCC](https://gcc.gnu.org/projects/tree-ssa/vectorization.html)
 - [7.8 Function Multiversioning](https://gcc.gnu.org/onlinedocs/gcc-4.9.2/gcc/Function-Multiversioning.html)
 - [Function multi-versioning in GCC 6](https://lwn.net/Articles/691932/)
@@ -43,4 +44,5 @@
 
 ## llvm
 
+- [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html#vector-type)
 - [Auto-Vectorization in LLVM](https://llvm.org/docs/Vectorizers.html)
