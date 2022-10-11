@@ -40,3 +40,7 @@
 ## icl
 
 - [A Guide to Vectorization with Intel C++ Compilers](https://www.intel.com/content/dam/develop/external/us/en/documents/31848-compilerautovectorizationguide.pdf)
+
+## llvm
+
+- [Auto-Vectorization in LLVM](https://llvm.org/docs/Vectorizers.html)
