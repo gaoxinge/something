@@ -4,3 +4,5 @@
 - [simd](./simd)
 - [mpi](./mpi)
 - [openmp](./openmp)
+- [opencl](./opencl)
+- [cuda](./cuda)

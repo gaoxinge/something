@@ -22,9 +22,9 @@ int main() {
 
     vector_add(out, a, b, N);
 
-    //for (int i = 0; i < N; i++) {
-    //    printf("%0.1f ", out[i]);
-    //}
+    // for (int i = 0; i < N; i++) {
+    //     printf("%0.1f ", out[i]);
+    // }
 
     free(a);
     free(b);
