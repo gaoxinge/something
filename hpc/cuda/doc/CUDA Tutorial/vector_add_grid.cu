@@ -36,9 +36,9 @@ int main() {
 
     cudaMemcpy(out, d_out, sizeof(float) * N, cudaMemcpyDeviceToHost);
 
-    for (int i = 0; i < N; i++) {
-        printf("%0.1f ", out[i]);
-    }
+    // for (int i = 0; i < N; i++) {
+    //     printf("%0.1f ", out[i]);
+    // }
      
     cudaFree(d_a);
     cudaFree(d_b);
