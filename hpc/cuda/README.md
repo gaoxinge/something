@@ -8,7 +8,7 @@
 
 ## api
 
-- [link]()
+- [link](./api/link)
 - [cmake](./api/cmake)
 - [math](./api/math)
 

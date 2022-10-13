@@ -1,9 +1,3 @@
-# cuda
-
-## code
-
-- [api](https://github.com/gaoxinge/something/tree/master/cuda/api)
-
 ## Standard Introduction to CUDA C Programming
 
 - [Standard Introduction to CUDA C Programming](https://www.olcf.ornl.gov/wp-content/uploads/2013/02/Intro_to_CUDA_C-TS.pdf)
