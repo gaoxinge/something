@@ -1,11 +1,11 @@
 ## run
 
-- cmd / docker
+- cmd (wsl / docker)
 
 ```
-cmake -B build/
-cmake --build build/
-./build/Debug/main.exe
+$ cmake -B build/
+$ cmake --build build/
+$ ./build/Debug/main.exe
 ```
 
 - clion

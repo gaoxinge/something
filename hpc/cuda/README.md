@@ -10,7 +10,7 @@
 
 - [link]()
 - [cmake](./api/cmake)
-- [math]()
+- [math](./api/math)
 
 ## doc
 
