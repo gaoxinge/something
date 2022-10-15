@@ -21,6 +21,5 @@
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
 - [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
-- [cuda](https://github.com/gaoxinge/something/tree/master/cuda)
 - [graphics](https://github.com/gaoxinge/something/tree/master/graphics)
 - [matplotlib](https://github.com/gaoxinge/something/tree/master/matplotlib)
