@@ -1,7 +1,5 @@
 # opencl
 
-## introduction
-
 ## A Gentle Introduction to OpenCL
 
 - [1](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854)

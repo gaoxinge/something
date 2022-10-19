@@ -32,4 +32,6 @@ out: Hello World!
 $ cmake -B build/ -G "MinGW Makefiles"
 $ cmake --build build/
 $ ./build/main.exe
+in:  Khoor#Zruog$
+out: Hello World!
 ```

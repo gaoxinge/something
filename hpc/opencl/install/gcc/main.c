@@ -52,7 +52,7 @@ int main() {
 		printf("OpenCL compiler failed:\n%s", compiler_log);
 		return 2;
 	}
-	cl_kernel kernel = clCreateKernel(program, "main", NULL);
+	cl_kernel kernel = clCreateKernel(program, "f", NULL);
 	
 	// Setup GPU buffers
 	char* transformed = "Khoor#Zruog$";
