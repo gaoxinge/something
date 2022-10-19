@@ -20,11 +20,8 @@
 
 ## api
 
-- [api](https://www.khronos.org/registry/OpenCL/)
-
 ### code
 
-- [platform](https://github.com/gaoxinge/something/tree/master/opencl/api/platform)
 - [device](https://github.com/gaoxinge/something/tree/master/opencl/api/device)
 - [context](https://github.com/gaoxinge/something/tree/master/opencl/api/context)
 
