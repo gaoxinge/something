@@ -18,13 +18,6 @@
 
 - [2](https://github.com/gaoxinge/something/tree/master/opencl/anteru%20blog%20for%20opencl/2)
 
-## api
-
-### code
-
-- [device](https://github.com/gaoxinge/something/tree/master/opencl/api/device)
-- [context](https://github.com/gaoxinge/something/tree/master/opencl/api/context)
-
 ## Hands On OpenCL
 
 - [Hands On OpenCL](http://handsonopencl.github.io/)
