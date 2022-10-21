@@ -13,3 +13,7 @@
 ## install
 
 - gcc ([code](./install/gcc))
+
+## doc
+
+- [An Introduction to OpenCL C++](https://www.khronos.org/assets/uploads/developers/resources/Intro-to-OpenCL-C++-Whitepaper-May15.pdf)
