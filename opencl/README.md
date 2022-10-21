@@ -12,8 +12,6 @@
 
 ## anteru blog for opencl
 
-- [anteru blog for opencl](https://anteru.net/blog/tags/opencl/)
-
 ### code
 
 - [2](https://github.com/gaoxinge/something/tree/master/opencl/anteru%20blog%20for%20opencl/2)

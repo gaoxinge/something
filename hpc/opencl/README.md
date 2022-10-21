@@ -17,3 +17,4 @@
 ## doc
 
 - [An Introduction to OpenCL C++](https://www.khronos.org/assets/uploads/developers/resources/Intro-to-OpenCL-C++-Whitepaper-May15.pdf)
+- [Anteru’s introduction to OpenCL](https://anteru.net/blog/tags/opencl/) ([code](./doc/Anteru%20introduction%20to%20OpenCL))
