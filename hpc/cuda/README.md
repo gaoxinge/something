@@ -11,6 +11,7 @@
 - [link](./api/link)
 - [cmake](./api/cmake)
 - [math](./api/math)
+- [cudnn](./api/cudnn)
 
 ## doc
 

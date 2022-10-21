@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(1)
+enable_language(CUDA)
+
+find_package(CUDA 11.8 REQUIRED)
+add_executable(main main.cpp)
+target_link_libraries(main PUBLIC ${CUDA_LIBRARIES} "C:/gaoxinge/bin/cudnn/lib/x64/*")
+target_include_directories(main PUBLIC ${CUDA_INCLUDE_DIRS} "C:/gaoxinge/bin/cudnn/include")
