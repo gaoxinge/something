@@ -1,15 +1,5 @@
 # opencl
 
-## A Gentle Introduction to OpenCL
-
-- [1](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854)
-- [2](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854?pgno=2)
-- [3](http://www.drdobbs.com/parallel/a-gentle-introduction-to-opencl/231002854?pgno=3)
-
-### code
-
-- [add_numbers](https://github.com/gaoxinge/something/tree/master/opencl/A%20Gentle%20Introduction%20to%20OpenCL/add_numbers)
-
 ## Hands On OpenCL
 
 - [Hands On OpenCL](http://handsonopencl.github.io/)
