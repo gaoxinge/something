@@ -10,12 +10,6 @@
 
 - [add_numbers](https://github.com/gaoxinge/something/tree/master/opencl/A%20Gentle%20Introduction%20to%20OpenCL/add_numbers)
 
-## anteru blog for opencl
-
-### code
-
-- [2](https://github.com/gaoxinge/something/tree/master/opencl/anteru%20blog%20for%20opencl/2)
-
 ## Hands On OpenCL
 
 - [Hands On OpenCL](http://handsonopencl.github.io/)
