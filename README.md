@@ -20,6 +20,5 @@
 - [parallel sort](https://github.com/gaoxinge/something/tree/master/parallel%20sort)
 - [something about distribution system](https://github.com/gaoxinge/something/tree/master/something%20about%20distribution%20system)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
-- [opencl](https://github.com/gaoxinge/something/tree/master/opencl)
 - [graphics](https://github.com/gaoxinge/something/tree/master/graphics)
 - [matplotlib](https://github.com/gaoxinge/something/tree/master/matplotlib)
