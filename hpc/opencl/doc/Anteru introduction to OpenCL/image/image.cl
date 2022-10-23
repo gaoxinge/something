@@ -13,8 +13,8 @@ __kernel void Filter(__read_only image2d_t input,
     int2 pos = { get_global_id(0), get_global_id(1) };
 
     float4 sum = (float4)(0.0f);
-    for(int y = -FILTER_SIZE; y <= FILTER_SIZE; y++) {
-        for(int x = -FILTER_SIZE; x <= FILTER_SIZE; x++) {
+    for (int y = -FILTER_SIZE; y <= FILTER_SIZE; y++) {
+        for (int x = -FILTER_SIZE; x <= FILTER_SIZE; x++) {
             sum += FilterValue(filterWeights, x, y) * read_imagef(input, sampler, pos + (int2)(x,y));
         }
     }
