@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ex4)
+project(ex04)
 
 find_package(OpenCL REQUIRED)
 add_executable(main main2.cpp)

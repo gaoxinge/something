@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ex7)
+project(ex06)
 
 find_package(OpenCL REQUIRED)
 add_executable(main matmul.cpp matrix_lib.cpp)
