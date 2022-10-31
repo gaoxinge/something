@@ -17,4 +17,4 @@
 ## doc
 
 - [Intro to MPI Course Overview](https://www.dartmouth.edu/~rc/classes/intro_mpi/index.html) ([code](./doc/Intro%20to%20MPI%20Course%20Overview))
-- [A Comprehensive MPI Tutorial Resource](https://mpitutorial.com/)
+- [A Comprehensive MPI Tutorial Resource](https://mpitutorial.com/) ([code](./doc/A%20Comprehensive%20MPI%20Tutorial%20Resource))
