@@ -1,0 +1,21 @@
+# python render
+
+- [Textualize/rich](https://github.com/Textualize/rich)
+  - markdown render
+  - console target
+- [jupyter/notebook](https://github.com/jupyter/notebook)
+  - markdown render
+  - latex render
+  - web target
+- [joeyespo/grip](https://github.com/joeyespo/grip)
+  - markdown render
+  - web target
+- [JelteF/PyLaTeX](https://github.com/JelteF/PyLaTeX)
+  - latex render
+  - pdf target
+- [google/latexify_py](https://github.com/google/latexify_py)
+  - latex parser
+  - python front
+- [pygments/pygments](https://github.com/pygments/pygments)
+  - code render
+  - web target
