@@ -46,3 +46,7 @@
 
 - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html#vector-type)
 - [Auto-Vectorization in LLVM](https://llvm.org/docs/Vectorizers.html)
+
+## auto
+
+- example ([code]())
