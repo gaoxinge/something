@@ -33,6 +33,11 @@ One can use
 
 to generate asm.
 
+## example
+
+- [1](./rust/1)
+- [2](./rust/2)
+
 ### reference
 
 - [Mir optimization pass that implements auto-vectorization](https://internals.rust-lang.org/t/mir-optimization-pass-that-implements-auto-vectorization/16360/11)
