@@ -49,4 +49,4 @@
 
 ## auto
 
-- example ([code]())
+- example ([code](./auto/example))
