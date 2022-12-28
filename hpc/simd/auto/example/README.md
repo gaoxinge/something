@@ -32,3 +32,9 @@ One can use
 3. [pacak/cargo-show-asm](https://github.com/pacak/cargo-show-asm)
 
 to generate asm.
+
+### reference
+
+- [Mir optimization pass that implements auto-vectorization](https://internals.rust-lang.org/t/mir-optimization-pass-that-implements-auto-vectorization/16360/11)
+- [Taking Advantage of Auto-Vectorization in Rust](https://www.nickwilcox.com/blog/autovec/)
+- [Auto-Vectorization for Newer Instruction Sets in Rust](https://www.nickwilcox.com/blog/autovec2/)
