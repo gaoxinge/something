@@ -16,6 +16,19 @@ to generate asm.
 
 ## rust
 
+### llvm
+
+One can use
+
+1. `cargo rustc -- --emit=llvm-ir`, and `cat target/debug/deps/{project_name}-{hash}.ll`
+2. [pacak/cargo-show-asm](https://github.com/pacak/cargo-show-asm)
+
 ### asm
 
+One can use 
 
+1. [compiler explorer](https://godbolt.org/) with `-C opt-level=3`
+2. `cargo rustc -- --emit=asm`, and `cat target/debug/deps/{project_name}-{hash}.s`
+3. [pacak/cargo-show-asm](https://github.com/pacak/cargo-show-asm)
+
+to generate asm.
