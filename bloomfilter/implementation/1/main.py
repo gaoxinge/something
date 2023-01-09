@@ -76,9 +76,8 @@ class CountBloomFilter(Filter):
     def delete(self, e: str):
         hash1 = self.hash1(e)
         hash2 = self.hash2(e)
-        if self.array[hash1] > 0:
+        if self.array[hash1] > 0 and self.array[hash2] > 0:
             self.array[hash1] -= 1
-        if self.array[hash2] > 0:
             self.array[hash2] -= 1
 
 
