@@ -4,6 +4,11 @@
 
 - [flowchart maker](https://app.diagrams.net/)
 
+## html to pdf
+
+- [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer)
+- [sejda](https://www.sejda.com/html-to-pdf)
+
 ## compile
 
 - [compiler explorer](https://godbolt.org/)
