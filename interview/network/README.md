@@ -147,7 +147,7 @@
 为了上面两个特性，以及性能方面的考虑，TCP采用数据流的方式实现，即把传输数据分成多块：
 
 - 发送方需要为每块写上编号，才能发送（seq）
-- 接收方需要对接收到的每块进行ACK（ACK ack）
+- 接收方需要对接收到的每块进行ACK（ack）
 
 具体如下：
 
@@ -175,12 +175,12 @@ client <----------------------- server
 client -----------------------> server
 ```
 
-- seq，Ack和ack
+- seq和ack
 
 ```
        ACK     seq=a   ack=b
 client -----------------------> server
-       ACK     seq=b+1 ack=a+1
+       ACK     seq=b   ack=a+1
 server <----------------------- server
 ```
 
