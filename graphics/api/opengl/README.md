@@ -8,9 +8,11 @@
 
 ## install
 
-- freeglut ([code](./install/freeglut))
-- glfw ([code](./install/glfw))
 - glad ([code](./install/glad))
+- glew
+- glfw ([code](./install/glfw))
+- glut
+- freeglut ([code](./install/freeglut))
 
 ## doc
 
