@@ -6,7 +6,7 @@
 |---------|----------|------------------|
 | opengl  | cross    | GLSL             |
 | vulkan  | cross    |                  |
-| directX | windows  |                  |
-| metal   | mac os   |                  |
+| directX | windows  | HLSL             |
+| metal   | mac os   | MSL              |
 | mantle  | amd      |                  |
 | cuda    | nvidia   |                  |
