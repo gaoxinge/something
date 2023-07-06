@@ -179,6 +179,19 @@ Please using `git checkout --` to recover file, and `git checkout` to change bra
 - `git diff [branch1] [branch2] --name-status`: compare name status of two branches
 - `git diff [branch1] [branch2] [file]`: compare same file of two branches
 
+## connecting to github with ssh
+
+- generate ssh key at local: `ssh-keygen -t ed25519 -C "your_email@example.com"`
+- copy ssh key at local: `cat ~/.ssh/id_ed25519.pub`
+- add ssh key at remote: `Settings` -> `SSH and GPG keys` -> `New SSH Key`
+  - Set `Title` to specific the develop environment
+  - Set `Key Type` to default
+  - Set `Key` with the copy value
+
+### reference
+
+- [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
 ## 配置
 
 ### ide
