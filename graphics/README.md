@@ -9,10 +9,6 @@
 - [现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
 - [现代计算机图形学入门](http://games-cn.org/intro-graphics/)
 
-## particle
-
-- [An Introduction to Physically Based Modeling: Particle System Dynamics](https://www.cs.cmu.edu/~baraff/pbm/particles.pdf)
-
 ## fluid
 
 ### tutorial
