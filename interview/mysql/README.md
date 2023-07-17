@@ -56,10 +56,37 @@
   - 键：联合索引（顺序），值：主键
   - 回表
 
-#### 索引失效，explain
+## explain
+
+### 联合索引
+
+- 不满足最左前缀匹配导致失效
+- 范围查询右边的列失效
+
+#### 例子
+
+- `b = 1 and c = 2`: 缺少`a`，导致索引失效
+- `a > 1 and b = 1`: 由于`a`是范围查询，导致`b = 1`失效
+- `a > 1 and b > 2 and c > 3`: 不等价于`(a, b, c) > (1, 2, 3)`
+
+#### 参考
 
 - [【MySQL】索引失效以及explain应对](https://blog.csdn.net/tr1912/article/details/81319574)
 - [一张图搞懂MySQL的索引失效](https://segmentfault.com/a/1190000021464570)
+- [【原创】面试官:谈谈你对mysql联合索引的认识？](https://www.cnblogs.com/rjzheng/p/12557314.html)
+
+## 慢sql
+
+- 定位慢sql
+- explain
+- profile
+- 优化慢sql
+
+### 参考
+
+- [MySQL优化(3)：慢SQL分析](https://www.cnblogs.com/zjxiang/p/9157398.html)
+- [慢SQL优化一点小思路](https://juejin.cn/post/7048974570228809741)
+- [慢SQL，压垮团队的最后一根稻草！](https://www.51cto.com/article/716344.html)
 
 ## log
 
