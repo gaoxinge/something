@@ -367,6 +367,12 @@ web server 3 ---|              |---> top-k reducer ---|
 
 ### 登入，注册重定向
 
+## 短链接
+
+### reference
+
+- [短链接原理及其算法实现](https://www.oecom.cn/shorturltouse/)
+
 ## 博客
 
 ### 架构
