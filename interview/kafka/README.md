@@ -37,6 +37,22 @@ producer --->  topic-partition0 (leader)   topic-partition0 (follower) ---> cons
 - partition在多个broker上有副本，使用zookeeper选主
 - producer根据zookeeper中的元信息，获取leader的位置，直接和leader通信，leader在把数据复制到follower
 
+## 分配: topic中的parition如何分配给consumer group中的consumer
+
+### 策略
+
+- range
+- round roubin
+- sticky
+
+### rebalance
+
+- consumer group: consumer加入或者退出
+- topic: partition增加或者减少
+
 ## 参考
 
 - [再过半小时，你就能明白kafka的工作原理了](https://zhuanlan.zhihu.com/p/68052232)
+- [Kafka分区分配策略（Partition Assignment Strategy）](https://cloud.tencent.com/developer/article/1708388)
+- [Kafka（三）：消费者消费方式、三种分区分配策略、offset维护](https://segmentfault.com/a/1190000038712658)
+- [Kafka消费者组三种分区分配策略roundrobin，range，StickyAssignor](https://zhuanlan.zhihu.com/p/377209008)
