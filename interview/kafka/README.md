@@ -67,21 +67,31 @@ producer --->  topic-partition0 (leader)   topic-partition0 (follower) ---> cons
 - push vs poll: 使用poll，便于控制消费速度
 - commit: 提交，更新partition上日志的offset
 
-### 重复消费
+## 消息丢失
 
-#### 原因
+### 参考
+
+- [聊聊 Kafka：Kafka 消息丢失的场景以及最佳实践](https://juejin.cn/post/7094258600125661220)
+- [面试官问：Kafka 会不会丢消息？怎么处理的?](https://cloud.tencent.com/developer/article/1757914)
+- [刨根问底，kafka 到底会不会丢消息](https://xie.infoq.cn/article/d62160c08a5ecb5dca291e159)
+- [Kafka(Go)教程(九)---如何避免消息丢失?](https://www.lixueduan.com/posts/kafka/09-avoid-msg-lost/)
+- [kafka详解(5)-KAFKA重复消费和消息丢失](https://www.cnblogs.com/meanshift/p/17025786.html)
+
+## 重复消费
+
+### 原因
 
 - 为了消息不丢失，或者其他原因，导致producer发送重复消息
 - consumer没有及时commit，导致kafka重放消息
 
-#### 解决办法
+### 解决办法
 
 - 生成分布式ID
 - producer把上述ID写入消息，再发送给kafka
 - consumer从kafka收到消息，持久化ID
 - 如果kafka重放消息，consumer可以根据持久化ID，过滤重复消息
 
-#### 参考
+### 参考
 
 - [技术干货分享 | Kafka重复消费场景及解决方案](https://zhuanlan.zhihu.com/p/112745985)
 - [Kafka重复消费总结](https://www.cnblogs.com/yangyongjie/p/14675119.html)
