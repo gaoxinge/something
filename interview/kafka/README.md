@@ -37,7 +37,7 @@ producer --->  topic-partition0 (leader)   topic-partition0 (follower) ---> cons
 - partition在多个broker上有副本，使用zookeeper选主
 - producer根据zookeeper中的元信息，获取leader的位置，直接和leader通信，leader在把数据复制到follower
 
-## 分配: topic中的parition如何分配给consumer group中的consumer
+## 分配: topic中的partition如何分配给consumer group中的consumer
 
 ### 策略
 
@@ -47,8 +47,8 @@ producer --->  topic-partition0 (leader)   topic-partition0 (follower) ---> cons
 
 ### rebalance
 
-- consumer group: consumer加入或者退出
 - topic: partition增加或者减少
+- consumer group: consumer加入或者退出
 
 ## 参考
 
