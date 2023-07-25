@@ -87,5 +87,4 @@ producer --->  topic-partition0 (leader)   topic-partition0 (follower) ---> cons
 - [Kafka重复消费总结](https://www.cnblogs.com/yangyongjie/p/14675119.html)
 - [一文理解Kafka重复消费的原因和解决方案](https://blog.csdn.net/y277an/article/details/118165463)
 - [Kafka常见的导致重复消费原因和解决方案](https://cloud.tencent.com/developer/article/1665700)
-- [Kafka保证数据不丢失的原理](http://timebusker.top/2019/06/14/(%E4%BA%94)_Kafka%E5%9C%A8%E5%AE%9E%E8%B7%B5%E4%B8%AD%E9%81%BF%E5%85%8D%E9%87%8D%E5%A4%8D%E6%B6%88%E8%B4%B9%E5%92%8C%E4%B8%A2%E5%A4%B1%E6%95%B0%E6%8D%AE/)
 
