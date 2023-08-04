@@ -673,6 +673,20 @@ realsubject <---> proxy <--- client
 
 ![proxy pattern](https://github.com/gaoxinge/something/blob/master/learn%20java/learn%20java/proxy%20pattern/proxy%20pattern.png)
 
+### implementation
+
+- 静态代理: AspectJ
+  - 代码: 类要有对应的接口，一个接口对应一个代理类
+- 动态代理: Sprint AOP（面向切面编程）
+  - JDK: 反射 / 类要有对应的接口
+  - CGLib: ASM
+
+### reference
+
+- [Spring基础（九）：代理模式介绍](https://bbs.huaweicloud.com/blogs/387578)
+- [【关于Spring那些事】——带你了解Spring AOP的代理模式](https://developer.aliyun.com/article/888998)
+- [3种代理模式-理解Spring Aop](https://juejin.cn/post/6844903853813563405)
+- [Spring的AOP理解](https://zhuanlan.zhihu.com/p/142578216)
 
 ## factory pattern
 
