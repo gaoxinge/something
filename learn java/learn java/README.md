@@ -677,7 +677,7 @@ realsubject <---> proxy <--- client
 
 - 静态代理: AspectJ
   - 代码: 类要有对应的接口，一个接口对应一个代理类
-- 动态代理: Sprint AOP（面向切面编程）
+- 动态代理: Spring AOP（面向切面编程）
   - JDK: 反射 / 类要有对应的接口
   - CGLib: ASM
 
