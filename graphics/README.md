@@ -25,6 +25,7 @@
 
 ### library
 
+- [erincatto/box2d](https://github.com/erincatto/box2d)
 - [google/liquidfun](https://github.com/google/liquidfun)
 - [doyubkim/fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev)
 
