@@ -20,6 +20,7 @@
 
 ## gfw
 
+- [speedtest](https://www.speedtest.net/)
 - [ipaddress](https://www.ipaddress.com/)
 - [chinaz](https://ping.chinaz.com/)
 - [kgithub](https://kgithub.com/)
