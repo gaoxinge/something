@@ -33,3 +33,10 @@
 - [Apache 提交者注册流程](https://cn.dubbo.apache.org/zh-cn/contact/committer/new-committer-guide_dev/)
 - [Apache 提交者列表页](http://people.apache.org/committer-index.html)
 - [Apache 账户工具](https://id.apache.org/)
+
+## jetbrain
+
+- [jetbrain](https://www.jetbrains.com/)
+- [licenses](https://account.jetbrains.com/licenses)
+- [account](https://account.jetbrains.com/profile-details)
+- [community support](https://community-support.jetbrains.com/hc/en-us)
