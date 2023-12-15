@@ -10,3 +10,5 @@
 | metal   | mac os   | MSL              |
 | mantle  | amd      |                  |
 | cuda    | nvidia   |                  |
+| webgl   | explorer | GLSL             |
+| webgpu  | explorer | WGSL             |
