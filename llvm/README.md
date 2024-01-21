@@ -2,6 +2,12 @@
 
 ## doc
 
+- [The LLVM Compiler Infrastructure](https://llvm.org/)
+- [LLVM Documentation](https://llvm.org/docs/)
+- [Getting Started/Tutorials](https://llvm.org/docs/GettingStartedTutorials.html)
+- [User Guides](https://llvm.org/docs/tutorial/index.html)
+- [Reference](https://llvm.org/docs/Reference.html)
+- [LLVM doxygen](https://llvm.org/doxygen/)
 - [LLVM for Grad Students](https://www.cs.cornell.edu/~asampson/blog/llvm.html)
 - [LLVM Pass入门导引](https://zhuanlan.zhihu.com/p/122522485)
 
