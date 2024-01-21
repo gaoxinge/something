@@ -30,3 +30,7 @@
 - [C语言黑魔法](https://zhuanlan.zhihu.com/c_83697357)
 - [纯C语言的工作有前（钱）景吗？](https://www.zhihu.com/question/30292024)
 
+## note
+
+- [预处理（宏）](note/macro)
+- [数据](note/array)

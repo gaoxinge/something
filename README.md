@@ -9,6 +9,7 @@
 - [vim](https://github.com/gaoxinge/something/tree/master/vim)
 - [makefile](https://github.com/gaoxinge/something/tree/master/makefile)
 - [cmake](https://github.com/gaoxinge/something/tree/master/cmake)
+- [learn c](https://github.com/gaoxinge/something/tree/master/learn%20c)
 - [learn rust](https://github.com/gaoxinge/something/tree/master/learn%20rust)
 - [learn go](https://github.com/gaoxinge/something/tree/master/learn%20go)
 - [learn java](https://github.com/gaoxinge/something/tree/master/learn%20java)
