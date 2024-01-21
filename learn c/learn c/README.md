@@ -33,4 +33,4 @@
 ## note
 
 - [预处理（宏）](note/macro)
-- [数据](note/array)
+- [数组](note/array)
