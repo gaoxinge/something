@@ -9,4 +9,4 @@
 - [install c](./install%20c)
 - [ctypes](./ctypes)
 - [cpython extension](./cpython%20extension)
-- [cython](https://github.com/gaoxinge/something/tree/master/learn%20python/python%20internal/cython)
+- [cpython extension library](./cpython%20extension%20library)
