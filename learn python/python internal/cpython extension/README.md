@@ -1,0 +1,17 @@
+# cpython extension
+
+- [Extending and Embedding the Python Interpreter](https://docs.python.org/2/extending/index.html)
+- [Python/C API Reference Manual](https://docs.python.org/2/c-api/index.html)
+- [Coding Patterns for Python Extensions](https://pythonextensionpatterns.readthedocs.io/en/latest/index.html)
+- [A Whirlwind Excursion through Python C Extensions](https://nedbatchelder.com/text/whirlext.html)
+- [pythonc-api-1](https://jayrambhia.com/blog/pythonc-api-1)
+- [pythonc-api-reference-counting](https://jayrambhia.com/blog/pythonc-api-reference-counting)
+- [pythonc-api-making-a-type](https://jayrambhia.com/c++/daily%20posts/python/technical/blog/pythonc-api-making-a-type)
+- [浅谈Python C扩展](https://blog.csdn.net/fitzzhang/article/details/79212411)
+- [Python与C/C++混合编程](https://zhuanlan.zhihu.com/p/20150641)
+- [学习笔记六：改善Python程序的91个建议](https://zhuanlan.zhihu.com/p/26761842)
+- [error: Unable to find vcvarsall.bat](https://stackoverflow.com/questions/2817869/error-unable-to-find-vcvarsall-bat)
+- [Python3.4用pip安装lxml时出现“Unable to find vcvarsall.bat”？](https://www.zhihu.com/question/26857761)
+- [关于error: Unable to find vcvarsall.bat](https://blog.csdn.net/sgoal/article/details/77452307)
+- [windows平台使用Microsoft Visual C++ Compiler for Python 2.7编译python扩展](https://www.cnblogs.com/lazyboy/p/4017567.html)
+- [Windows下使用mingw32编译Python扩展py-bcrypt及使用patch文件备忘](http://wangye.org/blog/archives/737/)
