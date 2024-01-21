@@ -1,0 +1,26 @@
+# overview
+
+- [Python源码剖析](https://book.douban.com/subject/3117898/)
+- [zpoint/CPython-Internals](https://github.com/zpoint/CPython-Internals)
+- 闲谈后
+  - [逃不开的 CPython](https://zhuanlan.zhihu.com/manjusakac)
+  - [源码读Python](https://zhuanlan.zhihu.com/c_168776105)
+- cpython internals
+  - [info](http://pgbovine.net/cpython-internals.htm)
+  - [course](http://courses.pgbovine.net/csc253/)
+  - [video](http://v.youku.com/v_show/id_XMTQ0NzY5ODcyOA==.html?spm=a2hzp.8244740.0.0&f=26549146)
+  - [note]()
+  - [summary](https://medium.com/@dawran6/getting-started-with-python-internals-a5474ccb8022)
+- [23. Exploring CPython’s Internals](https://devguide.python.org/exploring/)
+- [amygdalama/python-internals](https://github.com/amygdalama/python-internals)
+- Python’s Innards
+  - [Python’s Innards: Introduction](https://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/)
+  - [Python’s Innards: Objects 101](https://tech.blog.aknin.name/2010/05/12/pythons-innards-objects-101/)
+  - [Python’s Innards: Objects 102](https://tech.blog.aknin.name/2010/05/19/pythons-innards-objects-102/)
+  - [Correction for ‘Python’s Innards: Objects 102’](https://tech.blog.aknin.name/2010/05/20/correction-for-pythons-innards-objects-102/)
+  - [Python’s Innards: pystate](https://tech.blog.aknin.name/2010/05/26/pythons-innards-pystate/)
+  - [Python’s Innards: Naming](https://tech.blog.aknin.name/2010/06/05/pythons-innards-naming/)
+  - [Python’s Innards: Code Objects](https://tech.blog.aknin.name/2010/07/03/pythons-innards-code-objects/)
+  - [Python’s Innards: for my wife](https://tech.blog.aknin.name/2010/07/04/pythons-innards-for-my-wife/)
+  - [Python’s Innards: Interpreter Stacks](https://tech.blog.aknin.name/2010/07/22/pythons-innards-interpreter-stacks/)
+  - [Python’s Innards: Hello, ceval.c!](https://tech.blog.aknin.name/2010/09/02/pythons-innards-hello-ceval-c-2/)

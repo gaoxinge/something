@@ -40,14 +40,3 @@
 - [windows平台使用Microsoft Visual C++ Compiler for Python 2.7编译python扩展](https://www.cnblogs.com/lazyboy/p/4017567.html)
 - [Windows下使用mingw32编译Python扩展py-bcrypt及使用patch文件备忘](http://wangye.org/blog/archives/737/)
 
-## cython
-
-```
-       cython      c compile
-.pyx ---------> .c ---------> .pyd
-```
-
-### reference
-
-- [Cython: C-Extensions for Python](http://cython.org/)
-- [Cython 基本用法](https://zhuanlan.zhihu.com/p/24311879)
