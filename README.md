@@ -4,6 +4,7 @@
 - [interview](https://github.com/gaoxinge/something/tree/master/interview)
 - [bandwidth](https://github.com/gaoxinge/something/tree/master/bandwidth)
 - [tool](https://github.com/gaoxinge/something/tree/master/tool)
+- [wsl](https://github.com/gaoxinge/something/tree/master/wsl)
 - [git](https://github.com/gaoxinge/something/tree/master/git)
 - [vim](https://github.com/gaoxinge/something/tree/master/vim)
 - [makefile](https://github.com/gaoxinge/something/tree/master/makefile)
