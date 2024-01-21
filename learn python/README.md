@@ -1,6 +1,7 @@
 # learn python
 
-- [pycharm](https://github.com/gaoxinge/something/tree/master/learn%20python/pycharm)
-- [python internal](https://github.com/gaoxinge/something/tree/master/learn%20python/python%20internal)
-- [\_\_init\_\_.py](https://github.com/gaoxinge/something/tree/master/learn%20python/__init__.py)
-- [logging](https://github.com/gaoxinge/something/tree/master/learn%20python/logging)
+- [pycharm](./pycharm)
+- [python internal](./python%20internal)
+- [learn python src](./learn%20python%20src)
+- [learn python standard library](./learn%20python%20standard%20library)
+- [learn python third-party library](./learn%20python%20third-party%20library)
