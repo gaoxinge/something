@@ -1,6 +1,7 @@
 # python internal
 
 - [overview](./overview)
+- [summary](./summary)
 - [compiler](./compiler)
 - [interpreter](./interpreter)
 - [data model](./data%20model)
