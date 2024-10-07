@@ -1,7 +1,5 @@
 # overview
 
-## overview
-
 |         | platform | shading language |
 |---------|----------|------------------|
 | opengl  | cross    | GLSL             |

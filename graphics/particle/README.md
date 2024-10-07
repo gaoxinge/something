@@ -1,3 +1,0 @@
-# particle
-
-- [overview](./overview)

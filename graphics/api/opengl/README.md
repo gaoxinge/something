@@ -1,7 +1,5 @@
 # opengl
 
-## overview
-
 - [opengl](https://www.opengl.org/)
 - [ecosystem](https://www.khronos.org/opengl/wiki/Related_toolkits_and_APIs)
 - [rendering pipeline](https://www.khronos.org/opengl/wiki/Rendering_Pipeline_Overview)
