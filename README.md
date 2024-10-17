@@ -28,4 +28,5 @@
 - [llvm](https://github.com/gaoxinge/something/tree/master/llvm)
 - [mlir](https://github.com/gaoxinge/something/tree/master/mlir)
 - [hpc](https://github.com/gaoxinge/something/tree/master/hpc)
+- [2d graphics](https://github.com/gaoxinge/something/tree/master/2d%20graphics)
 - [graphics](https://github.com/gaoxinge/something/tree/master/graphics)
