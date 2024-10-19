@@ -2,7 +2,7 @@
 
 - [api](./api)
 - gui
-- bitmap graphics
+- raster graphics
 - [vector graphics](./vector%20graphics)
 - [font](./font)
 - data visualization
