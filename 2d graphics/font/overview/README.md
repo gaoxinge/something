@@ -7,6 +7,8 @@
 - [怎样基于vulkan、opengl这些图形引擎去绘制文本？](https://www.zhihu.com/question/659408274)
 - [请问如何使用opengl渲染大量文字?](https://www.zhihu.com/question/583407831)
 - [文本渲染](https://learnopengl-cn.github.io/06%20In%20Practice/02%20Text%20Rendering/)
+- [GPU text rendering techniques.](https://www.monotype.com/resources/expertise/gpu-text-rendering-techniques)
+- [GPU Text Rendering Techniques Part II.](https://www.monotype.com/resources/expertise/gpu-text-rendering-techniques-part-ii)
 - [klayge中的字体系统](http://www.klayge.org/docs/klayge%E4%B8%AD%E7%9A%84%E5%AD%97%E4%BD%93%E7%B3%BB%E7%BB%9F/)
 - [Lightning 3.0 Font Rendering Engine](https://lightningjs.io/blogs/lng3FontRendering.html)
 
