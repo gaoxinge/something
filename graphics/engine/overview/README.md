@@ -2,6 +2,7 @@
 
 ## 3d modeling
 
+- [FreeCAD](https://www.freecad.org/blog.php)
 - [blender](https://www.blender.org/)
 - [houdini](https://www.sidefx.com/products/houdini/)
 - [C4D](https://www.maxon.net/en/cinema-4d)
