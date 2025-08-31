@@ -7,11 +7,6 @@
 - [engine](./engine)
 - [other](./other)
 
-## basic
-
-- [现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
-- [现代计算机图形学入门](http://games-cn.org/intro-graphics/)
-
 ## fluid
 
 ### tutorial
