@@ -11,9 +11,13 @@
 - [Drawing polylines by tessellation](https://artgrammer.blogspot.com/2011/07/drawing-polylines-by-tessellation.html)
 - [Drawing Antialiased Lines with OpenGL](https://blog.mapbox.com/drawing-antialiased-lines-with-opengl-8766f34192dc)
 
-## library
+## c library
 
 - [AGG](https://en.wikipedia.org/wiki/Anti-Grain_Geometry)
 - [cairo/cairo](https://gitlab.freedesktop.org/cairo/cairo)
 - [google/skia](https://github.com/google/skia)
 - [blend2d/blend2d](https://github.com/blend2d/blend2d)
+- [thorvg/thorvg](https://github.com/thorvg/thorvg)
+- [CrushedPixel/Polyline2D](https://github.com/CrushedPixel/Polyline2D)
+- [tyt2y3/vaserenderer](https://github.com/tyt2y3/vaserenderer)
+- [a-e-k/canvas_ity](https://github.com/a-e-k/canvas_ity)
