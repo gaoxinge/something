@@ -20,3 +20,7 @@
 - [rougier/freetype-gl](https://github.com/rougier/freetype-gl)
 - [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz)
 - [fribidi/fribidi](https://github.com/fribidi/fribidi)
+- [GreenLightning/gpu-font-rendering](https://github.com/GreenLightning/gpu-font-rendering)
+- [kocsis1david/font-demo](https://github.com/kocsis1david/font-demo)
+  - [kocsis1david/font-demo/howitworks.md](https://github.com/kocsis1david/font-demo/blob/master/howitworks.md)
+- [slug](https://sluglibrary.com/)
