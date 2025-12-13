@@ -22,5 +22,7 @@
 
 ## simple engine
 
+- [barbagroup/AeroPython](https://github.com/barbagroup/AeroPython)
+- [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
 - [erincatto/box2d](https://github.com/erincatto/box2d)
 - [google/liquidfun](https://github.com/google/liquidfun)

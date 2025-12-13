@@ -9,11 +9,6 @@
 
 ## fluid
 
-### tutorial
-
-- [barbagroup/AeroPython](https://github.com/barbagroup/AeroPython)
-- [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
-
 ### article
 
 - [Fluid Simulation (with WebGL demo)](http://jamie-wong.com/2016/08/05/webgl-fluid-simulation/)
